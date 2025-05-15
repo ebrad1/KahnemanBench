@@ -1,7 +1,7 @@
 [project]
-name = "simplebench"
+name = "kahnemanbench"
 version = "0.1.0"
-description = "Add your description here"
+description = "An AI benchmark for Kahneman impersonation and behavioral science taste rating."
 readme = "README.md"
 requires-python = ">=3.10"
 dependencies = [

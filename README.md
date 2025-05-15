@@ -1,6 +1,9 @@
-# Simple Bench
+# KahnemanBench
 
+A fork of Simple Bench
 https://simple-bench.com/
+
+An AI benchmark to test AI's ability to impersonate Daniel Kahneman's interview responses and for other AIs to rate their 'behavioral science taste'. Inspired by SimpleBench and powered by Weave
 
 ## Run Instructions
 
