@@ -1,0 +1,510 @@
+Interview 5: Charlie Rose (Feb 2012):
+
+
+Charlie Rose: at Princeton in 2002. He was awarded the Nobel Prize in economics for his analysis of decision-making and uncertainty. He's the only non-economist to have won that award. Steven Thinker (ph) calls him among the most influential psychologists in history and certainly the most important psychologist alive today. He writes about the ideas that have driven his career over the past five decades in a new book. It is called "Thinking, Fast and Slow." I am pleased to have Daniel Kahneman here at this table for the first time and it is about time. So I'm glad you're here.
+00:39
+Daniel Kahneman: I am delighted to be here.
+00:41
+Charlie Rose: Let's -- let's give credit where credit should be given to your colleague, the late Tversky.
+00:44
+Daniel Kahneman: Amos Tversky.
+00:46
+Charlie Rose: Yes, a great friendship.
+00:47
+Daniel Kahneman: Yes.
+00:49
+Charlie Rose: And a great -- tell me about the friendship first.
+00:52
+Daniel Kahneman: Well, you know, we were extraordinarily lucky, so this was one of those collaborations that people dream of and there are very few who are that lucky. We -- we like each other, so we spent all of our days, you know, hours every day and --
+01:06
+Charlie Rose: Doing what?
+01:09
+Daniel Kahneman: Talking about everything, but mostly our subject was the study of intuition and specifically the study of the stakes of intuition so what we were doing that was work that counted as work later but it was all fun was to invent problems where we knew the solution but intuitively we had another idea, and -- and it was that that we did for --
+01:33
+Charlie Rose: Give me an example of that.
+01:37
+Daniel Kahneman: Well, ok. An example of that, here it is. You have, you are trying to predict, assign probabilities to -- to events --
+01:52
+Charlie Rose: Right.
+01:55
+Daniel Kahneman: -- and one of these events is that -- well, a flood somewhere in the United States killing at least 1,000 people over the next ten years. That's one event. The other event is an earthquake in California causing a flood in which more than 1,000 people will die and drown sometime within the next ten years. Now, the second event obviously is less probable than the first, but when you take two groups and you have one group judge the first event, the other group judge the second event, the earthquake event looks much more probable, so that's the kind of, you know, where clearly there is a logical rule --
+02:36
+Charlie Rose: When in fact it is --
+02:38
+Daniel Kahneman: -- of course it couldn't be.
+02:40
+Charlie Rose: Right.
+02:42
+Daniel Kahneman: Yes, I will give you another example while we're at it. It is not our research but very similar. During the time that there was a lot of terrorism in Europe, people asked about travel insurance. And they were asked how much would you be willing to pay for an insurance policy that pays $100,000 in case of death for any reason? And others were asked how much would you be willing to pay for insurance policy that paid $100,000 in case of death in a terrorist incident? The second policy is worth more than the first. Now, this is absurd, I mean, obviously, you know, dying in a terrorist incident is an event that's included in the event of dying, but what? People are more afraid of dying in a terrorist incident than they are afraid of dying. So that's where the intuition comes from, it comes from the fear. And you have a judgment of probability that is distorted by something else, so those were the kinds of problems.
+03:41
+Charlie Rose: Now you were discussing every afternoon.
+03:42
+Daniel Kahneman: Yes, yes.
+03:44
+Charlie Rose: And is it fair to say he would have won the Nobel with you.
+03:50
+Daniel Kahneman: Of course.
+03:52
+Charlie Rose: But they don't give Nobel prizes to people who are deceased.
+03:55
+Daniel Kahneman: No.
+03:57
+Charlie Rose: And I assume his name would have been on this book as well.
+04:02
+Daniel Kahneman: Well you know it's up still because we might not have agreed on this book, this is my book. But -- but the ideas on which it's based and the history of the book are joint.
+04:12
+Charlie Rose: Yes. Is there a connecting dot to all these ideas? Is there a central mutable fact?
+04:19
+Daniel Kahneman: Well, yes there is and it's -- that there are two ways of thinking about the world and thinking about anything. There is the -- what I call thinking fast.
+04:28
+Charlie Rose: Yes.
+04:31
+Daniel Kahneman: The intuitive way and thinking slow, the reasonable way.
+04:35
+Charlie Rose: That's System 1 and System 2.
+04:36
+Daniel Kahneman: System 1 and System 2 and that we didn't have those terms. But we had that idea that here are problems where we can figure out the solution, but our intuitions, fast thinking as I would now call it goes the other way. So that's -- that really was a theme of our research, both on judgment, which we studied for many years and on decision-making, which -- to which we moved afterwards.
+04:58
+Charlie Rose: Explain System 1 and System 2.
+05:00
+Daniel Kahneman: Well, there are two kinds of thinking, first of all, really and everybody can recognize that, because one is what happens to you when I say two plus two.
+05:11
+Charlie Rose: Right.
+05:14
+Daniel Kahneman: And you know something comes to your mind. When I say capital of France, something comes to your mind. This is associative memory working. It's working automatically, you don't have to decide it. It's something that happens to you. It's just like seeing that somebody's hair is dark.
+05:29
+Charlie Rose: Yes, is that part of your unconscious mind?
+05:31
+Daniel Kahneman: Well you are not really conscious of how it is happening.
+05:35
+Charlie Rose: Right.
+05:36
+Daniel Kahneman: You are conscious of the results.
+05:38
+Charlie Rose: Right.
+05:40
+Daniel Kahneman: You are conscious of your impression but you're not aware at all of the workings of associative memory. So that's System 1. And System 2 has two functions. One of them is, you know, to compute things like 24 times 17. Now nothing came to mind immediately.
+05:56
+Charlie Rose: Yes.
+05:59
+Daniel Kahneman: You have to work at it laboriously if you're going to do it at all. And another function of System 2 is to supervise the mind and to supervise behavior. And -- and that is work, that function, the function of control, the function of -- so System 2 -- what characterizes System 2 is that its effortful. And we invest effort and we have a sense of urgency when System 2 is involved. We have a sense of this is our thing this is something that I do. It is not something that is happening to me. So that's --
+06:36
+Charlie Rose: Now is it important know when System 1 is appropriate and when System 2 is appropriate?
+06:41
+Daniel Kahneman: Oh, yes. It's very important to know, because many mistakes of, you know, most of the time we run on System 1.
+06:46
+Charlie Rose: Right.
+06:48
+Daniel Kahneman: I mean System 1 is the software most of the time we work.
+06:53
+Charlie Rose: When you see the light turn green we walk.
+06:55
+Daniel Kahneman: Yes. And it's not only that, even when we are exchanging pleasantries with a colleague at work, you know we're not working very hard.
+07:04
+Charlie Rose: Right, right.
+07:06
+Daniel Kahneman: So most of the time it's System 1. And -- and most of the time System 1 works just fine, because we have a lot of practice at what we do. We are very good at what we do. Occasionally, you hit a problem like, you know, the problem of buying insurance where actually it's a very complicated problem and your intuitions aren't right but you don't know it. So that's -- it's --
+07:29
+Charlie Rose: And you don't know when intuition --
+07:33
+Daniel Kahneman: You don't know.
+07:36
+Charlie Rose: So that's the crucial reason that you need to know when to use System 2, because --
+07:40
+Daniel Kahneman: You need to recognize, this is a situation.
+07:43
+Charlie Rose: Which requires --
+07:45
+Daniel Kahneman: Where I am prone to error. This is a situation --
+07:50
+Charlie Rose: And how do you discover that?
+07:51
+Daniel Kahneman: It's very hard to do and I'm not terribly optimistic about people, you know --
+07:55
+Charlie Rose: Yes.
+07:57
+Daniel Kahneman: -- becoming very good at it. But there are certain principles that, you know, you can learn to recognize. So for example, I know about myself that I am wildly overconfident, you know. When I have opinions I'm sure they are right, but -- but I have had enough experience to know that I am overconfident, so the feeling of overconfidence are there, but if it matters I can slow myself down and become more reasonable.
+08:23
+Charlie Rose: Yes.
+08:26
+Daniel Kahneman: So that's a case where System 1 would make you very confident and System 2 slows you down.
+08:32
+Charlie Rose: How does it work -- and you referenced this -- how does it work in terms of people knowing what someone expects, so therefore they feed them that kind of information and therefore the people at the end of - - the recipients of the information make bad decisions?
+08:45
+Daniel Kahneman: Well --
+08:47
+Charlie Rose: The Iraqi war is Exhibit 1 on this.
+08:51
+Daniel Kahneman: Yes. What's -- what is happening is -- and that happens a great deal, is that people are convinced -- and it's not that people go to war because of reasons, you know, it's really very often works the other way around.
+09:06
+Charlie Rose: We go to war because --
+09:07
+Daniel Kahneman: People want to go to war and then they find the reasons.
+09:13
+Charlie Rose: Ah.
+09:14
+Daniel Kahneman: So if System 1 is very engaged and -- and there is a strong intuition that war is needed that war is right and so on, then System 2 is -- becomes the slave of System 1 and that happens a great deal.
+09:28
+Charlie Rose: You credit Bush 43, President Bush 43 as a clear example of System 1 person.
+09:33
+Daniel Kahneman: Well, I may have mentioned that, yes.
+09:36
+Charlie Rose: Well yes.
+09:37
+Daniel Kahneman: I mean I -- I probably cited somebody else who said that.
+09:42
+Charlie Rose: Yes ok --
+09:43
+Daniel Kahneman: I mean, clearly, you know when somebody does --
+09:47
+Charlie Rose: He's a man who operated by intuition, his instincts, his gut was what got him and he said that essentially.
+09:53
+Daniel Kahneman: Yes, he was proud of it. And so he -- he was a man who was saying, I trust my gut and that's how I get, I got to where I am and -- and so yes, he was definitely --
+10:02
+Charlie Rose: So he became overconfident about his gut?
+10:04
+Daniel Kahneman: Well, I think most people who trust their gut are overconfident about their guts on important matters which he clearly was. So --
+10:11
+Charlie Rose: And President Obama you say is clearly a System 2 person.
+10:14
+Daniel Kahneman: Well yes. He may be at the other extreme I mean and that maybe part of his --
+10:21
+Charlie Rose: He deliberates too much?
+10:23
+Daniel Kahneman: That may be part of his political difficulties, because the public has a stereotype of what makes a strong leader. And they like leaders who are decisive. They like leaders who operate quickly. And they don't like leaders who take their time.
+10:34
+Charlie Rose: And they think -- they are likely to seem to think --
+10:40
+Daniel Kahneman: And they likely those who seem to know exactly what they are going to do. And you know we attribute magic to intuition, so when things work out as -- as planned, then you know --
+10:51
+Charlie Rose: So could the sub title of this book be "intuition is way over-valued"?
+10:58
+Daniel Kahneman: Well, I would prefer as a sub title, Intuition, the Marvels and the Flaws.
+11:02
+Charlie Rose: Ah.
+11:05
+Daniel Kahneman: Because the marvels, which I don't speak about much because they are less interesting than the flaws, the marvels are, you know, how much we do with intuition and how good our intuitions are, you know. So I'll give you some examples, you can -- you can drive without thinking about it, you know, that's the same machinery that does intuition. I can tell you a sentence -- one of my favorite experiments is people listen to sentences and British upper class male voice says and I am not going to try it.
+11:35
+Charlie Rose: Yes, it's a great story.
+11:38
+Daniel Kahneman: So it says I have large tattoos all down my back and it takes about a third of a second and the brain reacts with a surprise.
+11:45
+Charlie Rose: Yes.
+11:47
+Daniel Kahneman: Now that's extraordinary, you have to figure out --
+11:50
+Charlie Rose: A man with a deep British voice would not have tattoos.
+11:54
+Daniel Kahneman: That's right. But you know the amount of world knowledge that has to be brought to bear on that problem within a third of a second for the brain to recognize that there is an incongruity, this is extraordinary. So -- and it and intuition is like that, so that a chess player will recognize a chess situation very quickly. I recognize my wife's mood one word on the telephone.
+12:17
+Charlie Rose: You can say -- so you say what's wrong? Are you ok?
+12:21
+Daniel Kahneman: Yes, sure. I mean and -- and that you can hear it. All it takes is a lot of practice.
+12:30
+Charlie Rose: Take us to the realm of traders -- people who we think have enormous instincts.
+12:36
+Daniel Kahneman: You know, there is a -- there is a debate about where intuition does and does not work in financial markets. So I am on pretty safe ground when I say that in the stock market in picking individual stocks --
+12:52
+Charlie Rose: Trace (ph) all the numbers.
+12:56
+Daniel Kahneman: It's -- it is luck. They are playing a game of luck, they feel they are playing a game of skill, but most of them are playing a game of luck.
+13:05
+Charlie Rose: So you could do all the System 2 you want it will not tell you what you need to know, it's just luck.
+13:10
+Daniel Kahneman: No. No because -- and that's -- that is not anybody's fault, you know. It's the same thing with pundits trying to predict what's going to be the state of the United States or of China in 15 years. Pundits are no better at it than -- than readers of "The New York Times."
+13:24
+Charlie Rose: Ok but why not? I mean doesn't history matter? Doesn't --
+13:28
+Daniel Kahneman: No. Because --
+13:31
+Charlie Rose: -- empirical data matter?
+13:33
+Daniel Kahneman: Well in some cases it does and in others it doesn't.
+13:36
+Charlie Rose: So when -- if you know the difference?
+13:38
+Daniel Kahneman: Yes, we do know actually. I mean we know that the stock market is chaotic, it is extremely complicated. And it is not -- it doesn't have enough regularity for people to learn.
+13:47
+Charlie Rose: So what about all of these people who have made billions and billions of dollars every year because they put these very smart mathematical models in silos and the silos tell them the way the market is going to operate and then they make --
+13:58
+Daniel Kahneman: Well, what those mathematical models are doing they are not picking individual stocks, they are picking up trends and some of these are micro trends and some of these are macro trends and you know, they are -- they are able -- if you're able to predict what the market will do in the next five seconds, you can become very rich doing that.
+14:15
+Charlie Rose: Right.
+14:18
+Daniel Kahneman: And so a lot of these work on programs that's in effect, you know, it is no longer --
+14:26
+Charlie Rose: Let me give you two examples of people who made a lot of money because they made huge bets. One was George Soros betting on the British currency.
+14:32
+Daniel Kahneman: Yes.
+14:33
+Charlie Rose: And the other was John Paulson betting on the subprime.
+14:37
+Daniel Kahneman: Yes. Well, they are both very interesting examples. I mean, I would never sell George Soros -- he -- he operates and his big bets are on an understanding of the world economy and of trends and -- and -- and in an ability he claims to anticipate how people will react to these trends.
+14:55
+Charlie Rose: Anticipate -- that is your business that he says he understands, how people will react.
+15:03
+Daniel Kahneman: Will -- will react. That's --
+15:07
+Charlie Rose: That's your business, not an economic model.
+15:09
+Daniel Kahneman: He claims he can do it. And you know --
+15:13
+Charlie Rose: His track record speaks for itself.
+15:16
+Daniel Kahneman: He has a track record; he's very, very good. Paulson you know I mean, at least in some of the trade that we know about, I mean he was shooting fish in a barrel. I mean it's not --
+15:23
+Charlie Rose: Oh, yes. Shooting fish in a barrel.
+15:26
+Daniel Kahneman: So that is not -- some of the great successes are because people were already billionaires and had a lot of control.
+15:31
+Charlie Rose: Yes and then he had -- he's had a rough plodding for a while.
+15:34
+Daniel Kahneman: Yes.
+15:36
+Charlie Rose: Big year and then came back and had a not so big year.
+15:39
+Daniel Kahneman: Yes, they have a lot more information than other people.
+15:42
+Charlie Rose: So if you are so smart and you win all the time and maybe we should say and history proves that that's not true.
+15:47
+Daniel Kahneman: I -- I don't think that winning a few times proves that you are smart and losing a few times doesn't prove that -- you have to look at the world. That is, you have to ask whether the world actually affords enough regularity so that it becomes learnable.
+16:01
+Charlie Rose: And your answer is?
+16:04
+Daniel Kahneman: My answer is, in some cases, like chess or my wife's moods or you know, many of the problems that people solve, the answer is yes. And in the stock market and in long-term forecasting and sometimes even in medium term forecasting as in wars, the answer is no.
+16:23
+Charlie Rose: So what's the difference in long-term forecasting and chess?
+16:27
+Daniel Kahneman: Well, in chess, there are regularities, so you can predict what's going to happen. If you know where you are now you can predict what's going to happen next and that is how people develop intuitions. Now, that's how people learn to read, so chess and reading have a lot in common, you recognize situations and you know snap diagnosis by medical experts, there are regularities, they pick them up. They learn those regularities. When there are no regularities I would say forget it, it's not going to happen.
+17:02
+Charlie Rose: Yes, Michael Lewis wrote a profile of you.
+17:03
+Daniel Kahneman: Yes. For "Vanity Fair." Indeed.
+17:09
+Charlie Rose: What was the story?
+17:11
+Daniel Kahneman: Well, Michael Lewis wrote "Moneyball."
+17:12
+Charlie Rose: Right.
+17:14
+Daniel Kahneman: And he wrote "Moneyball" about Billy Beane, he was that - - that man and --
+17:17
+Charlie Rose: And a movie.
+17:19
+Daniel Kahneman: And a beautiful movie.
+17:21
+Charlie Rose: Yes.
+17:23
+Daniel Kahneman: And so he did that. Now, that book was reviewed by a couple of friends of mine who were well-known behavioral economists I mean, Richard Thaler (ph) and Cass Sunstein (ph), they reviewed Michael's book for the "New Republic."
+17:35
+Charlie Rose: Right.
+17:36
+Daniel Kahneman: And they said, "Michael wrote that magnificent piece. He doesn't seem to know that a lot of that is known to psychologists. That's -- actually if you apply mechanicals or statistical system to prediction you will do better than what is called clinical prediction. So an algorithm would beat scouts if -- if you give decent information to both. The algorithm will use the information better than the scouts will. And so that got --
+18:11
+Charlie Rose: So -- but if that's true then why hasn't -- I mean, why isn't it proven to be true since -- why have other people adopted it and therefore (ph) they use it smartly.
+18:18
+Daniel Kahneman: Oh yes, they are.
+18:21
+Charlie Rose: So in other words the -- the algorithm that was being used by Billy Beane's team at the Oklahoma A's is being used by many people today.
+18:27
+Daniel Kahneman: You know if you remember the end of the film --
+18:31
+Charlie Rose: Right, he didn't go to Boston.
+18:34
+Daniel Kahneman: He's offered -- he didn't go to Boston, but Boston adopted his system.
+18:37
+Charlie Rose: Ah.
+18:39
+Daniel Kahneman: And they won -- they won the pennant two years later. So the game has changed.
+18:45
+Charlie Rose: I'm going to read some things that are interesting.
+18:48
+Daniel Kahneman: Yes.
+18:50
+Charlie Rose: At the end of a basketball game why does it make sense for the last shot to go to the player with the best overall shooting percentage not the player with the hot hand? Because a lot of people say if you've got a player with the hot hand you want him to take the last shot. You say no, you want --
+19:01
+Daniel Kahneman: Yes.
+19:02
+Charlie Rose: You want who -- who do you want to shoot the last shot?
+19:06
+Daniel Kahneman: I definitely want to -- you know the player who is the most reliable player should have the last shot, period.
+19:11
+Charlie Rose: Period. Hot hand does not matter?
+19:14
+Daniel Kahneman: The hot hand, you know, to the best as we know the hot hand doesn't exist so it is an illusion, people feel that there is a hot hand.
+19:21
+Charlie Rose: When they can see the basket looks like it's as big as --
+19:25
+Daniel Kahneman: Yes. And they -- they can, you know, they can feel it and furthermore the player feels it and everybody feels it, but it is a -- it's a shared illusion and actually we know how this works, because if -- if you have a grid, a ten by ten grid and then you sprinkle red color on the grid. And you do that randomly, when you do it randomly, it will not appear random. For a grid to appear random, it has to be somewhat systematic. That's what we know. And the hot hand is one of those phenomenon.
+19:59
+Charlie Rose: Now here is another example. All of these are in the book. When people -- when shoppers for Campbell Soup see a sign reading limit of 12 per person they buy an average of seven cans, twice as many as they bought when there was no sign.
+20:13
+Daniel Kahneman: Well, that is a phenomenon that we call anchoring.
+20:17
+Charlie Rose: Yes the anchor effect.
+20:20
+Daniel Kahneman: And it's yes. It's one of the biggest and most robust phenomena there are. I mean, you know, you can -- any number that you think about, as a solution to a problem, you are going to be affected by it. I mean they had that study of German judges who tossed a pair of dice.
+20:37
+Charlie Rose: All right.
+20:40
+Daniel Kahneman: And then they had to -- and then they had to judge how many months somebody you know -- a shoplifter would go to jail.
+20:47
+Charlie Rose: Right, right.
+20:50
+Daniel Kahneman: And they were strongly influenced by the number that the dice showed, that's an anchoring effect and we -- we understand it and we know how it happens and it's very powerful.
+20:58
+Charlie Rose: Yes. Are behavioral economists on the rise?
+21:02
+Daniel Kahneman: No question. I mean the -- behavioral economics now is a major input into policies.
+21:07
+Charlie Rose: Right.
+21:08
+Daniel Kahneman: That's --
+21:10
+Charlie Rose: Economic policies.
+21:12
+Daniel Kahneman: -- economic policies.
+21:13
+Charlie Rose: Political policies, foreign policy decisions.
+21:16
+Daniel Kahneman: Regulation.
+21:18
+Charlie Rose: Regulation.
+21:19
+Daniel Kahneman: Regulation is very strongly informed by behavior economics, so Cass Sunstein (ph) who is the chief regulator.
+21:23
+Charlie Rose: Right, right.
+21:24
+Daniel Kahneman: He wrote a book with Richard Thaler who is the guru of behavior economics.
+21:29
+Charlie Rose: Right.
+21:30
+Daniel Kahneman: They wrote "Nudge" together. So --
+21:33
+Charlie Rose: Explain "Nudge."
+21:35
+Daniel Kahneman: Nudge is -- is the idea that you can't help people make good decisions without forcing them to making any particular decision. For example, you know, the most dramatic example is -- is organ donation. So there are countries in Europe where the default is that you don't donate your organ, but when you get your driver's license, there is a box which says if you want to donate your organ, check the box.
+21:58
+Charlie Rose: Yes.
+22:00
+Daniel Kahneman: There are other countries that default is reversed, you donate your organs, but.
+22:07
+Charlie Rose: If you choose not to.
+22:09
+Daniel Kahneman: Yes you have to opt out. Now, the proportion of donations is about 94 percent if I recall in one group of countries and 18 percent in the other. So the effect of default options is enormous, now people are completely free to choose, but you know, one of these choices is much better than the other.
+22:31
+Charlie Rose: Who comes to you and pays you lots of money to consult with them? What kinds of people?
+22:36
+Daniel Kahneman: Well, not many people come to me personally to consult with me.
+22:41
+Charlie Rose: But to --
+22:43
+Daniel Kahneman: You know, quite a few people are curious about it.
+22:48
+Charlie Rose: Yes.
+22:51
+Daniel Kahneman: But there is actually enormous resistance, I think, within organizations to implementing programs that would improve the rationality of their decisions.
+22:58
+Charlie Rose: Why?
+23:00
+Daniel Kahneman: Well because -- because it creates difficulties for the leadership. The moment you have a system that is more, you know, structured system, then that system can be used to second-guess the decisions of people and people don't like to be second-guessed. So that there is a lot of interest in ways to improve rationality but I have not found -- and you know I've been invited to many places and given many talks and been very well received. When it comes to implementation, enthusiasm wanes distinctly.
+23:37
+Charlie Rose: Because of some instinct for security?
+23:39
+Daniel Kahneman: Because --
+23:41
+Charlie Rose: Or you don't want to be found out? You don't want to be found out.
+23:44
+Daniel Kahneman: You are naked.
+23:46
+Charlie Rose: Yes.
+23:48
+Daniel Kahneman: And this is a real problem. This is a real problem. So how to promote rationality within organizations and how to prevent mistakes that takes sort of architecture --
+23:59
+Charlie Rose: It takes it -- well, that takes a mindset to say I am going to insist on rationality?
+24:03
+Daniel Kahneman: Yes and without --
+24:05
+Charlie Rose: And then you will be naked and we will you know -- you have to defend your ideas.
+24:12
+Daniel Kahneman: I'm going to insist on rationality but I'm not going to allow paralysis.
+24:16
+Charlie Rose: Yes.
+24:18
+Daniel Kahneman: So you'll have to decide, I'm going to look for the proper mix of intuition and -- and reasoning. You know it's a complicated process, very difficult and very few people have done it, you know, very systemically, some firms have actually.
+24:30
+Charlie Rose: Some --
+24:32
+Daniel Kahneman: You know, there are hedge funds, venture capitalists.
+24:36
+Charlie Rose: Right, right, right.
+24:38
+Daniel Kahneman: Who have a systematic process to optimize their decision- making and I think --
+24:42
+Charlie Rose: And they have done better than others.
+24:43
+Daniel Kahneman: -- and I think they do very well.
+24:45
+Charlie Rose: I do too. I think I know what you are talking about. Yes, absolutely. I mean that's, in fact, that was an example that I was thinking about when I brought it up.
+24:52
+Daniel Kahneman: Yes, there's -- because they are not working a perfect market.
+24:56
+Charlie Rose: Right.
+24:57
+Daniel Kahneman: You know there are actually opportunities for them and so there, a good process will -- will, in general, make them thrive.
+25:05
+Charlie Rose: Are you -- what question do you not know the answer to that you most want to understand?
+25:10
+Daniel Kahneman: Well, you know, for the last few years I have been -- I've been studying well-being.
+25:15
+Charlie Rose: Well-being?
+25:17
+Daniel Kahneman: Yes. And the question that I would most like to understand and there seems to be two facets to well-being. One is, what is your mood in real-time? And the other is how satisfied are you with your life when you think about it? Both are very important. Skills (ph) are both are very important. They are not the same. So we know what causes one. We know what causes the other.
+25:43
+Charlie Rose: Repeat that to me because I really want to understand it.
+25:46
+Daniel Kahneman: Yes.
+25:47
+Charlie Rose: So the first one is --
+25:49
+Daniel Kahneman: Is how happy you are in real-time. What's your mood like?
+25:52
+Charlie Rose: Right, right, exactly.
+25:54
+Daniel Kahneman: You know -- are you interested? Are you aware? Are you vital, you know?
+25:58
+Charlie Rose: Right, right.
+26:00
+Daniel Kahneman: Do you feel energy? The other one is -- when you think about your life, how satisfied are you with your life?
+26:05
+Charlie Rose: Yes.
+26:07
+Daniel Kahneman: It turns out those two are very different.
+26:08
+Charlie Rose: And so what do you want to understand?
+26:11
+Daniel Kahneman: And what I would like to know is which of them has the bigger effect on health. So if you asked me, you know, what question I would like to know before I totally quit, that question is --
+26:21
+Charlie Rose: And what does your intuition tell you?
+26:23
+Daniel Kahneman: I don't know, I don't trust my intuition.
+26:24
+Charlie Rose: Yes.
+26:26
+Daniel Kahneman: No. I mean, there are so many surprising results here that my intuition is not useful.
+26:32
+Charlie Rose: Everything you have learned just told you not to trust intuition?
+26:36
+Daniel Kahneman: Well, yes. Not to trust.
+26:40
+Charlie Rose: So what did you think about that book Malcolm Gladwell wrote called "Blink?"
+26:45
+Daniel Kahneman: Well, Malcolm Gladwell actually did not -- does not believe that intuition is magic. He really doesn't believe it. It's very clear he has chapters where he shows, for example, he has a chapter on why President Harding was elected just because he looked the part. So intuition is not always a winner. But Malcolm Gladwell definitely created in the public of readers the impression that intuition is magical. And that I think, that I regret. You know, I have enormous respect of Malcolm Gladwell, you know his piece is always the first one that I read when it's in "The New Yorker."
+27:21
+Charlie Rose: Right.
+27:24
+Daniel Kahneman: But here, his story has helped people in a belief they want to have, which is that intuition works magically and that belief is false.
+27:31
+Charlie Rose: "Thinking Fast and Slow," Daniel Kahneman. I thank you and I'm honored to meet you.
+27:36
+Daniel Kahneman: Thank you very much.

@@ -1,0 +1,300 @@
+Interview 10. Conversations with Tyler (2018):
+
+TYLER COWEN: Thank you for coming, Danny.
+You’ve worked on so many topics. Let me start with the issue of happiness. If you have an experience, it seems that how happy you are at the end of the experience depends on the end of the experience and how good was the peak, or how bad was the bottom.
+Given that result, should we aim to deliberately structure our experiences so they give us more happiness?
+DANIEL KAHNEMAN: Well, if you want good memories, good endings are really important.
+[laughter]
+KAHNEMAN: The question is how important good memories are relative to the experience itself. But no question, ends are very important. They’re particularly important in the context of goal striving. That is, whether you achieve a goal or don’t achieve a goal colors the whole experience of trying to get it, to get to it. So ends are very important for memories.
+COWEN: Do people structure their vacations to meet the standard, or there’s a kind of market failure? If they listen to you, they would have better vacations.
+KAHNEMAN: I’m not at all sure. My guess is that people are conscious that they don’t want the peak to be too far from the end. That’s my guess.
+COWEN: And why does duration of pain seem to matter so little for how we evaluate painful experiences?
+KAHNEMAN: If you were asking what are the evolutionary value, then the duration of pain is really not very important. What’s important is the intensity because the intensity is a measure of the severity of threat. The duration is really something else. It’s very striking, but it’s completely insignificant. In many situations, it’s completely insignificant, but a striking result.
+COWEN: You also have a paper on happiness with Alan Krueger, using what you call the Day Reconstruction Method — how much people enjoy different experiences. One result from that paper is how much people enjoy spending time with their friends. If that’s so much more enjoyable at the margin, why don’t people do more of it?
+KAHNEMAN: Altogether, I don’t think that people maximize happiness in that sense. And that’s one of the reasons that I actually left the field of happiness, in that I was very interested in maximizing experience, but this doesn’t seem to be what people want to do. They actually want to maximize their satisfaction with themselves and with their lives. And that leads in completely different directions than the maximization of happiness.
+COWEN: Do you think that telling people you’ll be happier a particular way changes their behavior much? Or they still stick to maximizing a sense of satisfaction with their lives?
+KAHNEMAN: No idea. I haven’t tried. There is a lot of work these days in trying to make people happier and trying to coach people. In the UK, in particular, there is — I wouldn’t call it an industry, but it’s sponsored by government. My friend, Lord Laird, has started a movement that promotes happiness. There’s a great deal of that happening.
+I don’t know how successful it is because the criterion for evaluation — it’s very difficult to conduct evaluations on those things because people who know they’re being subjected to interventions cannot really answer those questions honestly, even if they try. So the way to test whether things are successful would to be to ask a person’s friends, has he become or she become happier? And that hasn’t been done.
+COWEN: And that people want to maximize their overall sense of how their life has gone — do you think that is ultimately Darwinian roots? Why is that the equilibrium? Happiness feels good, right?
+KAHNEMAN: Yeah, happiness feels good in the moment. But it’s in the moment. What you’re left with are your memories. And that’s a very striking thing — that memories stay with you, and the reality of life is gone in an instant. So memory has a disproportionate weight because it’s with us. It stays with us. It’s the only thing we get to keep.
+COWEN: If you think of your own life, have you maximized happiness or the overall sense of how your life has gone?
+KAHNEMAN: Neither.
+[laughter]
+COWEN: Neither. Citations?
+KAHNEMAN: No.
+On bias
+COWEN: If you miss a flight due to a traffic jam outside your control, would you rather be two hours late or just one minute late?
+KAHNEMAN: Oh, I’m like everybody else. I’d rather be two hours late.
+COWEN: And you think even knowing about this doesn’t change that. You can’t talk yourself out of the bias?
+KAHNEMAN: You can talk yourself out of some biases, I think. I wouldn’t generalize on that, but it would take . . . I could possibly talk myself out of that one by really repeating to myself how stupid it is. But it would take a lot of work. It’s not that you can decide once and for all, “I will not be subject to that bias.” Doesn’t work that way.
+COWEN: Do you think we overinvest or underinvest in memories, overall?
+KAHNEMAN: We certainly invest heavily, heavily in memories. Vacations for many people are investment in the formation and maintenance of memories. There is a lot of investment. Whether it’s too much or too little, it probably depends a lot on people’s amount of consumption of memory that people engage in.
+I, for one, am certainly biased. But I do not consume my memories a lot. And I almost never go back to photographs, not deliberately. If I stumble on something, it will move me. But the idea of going back to relive a vacation — that’s not what I do, so I have little empathy for this.
+COWEN: If we think about, say, sports, they’re a form of bias, right? Most people root for a home team, or they root for their country in the Olympics. Music, arguably, is a form of bias. There’s soundtrack music — it affects how you view the movie, even though it’s not changing any facts. To what extent should we think of bias as the main thing that gives our lives an overall structure, just as a musical soundtrack is what gives structure to a movie?
+KAHNEMAN: That’s a tendentious way of labeling things, to call them biases. I wouldn’t call the effect of music a biasing effect. It completes the experience. And what were your other examples?
+COWEN: Well, sports. You’re consuming bias, right? You don’t actually think your team is better.
+KAHNEMAN: No, but you identify. There are emotions over which you have very little control. It’s a fact that you feel pride when your team wins. In fact, you feel pride if a stranger who lives on your street gets a prize. That tendency to identify with what’s around us, and with things that we are connected to, is very powerful. We derive a lot of emotion from it. I wouldn’t call that a bias because you can call any emotion a bias.
+COWEN: There’s a well-known article by John List where he argues, if you study how experts trade assets, that a lot of what are called biases go away and become quite small. What’s your reaction to his research?
+KAHNEMAN: It’s beautiful research. I’m convinced it’s right. And indeed, you don’t have to go as far as he does to find cases in which people act fairly rationally. People act fairly rationally in routine transactions. So if there is a thing that’s loss aversion, that it plays a large role, and that’s less research in novices. They get attached to things, and then they don’t want to sell them.
+And they get over it, over time. In routine transactions, when I go and I spend some money to get shoes, I feel no loss aversion for the money. And certainly, the person who sells me the shoes feels no loss aversion for the shoes. It’s a routine transaction, and it’s a whole domain in which loss aversion doesn’t apply.
+On noise
+COWEN: Much of your last book is about bias, of course. And much of your next book will be about noise. If you think of actual mistakes in human decision-making, how do you now see the relative weight of bias versus noise?
+KAHNEMAN: I would say this. First of all, let me explain what I mean by noise. I mean, just randomness. And it’s true within individuals, but it’s especially true among individuals who are supposed to be interchangeable in, say, organizations. Can I spend three minutes to explain that?
+COWEN: Of course, sure.
+KAHNEMAN: I’ll tell you where the experiment from which my current fascination with noise arose. I was working with an insurance company, and we did a very standard experiment. They constructed cases, very routine, standard cases. Expensive cases — we’re not talking of insuring cars. We’re talking of insuring financial firms for risk of fraud.
+So you have people who are specialists in this. This is what they do. Cases were constructed completely realistically, the kind of thing that people encounter every day. You have 50 people reading a case and putting a dollar value on it.
+I could ask you, and I asked the executives in the firm, and it’s a number that just about everybody agrees. Suppose you take two people at random, two underwriters at random. You average the premium they set, you take the difference between them, and you divide the difference by the average.
+By what percentage do people differ? Well, would you expect people to differ? And there is a common answer that you find, when I just talk to people and ask them, or the executives had the same answer. It’s somewhere around 10 percent. That’s what people expect to see in a well-run firm.
+Now, what we found was 50 percent, 5–0, which, by the way, means that those underwriters were absolutely wasting their time, in the sense of assessing risk. So that’s noise, and you find variability across individuals, which is not supposed to exist.
+And you find variability within individuals, depending morning, afternoon, hot, cold. A lot of things influence the way that people make judgments: whether they are full, or whether they’ve had lunch or haven’t had lunch affects the judges, and things like that.
+Now, it’s hard to say what there is more of, noise or bias. But one thing is very certain — that bias has been overestimated at the expense of noise. Virtually all the literature and a lot of public conversation is about biases. But in fact, noise is, I think, extremely important, very prevalent.
+There is an interesting fact — that noise and bias are independent sources of error, so that reducing either of them improves overall accuracy. There is room for . . . and the procedures by which you would reduce bias and reduce noise are not the same. So that’s what I’m fascinated by these days.
+COWEN: Do you think of low intelligence as yet a third independent source of error? Or is that somehow subsumed in bias and noise?
+KAHNEMAN: You mean plain stupidity?
+[laughter]
+COWEN: In some cases.
+KAHNEMAN: Yeah. It wouldn’t really be necessarily the same as either bias or noise. Getting inadequate information, or not getting adequate information when it’s available, is a stupid thing to do, and a very common thing. It’s not exactly a bias, and it’s not necessarily . . . It would contribute more to noise than to bias, by the way, by and large. When people collect too little information or are swayed by the first thing that comes to mind, you get noise rather than bias.
+COWEN: Do you see the wisdom of crowds as a way of addressing noise in business firms? So you take all the auditors, and you somehow construct a weighted average?
+KAHNEMAN: The wisdom of the crowds will work, and pooling opinions will work when errors are independent, that is, when everybody is inclined to make the same mistake, which is then a bias.
+COWEN: Right.
+KAHNEMAN: Then having multiple individuals engaged in it, they share their biases, you’ll get the bias. It’s going to be worsened, and everybody will have much higher confidence in their biased views because other people share them. So wisdom of the crowd works under quite specified conditions.
+With respect to the underwriters, I would expect, certainly, that if you took 12 underwriters assessing the same risk, you would eliminate the noise. You would be left with bias, but you would eliminate one source of error, and the question is just price. Google, for example, when it hires people, they have a minimum of four individuals making independent assessments of each candidate. And that reduces the standard deviation of error at least by a factor of two.
+COWEN: So is the business world, in general, adjusting for noise right now? Or only some highly successful firms?
+KAHNEMAN: I don’t know enough about that. All I do know is that, when we pointed out the results, the bewildering results of the experiment on underwriters, and there was another unit — people who assess the size of claims. Again, actually, it’s more than 50 percent. Like 58 percent. The thing that was the most striking was that nobody in the organization had any idea that this was going on. It took people completely by surprise.
+My guess now, that wherever people exercise judgment, there is noise. And, as a first rule, there is more noise than people expect, and there’s more noise than they can imagine because it’s very difficult to imagine that people have a very different opinion from yours when your opinion is right, which it is.
+[laughter]
+KAHNEMAN: So that’s the way it works.
+COWEN: If you’re called in by a CEO to give advice — and I think sometimes you are — how can I reduce the noise in my decisions, the decisions of the CEO, when there’s not a simple way to average? The firm doesn’t have a dozen CEOs. What’s your advice?
+KAHNEMAN: My advice is divide and conquer. That is, there is one thing that we know that improves the quality of judgment, I think. And this is to delay intuition. I think there is in the audience a friend of mine, Gary Klein, who is violently opposed to what I’m saying, as are many others. But I’m here.
+[laughter]
+KAHNEMAN: So I think delaying intuition is a very good idea. Delaying intuition until the facts are in, at hand, and looking at dimensions of the problem separately and independently is a better use of information.
+
+The problem with intuition is that it forms very quickly, so that you need to have special procedures in place to control it except in those rare cases — and Gary Klein and others have demonstrated that — where you have intuitive expertise. That’s true for athletes — they respond intuitively. It’s true for chess masters. It’s true for firefighters, captains, as Gary Klein has shown. So that’s intuitive expertise.
+I don’t think CEOs encounter many problems where they have intuitive expertise. They haven’t had the opportunity to acquire it, so they better slow down.
+COWEN: And just take more time on each decision.
+KAHNEMAN: Break the decision up. It’s not so much a matter of time because you don’t want people to get paralyzed by analysis. But it’s a matter of planning how you’re going to make the decision, and making it in stages, and not acting without an intuitive certainty that you are doing the right thing. But just delay it until all the information is available.
+COWEN: And does noise play any useful roles, either in businesses or in broader society? Or is it just a cost we would like to minimize?
+KAHNEMAN: There is one condition under which noise is very useful. If there is a selection process, evolution works on noise. You have random variation and then selection. But when there is no selection, noise is just a cost.
+COWEN: But say it were always transparent who would be the winners and who would be the losers from a given decision. Wouldn’t we be too emotional, too polarized, engaging in too much rent-seeking? And having an ambiguity as to cause and effect is, in part, what allows us to get along with each other?
+KAHNEMAN: You are sort of making a lot of assumptions I’m not used to in this question. You seem to assume that there is something very competitive that could be alleviated.
+COWEN: But there’s the old saying, say, from the Soviet Union, that meritocracy is very hard to live under. That if you really know how many people are better than you are, which, say, a chess player might, there’s something psychologically oppressive to being downgraded. Whereas noise, you can be overconfident more easily, and we all know overconfidence —
+KAHNEMAN: You don’t need noise for that. Bias will do it for you. And there is a lot of bias in that direction. People clearly overestimate what they can do and how good they are. And that’s a blessing, undoubtedly.
+COWEN: Are there groups of people you feel are less subject to biases? There’s some papers, for instance, showing that autistics — they have weaker framing effects, smaller endowment effects, maybe because top-down processing works in a different way. Do you have an opinion on that literature?
+KAHNEMAN: No, I don’t know it well enough.
+COWEN: If you think of the literature on what are called cognitive disabilities — ADHD — do you think of that as bias or somehow in a different logical category? Or . . . ?
+KAHNEMAN: I don’t think it’s a bias, no. I think it’s an attention deficit. It means that people have difficulty controlling their attention, focusing on what they want to focus on, and staying focused. That’s neither bias nor noise.
+Bias and noise do not cover the universe. There are other categories.
+COWEN: If you think about the issue of, when people think about the world, they find some kind of transactions repugnant. Sometimes they just don’t like to sell what they have. Other times, they seem to object to markets, say, in kidneys or kidney transplants. Do you view that as bias? Or where does that come from?
+KAHNEMAN: In the sense that this is a norm, and there are things that we’re trained or socialized to find disgusting, to find repugnant. So there are repugnant transactions. And you have to treat them as you treat every other moral feeling.
+We have lots of moral feelings, things that we find unacceptable without any ability to really explain why they are unacceptable. There is such a thing as moral emotion. There is such a thing as indignation, as moral disgust. And that’s what we’re talking about here.
+COWEN: So you’re pessimistic about the ability of psychologists to develop structural explanations of where feelings of repugnance come from.
+KAHNEMAN: Well, in some cases, we know, and you can do that associatively. It really depends on the social disrupture that is imposed by a given culture. To give you a sense of the way that works, there is psychologist Paul Rozin, who has done some brilliant experiments on that.
+In one of the experiments, he has people, and they have a glass of orange juice, and they have a sticker. They’re asked to write on that sticker “cyanide” and to stick it on the juice and then to drink the juice. And they don’t want to.
+[laughter]
+KAHNEMAN: This is something — it’s an emotion over which people have no control, and our socialization has created those emotions in us. We’re conditioned to have them under some conditions. Other cultures are disgusted by other things.
+COWEN: Philip Tetlock has argued that, if we set up long-run tournaments with forecasting, and we measure results, and we test teams against each other, that we can, in the longer run, reduce, I think, both the noise and bias. Do you agree? And do you think there are factors he’s overlooking in how his tournaments are set up?
+KAHNEMAN: Phil Tetlock is another friend, but he’s also a hero. I think this is beautiful research. I think it’s proved beyond a shadow of a doubt that when you have people making forecasts for the medium term — up to six months, say, in many situations — you can help people thinking carefully without any training, who do better than CIA analysts.
+That’s fundamentally what he has shown, and he really knows why, or he knows how they do it. And the tricks are very simple. If you made a list of intelligent ways to go at problems, that’s what people do. They view the problem as an instance of a category, and then they switch to looking at the problem from the inside. Essentially, they adopt different points of view.
+It’s not the same thing as what I was saying earlier about breaking up a problem into dimensions and averaging. There’s no averaging, but there is looking at a problem from multiple dimensions and collecting a lot of information. And that’s basically what creates superforecasters.
+COWEN: So if you’re picking the Daniel Kahneman superforecasting team, what qualities are you looking for in individuals?
+KAHNEMAN: Phil Tetlock really has a comprehensive list, which I’m not going to remember.
+COWEN: But at the margin, how would you modify, given —
+KAHNEMAN: They will be intelligent, they will be numerate, they’ll be open-minded, they’ll be curious, interested in learning, eager to train their mind.
+COWEN: But is there a bias left in how Tetlockians pick their teams?
+KAHNEMAN: He picks the teams by results, so what he has, he has people competing in making probabilistic forecasts of strategic or economic events in the medium and short term. And some people are more accurate than others. After a year of that, you select the top 2 percent and you call them superforecasters.
+That gives them a very good feeling, to be labeled superforecasters. And they do not regress to the mean; that is, the second year they’re just about as good as the first year. That’s the basic finding.
+COWEN: If you’re picking doctors, where maybe results are hard to measure in some cases, what do you look for when selecting doctors, in broad terms?
+KAHNEMAN: I will do the conventional thing. I will ask about their reputation because that’s the best measure we have. If it’s a surgeon that I’m looking for, then there are real indices, the main one being the number of times he’s performed the operation in question. That you know is what you’ve got to examine because people really do get better over time, so measuring how much practice they’ve had. And the practice is fairly specific on different operations. I think I would know how to pick a surgeon.
+COWEN: There’s a good deal of evidence that people in businesses are overconfident, but do you think they’re more overconfident than they should be?
+KAHNEMAN: Overconfidence has many virtues. In the first place, it’s nice, it’s pleasant to be overconfident, especially if you’re an optimist. Optimism is valuable, much more than overconfidence. Overconfidence is sort of a side effect.
+But to exaggerate the odds of success is a very useful thing for people. It will make them more appealing to others, they will get more resources, and they will take risks. It’s not necessarily good for them. The expected utility of taking risks in the economy is probably moderately negative. But for society as a whole to have a lot of optimists taking risks — that’s what makes for economic progress, so I call that the engine of capitalism, really, that sort of optimism.
+COWEN: There’s a collaboration between a human being and a machine, and occasionally the human being overrides the machine. Do you feel the human beings in those situations are, on average, either too overconfident or too optimistic?
+KAHNEMAN: Well, there are certain criteria that you would want to apply before you put a machine to work. You want to validate that. But once you have a machine making decisions, the conditions under which it’s a good idea for humans to override them are really well known and well understood. And it’s not that when you get a feeling that the machine is wrong, that’s not enough.
+I’ll give you an example where it would be okay to override a machine. Suppose you have a computer that approves loans, and then you’re the banker, and you see that the person who was approved for a loan has just been arrested for fraud. Then you will override the machine. That’s about the conditions under which it’s worth it. Otherwise, there’ve been many experiments, and when people override formulas, by and large, they do worse than if they hadn’t.
+COWEN: Do you side with the analysts, such as Martin Ford, who see really a very large number of jobs being potentially automatable with artificial intelligence, machine learning? Or will we always need the human beings to work with the machines?
+KAHNEMAN: That we will need human beings is, I think, an illusion. Take chess for example. Kasparov was beaten 20 years ago, and he went on for a while — and it was true for a while — saying the teams of chess players with grand masters — of programs with grand masters would be stronger than either. And it was true for a while. It is true no longer. The programs do not need the grand masters.
+You know how it happened, and it’s likely to happen in many other fields. It’s happening in dermatology. The diagnosis is now better done by programs than by people, and they are not going to need the person very often. That is, to have a person intervene, with the right to intervene, they will sometimes correct mistakes. But they will more often, I think, introduce mistakes. So when you have a well-running program, leave it alone.
+COWEN: So we as professors won’t need to grade exams anymore, and I don’t just mean multiple choice. You run machine learning on papers, you find what correlates with a good paper, you put the paper through the program.
+KAHNEMAN: Look, the point is, there is so much noise in essay grading that it’s quite easy to imagine a program that would look at various indices and that would do better than hurried and tired professors.
+COWEN: If you consider people working in psychology or maybe economics or just social sciences, do you think people persist with their professional and research projects too long or not long enough? Where’s the bias?
+KAHNEMAN: My guess is too long, but it’s a personal bias.
+COWEN: Because of sunk costs.
+KAHNEMAN: Because of sunk costs. I think sunk cost is really the enemy when you’re doing research, innovative research. You’re to recognize that something isn’t working and just move on. And there are different views on that, but my sense is that this is the direction of the bias, yeah, sunk costs.
+COWEN: Michael Nielsen is a scientist, and he works at Y Combinator. He tweeted today, “If it weren’t for sunk costs and my respect for them, I wouldn’t ever get anything done.” What do you think?
+[laughter]
+KAHNEMAN: I mean, you know sunk costs.
+COWEN: It keeps you at things, right?
+KAHNEMAN: Yeah, it keeps you at things.
+COWEN: You stay loyal to your friends. You become more trustworthy.
+KAHNEMAN: When we talk about sunk costs, we talk about something else. It is not true that growing attachment to things that you’re familiar with and that you like and love and increasingly trust — that’s not sunk costs. That’s something else.
+Sunk cost is a fairly specific thing. It is that you’re putting a different value on a move or an investment that you make because of investment that you have already made than you would if you were looking at that de novo.
+Sunk costs, by and large, I think, are a negative. We know that when you get a new CEO in place in organizations, the new CEO has one big advantage. He’s got no sunk costs with respect to poor ideas that the exiting CEO had and couldn’t let go of.
+COWEN: If you had a perfectly rational, pure Bayesian, would anyone else trust that person?
+KAHNEMAN: Well . . . would he be nice?
+[laughter]
+COWEN: I don’t think so.
+KAHNEMAN: That’s what would matter. If you could get me a nice Bayesian, that could be fine.
+[laughter]
+On psychologists
+COWEN: Some questions about psychologists outside of what you’ve worked on, but maybe related — Freud. What do you think of Freud’s body of work? And has it influenced you at all?
+If I think of Freud’s two principles of mental functioning, right? The notion of pleasure principle, reality principle — it’s a little bit like Thinking, Fast and Slow in some ways, with big differences.
+KAHNEMAN: Well, all dichotomies are alike in some ways.
+[laughter]
+KAHNEMAN: And yeah, there are similarities.
+Oddly enough, there is one aspect of Freudian work that I think did influence me. For some reason, when I was a graduate student . . . It’s too long a story, but I was exposed to chapter 7 in The Interpretation of Dreams, and I spent a summer studying chapter 7 in The Interpretation of Dreams. In chapter 7, there is, basically, a theory of attention. And 25 years later, I published a theory of attention. When it was done, I realized that it resembled chapter 7 quite a bit. So, yes.
+COWEN: Personality psychology and five-factor personality theory — is that, for you, a useful way of thinking about human beings?
+KAHNEMAN: Well, it’s a proven way . . . It’s sort of boring.
+[laughter]
+KAHNEMAN: And I mean that seriously. This five-factor thing — it’s about 20 years old, and it dominates personality psychology because it works.
+COWEN: But it’s boring.
+KAHNEMAN: It used to be more exciting, to have more complicated mechanisms, but you have something that seems to work.
+COWEN: What did you draw from Herbert Simon?
+KAHNEMAN: Directly, nothing. Indirectly, a lot. And retrospectively, a lot. What I mean by indirectly is that the air I breathe was influenced by Herbert Simon. He had the notion of heuristics. It was in the language, and it affected me. Of course, it affected the whole zeitgeist; it affected the whole culture.
+And retrospectively, when I learned Simon . . . but that was after I was in field and after I made some contributions to the field. I discovered that I was following in his footsteps. But that’s not what I had been doing originally. I hadn’t viewed myself . . . and in fact, I wasn’t following in his footsteps. Retrospectively, you find, “Oh yeah, this is what I did,” in the historical perspective.
+COWEN: And also from classical psychology, either Jung or Piaget — did you draw anything from them? Or is that just a foreign stream?
+KAHNEMAN: Yeah, that’s completely foreign.
+COWEN: Completely foreign. If you think about your early work on vision and on Israeli bus drivers, how did your later work on biases and thinking fast, thinking slow come out of your very earliest papers?
+KAHNEMAN: It didn’t. It was a completely separate thing. I worked originally on a concept for quite a few years, on the notion of effort, mental effort. And when I started work on heuristics and biases with Amos Tversky, that wasn’t on our mind, and it had very little effect.
+When I wrote Thinking, Fast and Slow — like 10 years ago — when I was doing that, then it turned out that I put together all my life’s work, and the early work did get into Thinking, Fast and Slow. But it had no effect on my work with Amos Tversky.
+COWEN: But the idea of attention-switching costs — so Israeli bus drivers, it takes time for them to switch attention from one event to another. Is that not an underlying micro foundation of your, say, 1980s papers on bias?
+KAHNEMAN: No.
+COWEN: That people aren’t switching their attention to the new problem?
+KAHNEMAN: No.
+COWEN: No.
+[laughter]
+KAHNEMAN: It’s not. We didn’t think of it. That really happens a great deal, and quite often, it happens in a different way. It happens when somebody’s insulted because you didn’t cite him. He looks at your work, and he says, “That’s just the same as what I’ve said before.” And in some way, it may be true. There may be some resemblance. It may be true, and yet you were completely uninfluenced by that.
+And it’s the same thing. I was uninfluenced by my earlier work, I think.
+COWEN: Now your basic distinction between System 1 and System 2, thinking fast and thinking slow — to the extent that particular results do not replicate, do you view that as undercutting the System 1 versus System 2 distinction? Or is that immune to the degree of replicability?
+KAHNEMAN: There were whole sets of results that I published in Thinking, Fast and Slow that I wish I hadn’t published because they’re not reliable.
+Whether it undercuts . . . The idea of two systems is really anchored in a basic sort of fact of experience, that the process by which you get 2 plus 2 is fundamentally different from the way that you get 17 by 24. One of them happens automatically, associatively, quickly. You have no control. The other demands effort and is slow and so on. That’s immune to replication.
+COWEN: But if there’s a bias in individuals and noise, why should we trust our experience about this apparent sense of having two methods? Is it three? Is it four?
+KAHNEMAN: Well, in the first place, those are extremes. It doesn’t mean that there aren’t others. It doesn’t mean that there is not a continuum. But there is at least a continuum to be explored of those two extremes. Of that I’m quite confident.
+
+COWEN: Do you think that working outside of your native language in any ways influenced your ideas on psychology? It makes you more aware of thinking fast versus thinking slow? Or not?
+KAHNEMAN: It’s something I used to think about in the context . . . I’m from Israel, and it was thinking whether there was something in common to Israeli intellectuals operating in a second language. And I thought that, in a way, it can be an advantage to operate in a second language, that there are certain things . . . that you can think about the thing itself, not through the words.
+COWEN: It’s like lower sunk costs in a way.
+KAHNEMAN: I don’t know exactly how to explain it, but I thought that this was not a loss for me, to do psychology in a second language.
+COWEN: Do you have thoughts on the potential cognitive advantages of bilingualism or trilingualism?
+KAHNEMAN: It’s an empirical matter. It’s not a matter of thinking. And I don’t know enough. It appears to be advantageous, but I don’t know the literature.
+COWEN: If we think of therapists, psychiatrists, internists who are trying somehow to fix, improve, or cure people — are they underinvesting in a knowledge of what might be called behavioral economics or your work on psychology? Should they be using more of it? Is that their bias?
+KAHNEMAN: I have an opinion on that, and I think it is supported by evidence. But there is one line of therapy that clearly works, and it’s evidence based, and it’s supported time and again. And that is one style, and it’s cognitive behavioral therapy. That works, and we know it does.
+Other things work — some of them do, some of them don’t, and it primarily seems to depend on the personality of the therapist and on the interaction between the personality of the therapist and the personality of the patient. Whereas cognitive behavioral therapy is a technique, and it’s a technique that works. That’s a fact, and the rest is a lot of bias.
+COWEN: A society such as Argentina that relies so heavily on psychoanalysis — as a psychologist, do you see that as bias? Is it a placebo? Is there a placebo effect in psychoanalysis?
+KAHNEMAN: You seem to attribute . . . You seem to think that I think of bias all the time.
+[laughter]
+COWEN: I can’t imagine why. That’s my bias.
+KAHNEMAN: It’s like thinking of sex all the time. I really don’t think of bias that much. But if you want to apply it, then clearly there is a lot of psychoanalysis in Argentina, and there’s no indication that it makes them more sane.
+[laughter]
+COWEN: If you were to express, what is the question about gender and your own work that interests you the most? Maybe you’ve never done it, but what would that be?
+KAHNEMAN: I have really never been interested in anything to do with gender, so I have never studied or looked at differences between gender in the kind of research we did. I’ve never been very interested in individual differences and not in gender either, so I don’t know.
+COWEN: So it’s the means really that interest you the most.
+KAHNEMAN: Yeah, it’s the means and it’s some extremes. But it’s not cutting and dicing into categories.
+COWEN: But being an Israeli . . . and surely you’ve traveled to many, many countries, at the very least Sweden, among others. There are papers on cross-cultural differences in bargaining or in decision biases. How much stock do you put in those results?
+KAHNEMAN: I think there’s no question that there are cultural differences. For one thing, for example, there are major cultural differences in the attitude to optimists, to optimism. In quite a few European countries, optimism is considered rather foolish. It’s for children.
+COWEN: Idiots smile in Russia, right?
+KAHNEMAN: And in the United States, optimism is clearly a desirable trait. And similarly, there are differences on whether risk taking is considered a good thing or a bad thing. So there are certainly cultural differences.
+COWEN: Do you think of those in functionalist terms? Some people might argue, “Well, Israelis, they have a tendency to speak directly because they’ve had a lot of crisis situations, where you can’t beat around the bush. You need to say what you think.” Or we don’t know?
+KAHNEMAN: I don’t like those kinds of explanations. They look facile to me.
+COWEN: Right now in psychology, in your own work, what are the open questions you’re most interested in?
+KAHNEMAN: Like everybody else, I think, like many others, there are two exciting developments now that one would want to know about. One would want to know how the brain works, want to know more about how the brain works than we do, and would want to know about artificial intelligence, and if, when, and how it will become more human-like in what it can do.
+COWEN: And you’re optimistic on that front?
+KAHNEMAN: I’m optimistic on virtually nothing.
+[laughter]
+KAHNEMAN: But that AI is developing faster than anybody could have anticipated — no question. And if it continues to develop at that rate, meaning a lot faster than we expect, then things are going to happen relatively quickly.
+COWEN: What do you think are the main obstacles? Some people in Silicon Valley will argue AI is stuck at a kind of local optimum. Driverless cars — although they’re ahead of the pace we thought 10 years ago, they may be behind the pace we thought 2 years ago. There’s always a problem with emergency situations, the policeman waving you on. The last 1 percent maybe is very, very difficult.
+KAHNEMAN: Yeah. But I can’t evaluate that. That’s a technical problem — how long it will take to get the cleanup, the last 1 percent. The questions that are of interest as a psychologist is, when can you simulate common sense? There is the really serious question that people raise about computers, whether they know what they’re talking about, whether they understand what they’re talking about.
+Without sense or whims, and without the perceptual apparatus that we have and the ability to cause things by acting on the world, they can’t be exactly like us. But that sense of understanding . . . nobody actually today would, I think, claim that even the most sophisticated programs have it.
+COWEN: Do you think we’ve learned anything general about common sense by having some artificial intelligence?
+KAHNEMAN: What we have learned is that our basic ideas about what’s difficult and what’s easy, what’s going to be simple and what’s going . . . have undergone a series of revolutionary changes.
+We used to think that perception would be easy, and thinking would be difficult. It turns out that thinking was relatively easy and perception was difficult. Now, there are ways of handling perceptual problems, and so thinking is difficult again. And it’s a very interesting developing thing.
+COWEN: Moving the chess piece is often harder than figuring out the best move for the program.
+Looking back on your collaboration with Amos Tversky, which has been written about widely, of course — there’s the famous Michael Lewis book. But what is there about that collaboration or about Amos that you feel one could read everything that’s out there but still has been underappreciated or undervalued?
+KAHNEMAN: So much has been written that I couldn’t point out anything that people have completely ignored.
+Actually, the thing that, when I think about him, it was the mental energy, just the joy of thinking and the mental energy. And that made him very charismatic. And he was also very funny, and being funny is a major asset in social life. And it turned out to be a major asset in our work because our work, our joint work, had a touch of irony to it. The fact that we were laughing continuously as we were doing the work was very important to the nature of what we did.
+COWEN: And that stimulates discovery? It breaks down sunk cost bias? Or what does it do in formal terms?
+KAHNEMAN: What it does is, it makes you look for funny things about . . . for us, what it did for us — I can’t generalize. For us, we were examining our own thinking, and finding stupid things in our own thinking, and finding that delightful and very funny. So we were very lucky in our choice of topic in many ways. Our choice of topic lent itself to a lot of things that are virtually impossible in other fields.
+COWEN: Your current collaborators on the noise book — how would you describe that collaboration? And tell us who they are.
+KAHNEMAN: One of them is Cass Sunstein, who is a very famous jurist and also known for writing three or four books a year. He writes very easily, and I write with difficulty, so it’s not an accident that we teamed up.
+The other collaborator is a brilliant Frenchman that you haven’t heard of. He was, for 25 years, at McKinsey, and he became a director at McKinsey. Then he got bored with that, and he got a PhD. He teaches, and he is just extraordinary. So I’m very lucky.
+COWEN: And what will the main theme of that book be?
+KAHNEMAN: It will be that noise is an underestimated problem, and it will be that there is something deep about two ways of thinking that I was working on in Thinking, Fast and Slow, which I called statistical versus causal.
+Noise is clearly a statistical way of looking at things, and bias is inherently causal — so the interplay of those forms of thinking. Then the idea that if you want to reduce noise, we have a pretty good idea of what you should do in order to induce greater uniformity and to overcome the vulnerability of people to all sorts of irrelevant influences.
+COWEN: And when will that book be out?
+KAHNEMAN: Who knows?
+[laughter]
+KAHNEMAN: It was supposed to be out in the fall of 2020. I think our publishers just remembered that there is going to be a presidential election at that time and that probably a lot of more interesting books are going to be appearing. So that postponed it to spring 2021.
+COWEN: We now have some time for questions. But Daniel Kahneman, thank you very much.
+Q&A
+COWEN: There are mics on each side. I will call on you, and please, questions only. This is our chance to hear from Danny Kahneman. If you start making a long speech or statement, I will cut you off.
+I also have questions from the iPad. So please get in line if you would like. To start with the questions here. First question: could prediction markets reduce both bias and noise?
+KAHNEMAN: Well, noise certainly, but then averaging does it. And whether prediction markets consistently beat averaging is, I think, not yet fully established.
+Bias, no — if there is a general bias, unless the people who are unbiased also know that they are unbiased, unless they have a way of being sure, so that they can invest more than others and move the price toward the correct answer. But without that, without this asymmetry of knowledge, if there is a bias, it won’t be reduced. Noise will be reduced.
+COWEN: First question over here.
+AUDIENCE MEMBER: Good evening. I have two questions, but they’re short. My first question is, you briefly talked about moral emotions. Do you see any benefit to shame? Because I’ve read conflicting theories there. So the moral emotion of shame and your thoughts.
+And two, what is the impact of counterfactual thinking on happiness in your study?
+KAHNEMAN: About shame, I really have no idea. It’s there. Should one wish that it weren’t? It’s probably a force that induces better behavior in lots of people who would not be controlled in other ways. So I don’t know how important or how useful it is. It’s painful to the people who feel it, and it might be useful to others who might be affected by bad behavior.
+As for counterfactuals and happiness, I think that what you referred to — there are counterfactual emotions. Regret is a counterfactual emotion. Guilt is a counterfactual emotion. You can ask in the sense that they are driven by something that didn’t happen, that could have happened but didn’t.
+Some of these emotions seem to be completely superfluous, like regret. And I think people, by and large, would be better off without regret. But notice what regret is. Regret is what happens the next morning. And if we didn’t have it, then who knows what we might do.
+[laughter]
+COWEN: Next question over here.
+AUDIENCE MEMBER: Yes, sir. On this topic of delaying intuition — and I’m delighted that Mr. Klein is in the audience because I spent over a decade myself as an intuitive expert and found myself mostly using recognition-primed decision-making.
+I’m curious how much you think availability bias, confirmation bias, et cetera, was still affecting my recognition-primed decision-making. And is recognition-primed decision-making still useful? Or is it just the best option in a temporally constrained environment?
+KAHNEMAN: I think, obviously, recognition-primed decision-making is going to be wonderful if people really can recognize things accurately. If they can diagnose the situation accurately and do it quickly and act intuitively on that basis, then of course it’s beneficial. And there are conditions under which this applies.
+Gary Klein and I became friends over a period of six years when we were trying to find out, what are the boundaries? I’m sort of a critic of intuition, and he is very much in favor of intuition, of expert intuition. And we were trying to find out, what are the boundaries? Because it’s clear that sometimes intuition is wonderful and sometimes it’s awful.
+We ended up with a fairly obvious set of conclusions about what it is. You’re going to have Gary Klein–type intuition, expert intuition, if you have a regular world. That’s condition number one. There are regularities that you can pick up. And if you have a lot of experience and if the feedback is rapid and unequivocal.
+If you have those three conditions, which are true for chess players — and they’re true for spouses recognizing the emotion of their spouse on the telephone, to give you a completely different example — then intuition will develop and it will be perfect. If those conditions do not develop, I don’t think we can trust people who say that they’re experts.
+COWEN: Another iPad question. Tech entrepreneur Daniel Gross suggested that growing up in Israel was a forcing function for the tech sector. How much was Israel a forcing function for your thinking?
+KAHNEMAN: I don’t really completely understand the term forcing function in this context. I know that Israel afforded many opportunities when I was growing up, and it probably still does. I grew up very early in the history of Israel, when the state was small and everyone could make a difference. And you really could make a difference. I was, as a lieutenant in the army, age 21 or 22 — I made a difference. I created an interviewing system for the whole army.
+Those kinds of experiences — that you can do things that seemed impossible or unlikely — that is certainly very liberating and encouraging and induces creativity.
+I think some of that is actually present now that the state is bigger and more established. I was telling you earlier how my grandson is in the Israeli army — the kinds of experiences that he has as a sergeant. He feels very free in an intelligence unit. He feels that he can use his mind and that he can speak his mind, and it’s going to be wonderful for his future.
+COWEN: Next question over here.
+AUDIENCE MEMBER: You mentioned earlier that you view many things in the world through a basic lens of pessimism. But if you were going to challenge yourself to identify something going on in the world now or in the near term about which to be optimistic, if not for yourself, for your grandchildren, say, or very young people, what should they be optimistic about?
+KAHNEMAN: I’m going to pass.
+[laughter]
+COWEN: Over here.
+AUDIENCE MEMBER: I’m curious about what beliefs you currently hold that you think in the next five to ten years might be proven incorrect, and alternatively, the same question of social science broadly.
+KAHNEMAN: If I knew how I would change my mind, I would have changed my mind. My guess is that there will be completely different frameworks, there will be different ways of thinking. It’s not going to be this or that detail.
+This is what happens to ideas or to frameworks. They, at some point, become irrelevant. And I know that this is going to happen to everything that I believe. Give it a few decades — it’s going to be irrelevant. I wish I could peer into the future and know what comes next, but I can’t.
+COWEN: From the iPad, why did the replication crisis take so long to arrive in social psychology?
+KAHNEMAN: Well, I would question that. It didn’t take very long. The replication crisis was studied first in medicine, where there were provocative claims by Stanford. I don’t know . . . he’s not a statistician, is he? There were provocative claims that most published research in medicine are false, and it started there.
+
+Then psychology came very soon after. In fact, psychology was considered to have been quite rapid in adopting it. There was a crisis, and many results were questioned, I think correctly. There were aggressors, and there were defenders, and both sides, I think, behaved, quite often, quite badly.
+It’s amazing — within a decade, psychology has changed. Many areas of psychology have changed, and it clearly is a better science than it was 10 years ago because of the replication crisis.
+COWEN: Next question.
+AUDIENCE MEMBER: I have two questions. The first one is the one that you just answered, not exactly the same. What do you think about our replication crisis in psychology that has happened here recently? And the second one is psychologist Martin Seligman, who is also working on happiness for years — he believed there are several dimensions that consist happiness. Do you share the same opinion or not?
+COWEN: The second question was Martin Seligman, his work on happiness, that there are several dimensions of happiness. Do you share his opinion or not? And the first was just more on the replication crisis.
+KAHNEMAN: Yeah. No.
+[laughter]
+COWEN: Next question over here.
+AUDIENCE MEMBER: I have a question about bounded rationality over time. With the rise of the internet, the rise of more readily available information — so many prices, things you can see on Amazon — all this price discrimination and differentiation across products has grown with that. Do you think that people’s biases are improving or getting worse over time as more information, for example, over the past 20, 30 years, has become more readily available?
+KAHNEMAN: To the extent that you think of biases as representing human nature in a broad cultural context, it hasn’t changed over the last 30 years. Human nature hasn’t changed.
+In certain domains, it’s much easier to be rational when you can look things up, when you can search on the computer instead of going out and searching, as you had to when I was a young person. Then, of course, you can achieve more rational results than you could. But whether it has changed anything significant, I doubt it.
+And what is very striking over the last few years is that it’s not only information that is readily available. Misinformation is also readily available. So the net effect . . . It used to be very clear that this is all to the good, but what we’re seeing in the last few years is that there is a very heavy cost to the availability and the ease of expression that transmits itself over the internet.
+COWEN: Next question.
+AUDIENCE MEMBER: I’m aware that I suffer from biases, and I try to hold myself to account and think better. I’m resistant to that, of course, because I always want to think that whatever thought I’m having at the moment is the exception, and I’m thinking it for good reasons. But I fight against that.
+When I try to persuade somebody else to listen to one of my opinions with an open mind, is there some particular technique that you would recommend for persuading other people to do better with their own biases? Because, of course, they’re even more resistant to that than I am when I challenge myself.
+[laughter]
+KAHNEMAN: It’s a game one primarily plays with one’s spouse, and it doesn’t work, I think, by and large.
+[laughter]
+COWEN: Related question from the iPad: how can we use behavioral economics to reduce political polarization?
+KAHNEMAN: It’s not that I have an answer and I’m suppressing it. Here is a topic where I am optimistic, but I have no idea. I don’t have an answer.
+But I think the kind of thinking that is going on, where you’re trying to look at practical manipulations — the word manipulation is a bad word, but I intend it as a good thing — when you look at the practical moves that can make a difference in the way that people think, that way of thinking should be effective in improving the quality of life and improving the quality . . .
+How polarization can be reduced is too big a problem for me and, I think, currently for behavioral economics.
+COWEN: Next question.
+AUDIENCE MEMBER: On a practical note, my high school psychology students ask how they can best use your research to make choices about college and career.
+KAHNEMAN: My research adds absolutely nothing to this. There are sensible ways of choosing colleges, and I think they’re well known. You have to collect a lot of information, and you have to ask yourself what the student really wants and where he or she will really fit. There are obvious ways of doing this. I have nothing to add, I think.
+COWEN: But say you have a student who has a gut feeling that he or she ought to go to some college for a reason he or she cannot articulate. Are you telling us they should dismiss that feeling and defer to the algorithm?
+KAHNEMAN: I would try to probe and understand, where does that feeling come from? Are you asking me as a parent, say?
+COWEN: Yeah, sure.
+KAHNEMAN: I would really probe. I would feel free. If that’s a very expensive college . . .
+[laughter]
+. . . I think I would feel free to probe, where does that strong wish come from? And can we discuss it?
+COWEN: Next question. On this side.
+AUDIENCE MEMBER: Many behavioral economists use the notion of rationality in neoclassical economics as a normative benchmark, and you have said that you don’t think that’s necessarily a good normative benchmark. Instead, something like reasonableness is a better way to think about those things. Could you say more about how we might identify, or define and identify, this reasonableness?
+KAHNEMAN: The rational-agent models are built on the notion of consistency being the one guiding principle. Your beliefs and your preferences have to be internally consistent. Nobody can tell you what to believe, nobody can tell you what you want. The only thing we know is that you ought to be consistent. Otherwise you’re not rational. As a normative principle — that consistency is the only normative principle — that strikes me as pretty odd.
+There are other things that seem to matter. There is human nature, and human nature is not consistent. We are context dependent, so our emotions are context dependent. We ought to have normative theories that are adapted to who we are as people, as humans.
+And the idea of consistency — it’s completely infeasible for a finite mind, and we have finite minds. So on that ground alone, it would be questionable as the principle for a normative model. But in addition, one would want a normative theory that takes into account human nature, which the principle of consistency doesn’t.
+COWEN: Last question.
+AUDIENCE MEMBER: You talked a little bit about cultural differences. I was just wondering, do you think that there are some cultural aspects that are costly and some that are really good? And do you think that something like increased migration or open borders would dissolve these cultural differences and push toward a more optimal equilibrium?
+KAHNEMAN: Way beyond what I can talk about responsibly. That migration automatically causes cultural amalgamation — that’s questionable. I have no idea how to answer your question.
+COWEN: Thank you very much. It’s been a great honor to have you.

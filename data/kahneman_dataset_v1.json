@@ -1,0 +1,18 @@
+[
+  {
+    "kahneman_id": "nobel_interview_2002_q1",
+    "source_doc_id": "nobel_interview_2002",
+    "sequence_in_source": 1,
+    "context": "The interviewers, Professor Karl-Gustaf Löfgren and Dr Anne-Sophie Crepin, have just introduced the 2002 Laureates in Economics, Daniel Kahneman and Vernon L. Smith. Dr. Crepin then poses the first question directly to Professor Kahneman.",
+    "question_text": "Professor Kahneman, what made you decide to become a scientist?",
+    "true_kahneman_response": "I wanted to be a philosopher actually and I decided, I became interested in psychology as a substitute for philosophy, as a way of answering questions about the human condition but answering them by looking at facts rather than by discussing words. So that’s how I became a psychologist."
+  },
+  {
+    "kahneman_id": "nobel_interview_2002_q2",
+    "source_doc_id": "nobel_interview_2002",
+    "sequence_in_source": 2,
+    "context": "Professor Karl-Gustaf Löfgren posed a question to both laureates: 'Well if we turn to your research. I mean one of you has shown that people are frequently irrational in their economic decision making and the other has shown that the market mechanism works efficiently, at least in the lab. How would you reconcile these seemingly different views, I mean both of you?' Vernon Smith answered first. The interviewer then acknowledged Smith's answer ('Yes, I think so.') and turned to Professor Kahneman.",
+    "question_text": "Professor Kahneman, how would you reconcile these seemingly different views [that people are frequently irrational in their economic decision making, while the other (Vernon Smith) has shown that the market mechanism works efficiently, at least in the lab]?",
+    "true_kahneman_response": "Well the first comment I would make is about the word irrationality as characterising the research that we have done. I never think of myself as having demonstrated irrationality..."
+  }
+]

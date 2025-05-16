@@ -1,0 +1,171 @@
+Interview 23. TED Adam Grant Taken for Granted: Daniel Kahneman Doesn't Trust Your Intuition
+
+Adam Grant:
+Hey WorkLifers, it’s Adam Grant. Season 4 is right around the corner, but today I wanted to share a special conversation in our “Taken For Granted” series.
+I’m talking to Daniel Kahneman.
+Danny won a Nobel Prize in Economics. He’s been named one of the most influential economists in the world. But he’s not on board with that.
+Daniel Kahneman:
+Oh, my God, no. (Laughs) I'm not a behavioral economist. I'm not any kind of economist.
+Adam Grant:
+Danny is one of the great psychologists of our time-- actually, of all time. You may have read his influential book Thinking Fast and Slow, and he has a new book, Noise, coming out later this spring with Cass Sunstein and Olivier Sibony.
+This is Taken For Granted, my podcast with the TED Audio Collective. I’m an organizational psychologist. My job is to think again about how we work, lead, and live.
+This conversation with Danny challenged one of my core beliefs about intuition. It also gave me a new way of thinking about which ideas are worth pursuing.
+Since Danny is an expert on decision-making, I thought I’d start by asking about what we’re seeking in so many of our decisions...
+Adam Grant:
+You've spent a lot of your career studying happiness and related topics. And really For the first time in my career, I started to wonder, why are we so obsessed with happiness as psychologists? You know, I'm all for people leading enjoyable, satisfying lives. But if I had to choose, I would much rather have people focused on character. On, you know, trying to build their generosity, their integrity, their commitment to justice, their humility. And I wonder if you could talk to me a little bit about whether you think we've lost our way a bit, and character has, has been too little in focus or too far in the background, or whether you think happiness deserves the attention it's gotten.
+Daniel Kahneman:
+I think my focus would be neither happiness, nor character. It would be misery. And I think that there is a task for society to reduce misery, not to increase happiness. And when you think of reducing misery, you would be led into very different policy directions. You would be led into mental health issues. You would be led into a lot of other problems. So reducing misery would be my focus. Character and happiness or misery are not substitutes. And the idea that’s been laid out of many other people, which has been accepted both in the UK and in many other places in quite a few other countries by now, is that the objective of society, the objective of policy should be increasing human welfare. Or human wellbeing in a general way. I think that's a better objective for policy than increasing the quality of the population's character. I think it's a better objective. I think it's a, it's a more achievable objective, except I would not focus on the positive end. I would focus on the negative end and I would say it is a responsibility of society to try to reduce misery. Um, that's focused on that.
+That is we speak of length and not the shortness. And we speak of happiness, the dimension is labeled by its positive pole. And that's very unfortunate because actually increasing happiness and reducing misery are very different things.
+Adam Grant:
+I agree. And it's interesting to hear you say that reducing misery is more important than promoting happiness. In some ways that feels like a critique of the positive psychology movement.
+Daniel Kahneman:
+It is.
+Adam Grant:
+And tell me a little bit more about why.
+Daniel Kahneman:
+Well, uh, I think the positive psychology movement has, in some ways, a deeply conservative position, that it says let's accept people's condition as it is. And let's make people feel better about their unchanging condition. You know, there has been some critique of positive psychology along those lines. I'm not, uh, I'm not innovating here. But I think that focusing on changing circumstances and dealing directly with misery is more important, and is a worthier objective for society, than making people feel better about their situation.
+Adam Grant:
+Yeah. I mean, I think it certainly tracks with how I think about in general, bad being stronger than good. And the alleviation of misery contributing more to the quality of people's lives, then, you know, some degree of elevating of, of the amount of joy that they feel. But I also wonder at times, if this is not a false dichotomy, that if you want to make people happy, it's awfully difficult to do that if you don't pay attention to the misery or suffering that they might experience.
+Daniel Kahneman:
+Actually, uh, we once, did a study in which we, we were measuring how people feel. How much of the day are people in different states, positive or negative. And it turns out that people are in a positive state on average 80% of the time, more than 80% of the time. On average, people are on the positive side of zero. Now look at say the 10% of the time that people spend suffering overall, most of the suffering is concentrated in about 10 to 15% of the population. So it actually is not the same people that you would make less miserable or happier. Those are different populations. And the question is where do you direct the weight of policy and what do you pay more attention to?
+Adam Grant:
+Very interesting. I like it. So you're, you're basically saying, look, if we have scarce resources, whether those are financial or time or energy, we want to concentrate on the group of people who are suffering, as opposed to those who might be languishing.
+Daniel Kahneman:
+It seems to me that to some extent we have been trapped by a word. I mean, it's the word, happiness, which seems to stand for the whole dimension. And, uh, and, and I think this has, this is leading to some policies—actually, is failing to lead to policies that would, that would really be directed at, I think, recent human wellbeing by decreasing misery.
+Adam Grant:
+Yeah, I think so too. And it's something I've thought about a lot at work. Given, given that the hat I wear most often is organizational psychologist. I feel like the obsession with employee engagement has really missed the mark. I don't, I don't go to work hoping that I'm going to be engaged today.
+I hope that I'm going to have motivation and meaning, and that I'm going to have a sense of wellbeing. And I wonder if, if one of the effects that the pandemic has had on a lot of people and a lot of leaders in workplaces is to get them to recognize, you know what, we need to care about people's wellbeing in their lives, and not just their engagement at work.
+Daniel Kahneman:
+Well, I thought that, you know, I'm not an expert, this is your field not mine, but I thought that the engagement was close to feeling good at work. I mean, we, whether it's the responsibility of workplaces to deal with people's wellbeing in general, I agree that it's, they're responsible for dealing with people's wellbeing at work.
+And that doesn't seem to me to be very different from trying to make people engaged and happy with what they're doing. So I'm a bit curious to hear more about the dichotomy or the distinction that you're drawing between engagement and wellbeing. My interpretation of engagement, was -- it's fairly close to wellbeing at work.
+Adam Grant:
+Yeah, I think, I think in large part, it depends on which conceptualization and measure of engagement we're talking about. But one of the, one of the more interesting patterns in the literature that's gotten me thinking quite a bit is that it's possible to be, uh, an engaged workaholic. And this, this has been differentiated recently from being a compulsive workaholic. Are you working a lot because you find it interesting and worthwhile or are you doing it because you feel guilty when you're not working and you feel kind of obsessed with the problem that you're trying to solve? And I think that one version of engagement is probably healthier than the other. And I associate well-being much more with, you know, with being an intrinsically motivated workaholic than with a compulsive workaholic, even though both are highly engaged.
+Daniel Kahneman:
+I agree. Uh, you know, I worked for a while with Gallup. I was a consultant with Gallup many years ago. And their concept of engagement, I think was a positive concept. One of the criteria that I remember for people being happy at work is having a friend at work. So, uh, clearly at least their concept of engagement, which is the one that the only one that I know much about is by and large, a positive concept.
+And certainly, uh, the word, we don't want people to be compulsive. Although. Although, I don't know how to describe myself, for example. When, when I work hard or when I used to work very hard, was I doing so compulsively? Was I doing so out of intrinsic motivation? I think both. I was intrinsically motivated and I was compulsive about it. So I'm not sure of the distinction that you're drawing between being compulsive and, uh, being intrinsically motivated.
+Adam Grant:
+Well, I like the call to look at ambivalence there because I think it speaks to the point that you raised earlier, which is that positive emotions and negative emotions can coexist. You can work because you're passionate about it, and because you feel bad if you're not doing it right.
+Daniel Kahneman:
+That’s right.
+Adam Grant:
+I want to ask you about the joy of being wrong. The place I wanted to begin on this is to ask you when, when you were growing up or earlier in your life, how did you handle making mistakes?
+Daniel Kahneman:
+I'm hesitating because I can't. It's not that I didn't make any mistakes. I certainly made many, but I wasn't very impressed by my mistakes. And then they were not very salient in my life. So if you're asking about my early, you know, as a student and so I don't have much to report that's of any interest. As a researcher, uh, I found my mistakes, very instructive and, and they were sort of positive experiences by and large.
+Adam Grant:
+It's such an odd thing to hear you say, because most of us, most of us experience pain, not pleasure when, you know, when we find out that we're wrong or we discover that we've made a mistake. So how did you arrive at a place where you've found that to be a teachable moment?
+Daniel Kahneman:
+Well, You know, those are situations in which you're surprised. I mean, I've really enjoyed changing my mind because I enjoy being surprised and I enjoy being surprised because I feel I'm learning something. So it's been that way. I've been lucky, I think you're right that, uh, this is not universal, the positive emotion to, uh, to corrected mistakes, but it's just a matter of luck. I mean, I'm not, you know, not claiming high, moral ground here.
+Adam Grant:
+It's fascinating to watch though, because I've, I've seen your eyes light up and, you know, it's -- it's palpable. Right? When you, when you discover that you were wrong about a hypothesis or a prediction, uh, you, you look like you are experiencing joy and I've started, uh, to think a lot about what prevents people from getting to that place.
+And I think a lot of it is for so many people, they get trapped in either a preacher or a prosecutor mindset of saying, you know, I, I know my beliefs are correct, or I know other people are wrong. And at some point their ideas become part of their identity.
+And I know even scientists struggle with this, right. I think at least when I was trained as a social scientist, I was taught to be passionately dispassionate, but I know a lot of scientists who struggle with detachment and you don't seem to. So how do you keep your ideas from, I guess, becoming part of your identity?
+Daniel Kahneman:
+Well, I think that, I mean, this is going to sound awful. I have never thought that ideas are rare. And you know, if that idea isn't any good, then there is another that's going to be better. And I think that is probably generally true, but not generally acknowledged.
+So that for people to give up on an idea, may in many cases lead to sort of panic. If I don't have that idea, then what do I have? Who am I am if I don't have that idea. So being less identified with your ideas is also associated, I think, with having many of them, discovering that most of them are no good. And trying to do the best you can with a few that are good.
+Adam Grant:
+So it's, it's seeing ideas as abundant rather than scarce. That makes it easy to stay detached.
+Daniel Kahneman:
+I mean, I used to tell my students ideas are a dime a dozen. I mean, don't overinvest in your old ideas. And so I used to encourage my students to give up at a certain point I certainly never wanted to read a dissertation by a student with a chapter that would explain why their experiment failed. So that was the kind of advice that I would give them. Think of another idea.
+Adam Grant:
+Do you ever worry about getting too detached? I think for example, about messenger RNA technology, which was seen as I think a joke for a long time and if not for the courage and tenacity of a small group of scientists who persisted with it anyway, we might not have a COVID vaccine right now.
+Daniel Kahneman:
+I think, well, in the first place, science like many other social systems. Um, doesn't thrive on everybody being the same. So, uh, you may have some advice that is good for some people. And it's clear that some people who are irrationally persistent achieve great successes.
+And indeed, if you look back at rate successes, you will generally find that there is some irrational persistence behind them and irrational optimism behind them. That doesn't mean that when you are looking from the other side, that irrational optimism is more irrational, uh, persistence, uh, are good things to have. So the expected value of it might be negative. Although when you look back every big success, you can trace to some irrationality.
+Adam Grant:
+Well, that goes beautifully to one of my favorite ideas of yours, which is that we look at successful people and we learn from their habits, not realizing that we haven't compared them with people who failed who had many of the same habits.
+And I wanted to, I guess, ask you a broader question, which is having put these kinds of decision heuristics and cognitive biases on the map, which one do you fall victim to the most? Is it confirmation bias? It sounds like maybe not? I just wondered which of, which of the biases that you've documented is your greatest demon.
+Daniel Kahneman:
+All of them, really. Except as you said, confirmation bias, by the way people close to me find this irritating. That is that whenever they have a problem with someone, I automatically take the other side and try to explain why that someone might be right after all. So I have that contrarian aspect to what I am.
+Adam Grant:
+This, this reminds me a little bit of a possibly apocryphal story. That's, uh, I think told to every doctoral student in social science these days, which is that not long after you won the Nobel prize for your work on decision-making, there was a journalist who asked you how you made tough decisions and you said you flip a coin.Is this true?
+Daniel Kahneman:
+No.
+Adam Grant:
+Okay, good.
+Daniel Kahneman:
+Absolutely not. I've never flipped a coin to make a decision in my life.
+Adam Grant:
+The version of the story I heard was that you flip, you would flip the coin to observe your own emotional reaction and figure out what your biases were.
+Daniel Kahneman:
+I might have said that this is one of the benefits of flipping a coin, but I personally have never used it. But it's true, flipping a coin would be a way of discovering how you feel if you didn't know earlier that I still believe.
+Adam Grant:
+I feel very relieved to know that cause I was worried about you, given all you know about decision-making, making important life choices with a coin toss.
+
+Adam Grant:
+Welcome back to Taken for Granted, and my conversation with Danny Kahneman. He was just setting the record straight that as an eminent scholar of decision making, he does not make decisions based on a coin toss.
+So -- how does he make decisions?
+Daniel Kahneman:
+You know, when I look back at my life, it's been a series of things that, you know, ultimately I made decisions or I made life choices clearly. But I did not experience them as decisions in the way that you know of you. I have very little to say describing myself as making decisions in part, because I have pretty strong intuitions and I follow them.
+So the decision doesn't feel hard if you know what you're going to do and if you know yourself and you're going to do it anyway, it doesn't feel very hard.
+Adam Grant:
+I have to say, Danny, I'm a little shocked to hear you say that you follow your intuition because you have spent most of your career highlighting all the fallacies that come into play when we over rely on our intuition.
+Daniel Kahneman:
+Well, uh, you really have to distinguish judgment from decision-making. And most of the intuitions that we've studied were fallacies of judgment rather than decision-making. And, second, my attitude to intuition is not that I've spent my life, you know, saying that it's no good. Uh, in, in the book that we're right writing—just finished writing—our advice is not to do without intuition. It is to delay it. That is, it is not to decide prematurely and not to have intuitions very early. If you can delay your intuitions, I think that they are your best guide, probably about what you should be doing.
+Adam Grant:
+Okay. So two questions there. One is, how? The other is, why?
+Daniel Kahneman:
+Well, you delay your intuitions. Now I'm talking about formal decisions, decision, that might be taken within an organization or a decision that an interviewer might take in deciding whether or not to hire a candidate and here the advice of delaying intuition is simply because when you have formed an intuition, you are no longer taking in information. You are just, rationalizing your own decision, or you're confirming your own decision. And there's a lot of research indicating that this is actually what happens in interviews. That interviewers spent a lot of time, they make their mind up very quickly and they spend the rest of the interview confirming what they believe, which is really a waste of time.
+Adam Grant:
+Yes. Yes. so the idea of delaying your intuition is to make sure that you've gathered comprehensive, accurate, unbiased information. So that then when your intuition forms it's based on better sources, better data, is that, is that what you're after?
+Daniel Kahneman:
+Yes, because I don't think you can make decisions without their being endorsed by your intuitions. You have to feel conviction. You have to feel that there is some good reason to be doing what you're doing. So ultimately intuition must be involved, but if it's involved, if you jump to conclusions too early or jump to decisions too early, uh, then you're going to make avoidable mistakes.
+Adam Grant:
+This is an interesting twist on, I guess, how I've thought about intuition, especially in a hiring context, but I think it applies to a lot of places. My, my advice for a long time has been don't trust your intuition, test your intuition, because I think about intuition as subconscious pattern recognition, and I want to make those patterns conscious so I can figure out whether whatever relationship I've detected in the past is relevant to the present.
+And it, it seems like that's what, what you've argued as well. When you've said, look, you know, you can trust your intuition. If you're in a predictable environment, you have regular practice and you get immediate feedback on your judgment. I think the tension for me here is I don't know how capable people are of delaying their intuition. And I wonder if what might be more practical is to say, okay, let's make your intuition explicit instead of implicit early on. So that then you can rigorously challenge it and figure out if it's valid in this situation.
+Daniel Kahneman:
+I've been deeply influenced by something that I did very early in my career. I mean, I was 22 years old. I set up an interviewing system for the Israeli army. Um, for it was to determine suitability for combat units. The interview system that I designed broke up the problem so that you had six traits that you were interviewing about, you're asking factual questions about each trait at the time. And you were scoring each trait once you had completed the questions about that trait.
+Adam Grant:
+Jumping in here, because this is such a cool example, but it needs a little explaining. Danny created a system for interviewers to rate job candidates on specific traits-- like work ethic, analytical ability, or integrity. But interviewers did not take it well.
+Daniel Kahneman:
+They really hated that system when I introduced it. And they told me, I mean, I vividly remember one of them saying, 'you're turning us into robots,'
+Adam Grant:
+Danny decided to test which approach worked best. Was it their intuition or their ratings from the data? The answer… was both. Their ratings plus their intuition. But not their intuition at the beginning… their intuition at the end, after they did the ratings.
+Daniel Kahneman:
+That is you rate those six traits, and then close your eyes and just have an intuition. it turned out that that intuition, that, that intuition at the end was the best single predictor. It was just as good as the average of the six traits and it added information. You know, I was surprised. You know, I just was doing that as a favor to them, letting them have intuitions, but the discovery was very clear and we ended up with a system in which the average of the sixth traits and the final intuition had equal weight.
+Adam Grant:
+It sounds like what you recommend then concretely is for a manager to make a list of the skills and values that they're trying to select on. To do ratings that are anchored on those dimensions. So, you know, I might judge somebody who's coding skills, if they're a programmer or their ability to sell, if they're a sales person. And then I might also be interested in whether they, you know, they're aligned on our organizational values. And then once I've done that, I want to form an overall impression of the candidate because I may have picked up on other pieces of information that didn't fit the model that I had.
+Daniel Kahneman:
+I think that's about right.
+Adam Grant:
+It's such a powerful step that I think should bring the best of both worlds from algorithms and human judgment. There's something that's a little puzzling to me about it though, which is, Why are managers and people in general so enamored with intuition?
+Daniel Kahneman:
+I think it's because people don't have an alternative. It's because when they try to reason their way to a conclusion, they end up confusing themselves. And so the intuition wins by default. It makes you feel good. It's easy to do. And it's something that you can do quickly. Whereas careful thinking in a, in a situation of judgment where there is no clearly good answer, careful thinking it's painful, it's difficult.
+And it leaves you in a state of indecision or in a state of, even if one option is better than the other, you know that the difference is not something you can be sure of. Whereas when you go the intuitive route, you'll end up with overconfident certainty and feeling good about yourself. So it's an easy choice. I think.
+Adam Grant:
+You, you wrote about this topic at length, in what, some have called your Magnum Opus, Thinking Fast and Slow. I'm wondering what you've rethought since you published that book?
+Daniel Kahneman:
+Well, um, you know, there were, there were things I published in that book that were wrong. I mean. Literature I quoted that didn't hold up.
+Now the interesting thing about that is that I haven't changed my mind about much of anything, but that is because changing your mind is really quite difficult. That is, Dan Gilbert has a beautiful word he called that un-believing. And un-believing things is very difficult. So I find it extremely hard to unbelieve, uh, aspects or parts of Thinking Fast and Slow, even though I know that my grounds for believing them are now much weaker than they were.
+But the more significant thing that I have begun to rethink is that Thinking Fast and Slow, like most of the study of judgment and decision-making, is completely oblivious to individual differences, and all my career I made fun of anybody who was studying individual differences. I say I'm interested in main effects, I'm interested in characterizing the human mind. But it turns out that when you go into detail, people the, those studies that you have, uh, it's not that everybody's behaving like the average of the study—that's simply false. There are different subgroups who are doing different things.
+And, uh, life turns out to be much more complicated than if you were just trying to explain the average. So the necessity for studying individual differences is I think the most important thing that I have rethought, it doesn't have any implications for me because it's too late for me to study individual differences and I wouldn't like doing it anyway. It's not my style. But, but I think there is much more room for it than I thought when I was writing, Thinking Fast and Slow.
+Adam Grant:
+Another thing I wanted to ask you about is the choices you make, about what problems and projects to work on.
+Daniel Kahneman:
+I'm not a good example for anybody. I've really never had a plan. More or less followed my nose. And I did many things that I shouldn't have done. I wasted a lot of time on, on projects that I shouldn't have carried out, but, I've been lucky.
+Adam Grant:
+Well, I think that's, that's probably an encouraging message for a lot of us.
+Daniel Kahneman:
+The idea is an area where there is gold, and I'm willing to look for it. I mean, that's, that's an idea. And formulating a new question, that's an idea in my book.
+Adam Grant:
+I'm going to use that, “this is an area where I think there might be gold and I want to look for it.” Such a nice reframe. So, Danny, you mentioned your new book Noise. One of my favorite ideas when I read Noise was the idea of the inner crowd. And I wondered if you could explain that?
+Daniel Kahneman:
+There've been two lines of research by Bullen Pashler and by Hertwig on asking people the same question on two occasions or into different frames of mind. And it turns out that when you ask the same question, like an estimate of, you know, the number of airports, when you ask people the same question twice separated by some time, then they tend to give you different answers and the average or the answers is more accurate than each of them separately.
+Also in the case that the first answer is more valid than the second. And it's also the case that the longer you wait, the better, the average is. The more information there is in the second judgment that you make.
+And you know, what it indicates is clearly that what we come up with when we ask ourselves a question is we're sampling from our mind. We are not extracting the answer from our mind. We are sampling an answer from our mind, and there are many different ways that that sample could come out. And sampling twice, uh, especially if you make them independent, sampling twice is going to be better than sampling once.
+Adam Grant:
+This is, this is one of the most practical sort of unexpected decision-making and judgment, uh, perspectives that, that I've come across in the last few years in part, because it says, I don't always need a second opinion if I can get better at forming my own second opinions.
+Daniel Kahneman:
+I think, as we say in that chapter, sleep over it. It is really very much the same thing that is sleep over it. Just wait. And tomorrow you might think differently. So the advice is out there. Reinforcing it may be useful.
+Adam Grant:
+Your collaboration with Amos Tversky is obviously legendary. There's a whole Michael Lewis book about it. Is there, uh, a lesson that you took away from that collaboration that's informed either how you choose your collaborators now or how you work with the people on your teams?
+Daniel Kahneman:
+I think that one really important thing in, uh, is to be genuinely interested in what your collaborator is saying. Um, uh, you know, I'm quite competitive. Amos was also quite competitive. We were not competitive when we worked together. The joy of collaboration for me always was that. But that's almost, that was more with Amos than with almost anyone else. That I would say something and he would understand it better than I had. And that's the greatest joy of collaboration, but in my other collaborations, taking pleasure in the ideas of your collaborator seem to be very useful. And that'd been lucky that way.
+Adam Grant:
+On that note, almost anyone who's ever won a Nobel Prize has complained that it hurt their career. Uh, and I've wondered what the experience has been like for you.
+Daniel Kahneman:
+Oh, I mean, it hurts people's career if they're young. Um, you know, I got mine when I was 68 and for me it was a net plus.
+Adam Grant:
+Why does it get people in trouble if they get it earlier?
+Daniel Kahneman:
+Oh, In, uh, you know, there are a variety of ways that this can happen. In the first place, it's very destructive. I mean, people start taking you more seriously than they did and hanging on your every word and a lot of nonsense. And if you begin to take yourself too seriously, that's not good. If you take time away from your work to do what you're invited to do when you get a Nobel, which is a lot of talking and a lot of talking on thing that you don't know much, that's a loss. And then if it makes you self-conscious that everything that you have to do has to be important, that's a loss. So there are many different ways I think in which getting a Nobel early is a bad idea. Uh, I mean, this is not the best.
+I was at a good age to get it because I had some years left in my career and it made many things much easier having an Nobel. It made the end of my career more productive, I think, and happier than it would have been otherwise.
