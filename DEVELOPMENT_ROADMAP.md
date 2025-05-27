@@ -126,3 +126,9 @@ Next Immediate Task (from Phase 1):
 Gather Kahneman Q&A Data: Collect 5-10 examples of questions posed to Daniel Kahneman and his actual responses, along with their sources.
 Define JSON Data Format: Based on the collected data, define the structure for kahneman_dataset_v1.json (fields like kahneman_id, question_text, true_kahneman_response, source_info).
 Create the kahneman_dataset_v1.json file.
+
+
+
+Prompts used
+Creating summarised context
+Hi Claude, today I'd like to finish preparing our test dataset. First look at kahneman_dataset_v1.json. I want you to read through the interviews (they should be all available to you via github) and provide me a suitable summarised_context for each one. This should be several sentences that describe the flow of the conversation so far, and particularly the previous answer and anything that the question references or builds upon from previous questions. The purpose is to help a model give a good answer to the question by understanding the full context in which it was asked. The output should be 10 summarised contexts, one for each of question in our dataset so far
