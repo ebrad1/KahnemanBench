@@ -37,3 +37,4 @@ OPENAI_API_KEY=<your key>
 ANTHROPIC_API_KEY=<your key>
 ...
 ```
+.\kb_env\Scripts\activate
