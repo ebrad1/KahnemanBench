@@ -1,141 +1,185 @@
 # KahnemanBench Development Plan
 
 ## Current Status
-We have successfully completed Phase 1 (Dataset Curation) and made significant progress on Phase 2 (AI Impersonator Development). We now have a working 10-question Kahneman dataset with summarised contexts, and a fully functional AI impersonation system that can generate Kahneman-style responses using various LLMs. The impersonation pipeline has been tested and is working with `GPT-4o`.
+✅ **Phase 1 (Dataset Curation)** - COMPLETED  
+✅ **Phase 2 (AI Impersonator Development)** - COMPLETED  
+We have successfully built a complete impersonation pipeline that can generate Kahneman-style responses from multiple models and prepare them for rating.
 
-## Goal for Next Session
-Complete Phase 2 by testing the impersonation quality, then begin Phase 3: AI Rater Development to create a system for scoring the authenticity of generated responses.
+## Completed Work Summary
 
-## Phase 0: Project Initialization & Foundation (Adapting SimpleBench) ✅ COMPLETED
+### Phase 0-1: Foundation & Dataset ✅
+- Forked SimpleBench and adapted infrastructure
+- Created 10-question Kahneman dataset with summarized contexts
+- Set up Weave integration and API connections
 
-### GitHub Setup:
--   **Action:** Ensure your forked repository is named `KahnemanBench` (or your preferred name) on GitHub.
--   **Action:** Clone your forked `KahnemanBench` repository to your local machine if you haven't already.
+### Phase 2: AI Impersonation ✅
+- Built comprehensive Kahneman impersonation prompt
+- Created single-model impersonation script (`run_impersonation.py`)
+- Developed multi-model runner (`run_multi_impersonation.py`)
+- Successfully tested with GPT-4o and Claude-3-Opus
+- Generated rating-ready datasets with randomized responses
 
-### Initial README.md:
--   **Action:** Create/Update `README.md` in the root directory.
--   **Content:**
-    -   Project Title: KahnemanBench
-    -   Brief Description: "An AI benchmark to test AI's ability to impersonate Daniel Kahneman's interview responses and for other AIs to rate their 'behavioral science taste'. Inspired by `SimpleBench` and powered by `Weave`."
-    -   High-level goals. (To be expanded)
-    -   (Placeholder for setup/run instructions). (To be updated for `KahnemanBench` specifics)
+## Phase 3: AI Rater Development - **NEXT**
 
-### Virtual Environment & Dependencies:
--   **Action:** Follow the Python version and virtual environment setup from `SimpleBench`'s `README.md` (e.g., `python -m venv kb_env`, `.\kb_env\Scripts\activate`).
--   **Decision:** Using Python 3.10.x as available, `kb_env` created and activated.
--   **Action:** Review `uv.lock` from `SimpleBench`. Install the existing dependencies using `uv pip install -r pyproject.toml`.
--   **Action:** Create your `.env` file and add your API keys (OpenAI, Anthropic, etc.).
--   **Note:** OpenAI API key tested and working after resolving initial quota issue.
+### 3.1 Define Rating Criteria
+- **Authenticity Score (1-10)**: How much does this sound like Kahneman?
+- **Key Indicators to Check**:
+  - Use of uncertainty markers ("I don't know", "My guess is")
+  - References to Amos Tversky and collaborative work
+  - Specific examples and studies
+  - Intellectual humility
+  - Precision without jargon
+  - System 1/System 2 framework usage
 
-### .gitignore Review:
--   **Action:** Review the existing `.gitignore`.
--   **Action:** Add any new directories or file patterns specific to `KahnemanBench` that should be ignored (e.g., `kb_env/`, `.env`, `.weave/`).
--   **Note:** A comprehensive `.gitignore` has been created and committed.
+### 3.2 Develop Rater Prompts
+- Create `prompt_library/kahneman_rater_prompt.txt`
+- Include examples of authentic vs non-authentic responses
+- Specify scoring rubric
+- Handle edge cases (e.g., responses with stage directions like *pauses*)
 
-### Weave/W&B Integration Test:
--   **Action:** Successfully ran `run_benchmark.py` with original `SimpleBench` data (`simple_bench_public.json`) and `gpt-4o-mini`.
--   **Action:** Observed run logging to W&B under the default `simplebench/simple_bench_public` project.
+### 3.3 Build Rating Infrastructure
+- Create `run_rating.py` script that:
+  - Loads rating datasets
+  - Uses AI models to score each response
+  - Tracks which responses are real vs AI-generated
+  - Calculates accuracy metrics
+- Adapt `weave_utils/scorers.py` for authenticity scoring
 
-## Phase 1: Dataset Curation & Initial Weave Integration ✅ COMPLETED
-
-### Gather Kahneman Interview Data:
--   **Action:** Collect 5-10 high-quality examples of Daniel Kahneman being asked a question and his actual response.
--   **Deliverable:** Created `kahneman_dataset_v1.json` with 10 Q&A pairs from CNN Fareed Zakaria (2012), Motley Fool (2013), and Conversations with Tyler (2018) interviews.
-
-### Define KahnemanBench Data Format:
--   **Action:** Create a JSON structure for dataset with `kahneman_id`, `question_text`, `true_kahneman_response`, `source_info`, and `context` fields.
--   **Action:** Create `kahneman_dataset_v1.json` file with 10 examples including `summarised_context` for each question.
-
-### Adapt Dataset Loading:
--   **Action:** Modify dataset loading to read the new `kahneman_dataset_v1.json` format.
-
-### Define Weave Types for Dataset:
--   **Action:** Use standard Python dictionaries (compatible with current `Weave` version) for dataset objects.
-
-### Initial Weave Test:
--   **Action:** Successfully tested dataset loading and `Weave` logging integration.
-
-## Phase 2: AI Impersonator Development - **IN PROGRESS**
-
--   Adapt `LiteLLMModel` (reusable from `SimpleBench`).
-
-### Develop Impersonator Prompts:
--   Created comprehensive system prompt capturing Kahneman's intellectual style, speaking patterns, key concepts, and personality traits.
--   Prompt includes specific guidance on his humility, precision, collaboration references, and nuanced thinking.
-
-### Modify Script for Impersonation:
--   Created `run_impersonation.py` script for generating Kahneman-style responses.
--   Integrated with existing `Weave` logging and `LiteLLM` infrastructure.
-
-### Define Output Data Structure:
--   Created structured JSON output format with run metadata and response details.
-
-### Weave Logging for Impersonations:
--   Successfully integrated `Weave` ops for tracking generation process.
-
-### End-to-End Testing:
--   Successfully tested complete pipeline with `GPT-4o` model.
-
-### Quality Assessment:
--   **Action:** Generate responses with multiple models (`GPT-4o`, `Claude`, etc.) for comparison.
--   **Action:** Manual review of generated responses for authenticity.
--   **Action:** Iterate on prompts based on quality assessment.
-
-## Phase 3: AI Rater Development & Scoring Logic
-
--   Define Rating Criteria.
--   Develop Rater Prompts.
--   Adapt `scorers.py` to `kahneman_bench_core/rating_logic.py` (or similar, e.g., `weave_utils/rating_logic.py`).
--   Define `Weave` Type for Ratings (`KahnemanRating`).
--   Weave Logging for Ratings.
+### 3.4 Rating Output Format
+```json
+{
+  "rating_metadata": {
+    "rater_model": "gpt-4o",
+    "rating_dataset": "rating_dataset_20250528_200201.json",
+    "timestamp": "..."
+  },
+  "ratings": [{
+    "question_id": "cnn_fareed_zakaria_2012_1",
+    "response_ratings": [
+      {
+        "response_id": "..._resp_1",
+        "authenticity_score": 8.5,
+        "rationale": "Strong use of uncertainty...",
+        "predicted_source": "real_kahneman"
+      }
+    ]
+  }],
+  "summary_metrics": {
+    "accuracy": 0.73,
+    "real_kahneman_avg_score": 8.2,
+    "ai_responses_avg_score": 6.5
+  }
+}
+```
 
 ## Phase 4: Orchestration & Full Benchmark Flow
 
--   Update `run_benchmark.py` for two-stage (Generation, Rating) process.
--   Update Command-Line Interface.
--   Initial Summary Metrics.
+### 4.1 Unified Benchmark Runner
+- Create `run_kahneman_benchmark.py` that:
+  ```bash
+  python run_kahneman_benchmark.py \
+    --impersonator_models=gpt-4o,claude-3-opus \
+    --rater_models=gpt-4o,claude-3-opus \
+    --output_report=benchmark_results.json
+  ```
 
-## Phase 5: Testing, Refinement, & Documentation
+### 4.2 Results Visualization
+- Create `generate_report.py` for:
+  - Model comparison charts
+  - Per-question analysis
+  - Authenticity score distributions
+  - Confusion matrices (real vs AI predictions)
 
--   End-to-End Testing.
--   Prompt & Criteria Refinement.
--   Expand Dataset.
--   Documentation (README, code comments).
--   Project Structure Finalization.
+### 4.3 Prompt Iteration System
+- Create `prompt_library/` structure:
+  ```
+  prompt_library/
+  ├── impersonation/
+  │   ├── v1_original.txt
+  │   ├── v2_no_stage_directions.txt
+  │   └── v3_refined.txt
+  └── rating/
+      ├── v1_basic.txt
+      └── v2_detailed_rubric.txt
+  ```
+- Add `--impersonation_prompt_version` flag
+- Track prompt version in results
 
-## Phase 6: Advanced Features & Community (Future)
+## Phase 5: Testing & Quality Assurance
 
--   Advanced Metrics.
--   Human Evaluation Integration.
--   Broader Model Support.
--   Community Contributions.
+### 5.1 Unit Tests
+- Test dataset loading
+- Test response randomization
+- Test scoring calculations
+- Test file I/O operations
 
-## Context for Resuming Our Work:
+### 5.2 Integration Tests
+- End-to-end pipeline tests
+- Multi-model compatibility
+- Error handling scenarios
 
-### Our Goal
-Transform `SimpleBench` into `KahnemanBench`.
+### 5.3 Prompt Refinement Issues to Address
+- ❗ Remove stage directions (e.g., "*pauses to think*")
+- ❗ Ensure consistent response length
+- ❗ Avoid anachronistic references
+- ❗ Calibrate uncertainty levels
 
-### Current State of Codebase:
--   ✅ Project is a fork of `SimpleBench` with `pyproject.toml` renamed to `kahnemanbench`
--   ✅ `README.md` has initial `KahnemanBench` title and description
--   ✅ Virtual environment `kb_env` is set up with dependencies and API keys configured
--   ✅ Created comprehensive dataset (`kahneman_dataset_v1.json`) with 10 Q&A pairs and summarised contexts
--   ✅ Built complete AI impersonation system (`run_impersonation.py`) with `Weave` integration
--   ✅ Developed sophisticated Kahneman impersonation prompt capturing his intellectual style
--   ✅ Successfully tested end-to-end pipeline with `GPT-4o` generating authentic-sounding responses
+## Phase 6: Advanced Features & Release
 
-### Key Files Now Available:
--   `run_impersonation.py`: Main script for AI impersonation generation
--   `kahneman_impersonation_prompt.txt`: Comprehensive system prompt for Kahneman impersonation
--   `data/kahneman_dataset_v1.json`: Curated dataset with 10 Q&A pairs and contexts
--   `weave_utils/models.py`: `LiteLLMModel` (adapted for impersonation)
--   `weave_utils/scorers.py`: Original scorers (to be adapted for rating authenticity)
--   `run_benchmark.py`: Original `SimpleBench` script (working baseline)
+### 6.1 Extended Capabilities
+- Add more interview questions (expand to 25-50)
+- Support for follow-up questions
+- Chain-of-thought impersonation
+- Multiple rater consensus mechanism
 
-### Current Focus:
-Phase 2 completion (quality assessment) → Phase 3 (AI rater development for authenticity scoring)
+### 6.2 Benchmark Variations
+- **KahnemanBench-Core**: Original 10 questions
+- **KahnemanBench-Extended**: 50 questions
+- **KahnemanBench-Hard**: Edge cases and tricky questions
 
+### 6.3 Documentation & Release
+- Comprehensive README with results
+- Model leaderboard
+- Submission guidelines for community
+- Paper/blog post on findings
 
+## Immediate Next Steps
+
+1. **Create Improved Impersonation Prompt v2**:
+   ```python
+   # Add to prompt:
+   "Important: Respond naturally as Kahneman would in conversation. 
+   Do not include stage directions, actions in asterisks, or 
+   parenthetical notes about pausing or thinking."
+   ```
+
+2. **Build Rating System** (Phase 3.1-3.3)
+
+3. **Test Prompt Improvements**:
+   ```bash
+   python run_multi_impersonation.py \
+     --models=gpt-4o \
+     --system_prompt_path=prompt_library/impersonation/v2_no_stage_directions.txt
+   ```
+
+4. **Create Simple Test Suite**
+
+## Success Metrics
+- [ ] AI models achieve >70% accuracy distinguishing real vs AI
+- [ ] Clear quality differences between models
+- [ ] Reproducible results
+- [ ] Easy to run and extend
+- [ ] Community adoption
+
+## Timeline Estimate
+- Phase 3 (Rating): 2-3 sessions
+- Phase 4 (Orchestration): 1-2 sessions  
+- Phase 5 (Testing): 1 session
+- Phase 6 (Release): 2-3 sessions
+
+---
+
+*Last Updated: May 28, 2025*
 
 Prompts used
 Creating summarised context

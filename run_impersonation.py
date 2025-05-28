@@ -109,7 +109,7 @@ async def run_kahneman_impersonation(
     max_tokens: int = 2048,
     top_p: float = 0.95,
     max_retries: int = 3,
-    system_prompt_path: str = "kahneman_impersonation_prompt.txt",
+    system_prompt_path: str = "prompt_library/kahneman_impersonation_prompt.txt",
     output_path: str = None
 ):
     """
