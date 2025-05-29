@@ -1,0 +1,9 @@
+Below is a question from an interview with Daniel Kahneman. Below are three possible answers to the question he was posed.  
+
+For each answer, provide a score from 0 to 100 indicating how good the response is.
+
+Consider whatever factors you think are relevant to determine this. You may describe your reasoning if you wish, but the key output is the numerical score.
+
+Output format:
+Score: [0-100]
+Reasoning: [optional explanation]

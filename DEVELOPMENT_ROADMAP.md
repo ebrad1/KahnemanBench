@@ -164,12 +164,7 @@ We have successfully built a complete impersonation pipeline that can generate K
 
 4. **Create Simple Test Suite**
 
-## Success Metrics
-- [ ] AI models achieve >70% accuracy distinguishing real vs AI
-- [ ] Clear quality differences between models
-- [ ] Reproducible results
-- [ ] Easy to run and extend
-- [ ] Community adoption
+
 
 ## Timeline Estimate
 - Phase 3 (Rating): 2-3 sessions
