@@ -1,0 +1,58 @@
+{
+  "rating_metadata": {
+    "rater_model": "o4-mini",
+    "rating_dataset": "rating_datasets/rating_dataset_20250528_200201.json",
+    "timestamp": "2025-05-29T19:09:42.071111",
+    "total_responses_rated": 0
+  },
+  "ratings": [
+    {
+      "question_id": "cnn_fareed_zakaria_2012_1",
+      "response_ratings": []
+    },
+    {
+      "question_id": "motley_fool_2013_1",
+      "response_ratings": []
+    },
+    {
+      "question_id": "motley_fool_2013_2",
+      "response_ratings": []
+    },
+    {
+      "question_id": "motley_fool_2013_3",
+      "response_ratings": []
+    },
+    {
+      "question_id": "motley_fool_2013_4",
+      "response_ratings": []
+    },
+    {
+      "question_id": "motley_fool_2013_5",
+      "response_ratings": []
+    },
+    {
+      "question_id": "motley_fool_2013_6",
+      "response_ratings": []
+    },
+    {
+      "question_id": "motley_fool_2013_7",
+      "response_ratings": []
+    },
+    {
+      "question_id": "conversations_with_tyler_2018_1",
+      "response_ratings": []
+    },
+    {
+      "question_id": "conversations_with_tyler_2018_2",
+      "response_ratings": []
+    }
+  ],
+  "summary_metrics": {
+    "num_real_responses": 0,
+    "num_ai_responses": 0,
+    "real_kahneman_avg_score": 0,
+    "ai_responses_avg_score": 0,
+    "score_gap": 0,
+    "model_avg_scores": {}
+  }
+}

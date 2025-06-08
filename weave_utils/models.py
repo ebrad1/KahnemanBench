@@ -14,21 +14,30 @@ from openai import RateLimitError
 
 
 MODEL_MAP = {
-    "gpt-4o-mini": "gpt-4o-mini",
-    "claude-3-5-sonnet-20240620": "claude-3-5-sonnet-20240620",
-    "gpt-4o": "gpt-4o-2024-08-06",
-    "gpt-4-turbo": "gpt-4-turbo",
-    "o1-preview": "o1-preview",
-    "o1-mini": "o1-mini",
-    "claude-3-opus-20240229": "claude-3-opus-20240229",
-    "command-r-plus": "command-r-plus-08-2024",
-    "gemini-1.5-pro": "gemini/gemini-1.5-pro",
-    "llama3-405b-instruct": "fireworks_ai/accounts/fireworks/models/llama-v3p1-405b-instruct",
-    "claude-3-haiku": "claude-3-haiku-20240307",
-    "gemini-1.5-pro-002": "gemini/gemini-1.5-pro-002",
-    "mistral-large": "mistral/mistral-large-2407",
-    "grok-2": "openrouter/x-ai/grok-2"
+    # ---------- OpenAI ----------
+    "gpt-4o":         "gpt-4o-2024-11-20",          # latest GA snapshot 
+    "gpt-4o-mini":    "gpt-4o-mini",                # still works but being replaced by 4.1-mini
+    "gpt-4o-audio":   "gpt-4o-audio-preview",       # multimodal/audio
+    "gpt-4o-realtime":"gpt-4o-realtime-preview",
+    "gpt-4.1":        "gpt-4.1-2025-04-14",
+    "gpt-4.1-mini":   "gpt-4.1-mini-2025-04-14",
+    "gpt-4.1-nano":   "gpt-4.1-nano-2025-04-14",    
+    "gpt-4-turbo":    "gpt-4-turbo-2025-03-15",
+    "o3":             "o3-2025-04-16",
+    "o3-mini":        "o3-mini-2025-01-31",
+    "o4-mini":        "o4-mini-2025-04-16",         
+
+    # ---------- Anthropic ----------
+    "claude-opus-4":      "claude-opus-4-20250514",
+    "claude-sonnet-4":    "claude-sonnet-4-20250514",  
+    "claude-3-7-sonnet":  "claude-3-7-sonnet-20250219",
+    "claude-3-5-sonnet":  "claude-3-5-sonnet-20240620",
+    "claude-3-5-haiku":   "claude-3-5-haiku-latest",
+    "claude-3-opus":      "claude-3-opus-20240229",
+    "claude-3-sonnet":    "claude-3-sonnet-20240229",
+    "claude-3-haiku":     "claude-3-haiku-20240307"
 }
+
 
 EXPONENTIAL_BASE = 2    
 
@@ -57,7 +66,7 @@ class LiteLLMModel(weave.Model):
         if self.model_name not in MODEL_MAP:
             raise ValueError(f"Invalid model name: {self.model_name}")
 
-        if "o1" in self.model_name: 
+        if self.model_name.startswith(("o1", "o3", "o4")):
             self.temp = None
             self.top_p = None
             self.max_tokens = None

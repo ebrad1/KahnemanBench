@@ -1,0 +1,281 @@
+{
+  "rating_metadata": {
+    "rater_model": "o4-mini",
+    "rating_dataset": "rating_datasets/rating_dataset_20250528_200201.json",
+    "timestamp": "2025-05-29T19:17:43.269218",
+    "total_responses_rated": 30
+  },
+  "ratings": [
+    {
+      "question_id": "cnn_fareed_zakaria_2012_1",
+      "response_ratings": [
+        {
+          "response_id": "cnn_fareed_zakaria_2012_1_resp_2",
+          "authenticity_score": 95.0,
+          "reasoning": "This response accurately and clearly captures the distinction between System 1 and System 2 thinking\u2014automatic versus effortful, intuitive versus reasoned\u2014including examples (bat-and-ball problem), the division of labor, and the real-world implications. It\u2019s concise yet thorough, aligns with Kahneman\u2019s own framing, and highlights both strengths and limitations.",
+          "hidden_source": "claude-3-opus-20240229",
+          "rating_time_ms": 3594
+        },
+        {
+          "response_id": "cnn_fareed_zakaria_2012_1_resp_1",
+          "authenticity_score": 85.0,
+          "reasoning": "The response accurately summarizes Kahneman\u2019s core distinction between fast (System 1) and slow (System 2) thinking, cites the bat-and-ball example, and notes key points about heuristics, laziness of System 2, and overconfidence. It\u2019s clear, concise, and well-structured. It could be even stronger with a bit more nuance or empirical detail, but it effectively conveys the main ideas.",
+          "hidden_source": "gpt-4o",
+          "rating_time_ms": 2800
+        },
+        {
+          "response_id": "cnn_fareed_zakaria_2012_1_resp_real",
+          "authenticity_score": 75.0,
+          "reasoning": "The response correctly captures the core distinction\u2014fast thinking is effortless and generally reliable, while slow thinking is effortful and often avoided\u2014but it\u2019s rather repetitive and lacks nuance or examples. It conveys the basic idea clearly but doesn\u2019t delve into the mechanisms or illustrate the concepts with memorable detail.",
+          "hidden_source": "real_kahneman",
+          "rating_time_ms": 6120
+        }
+      ]
+    },
+    {
+      "question_id": "motley_fool_2013_1",
+      "response_ratings": [
+        {
+          "response_id": "motley_fool_2013_1_resp_real",
+          "authenticity_score": 40.0,
+          "reasoning": "The response is candid and offers a personal anecdote about discovering the economists \u201cnext door,\u201d but it doesn\u2019t address the core follow-up of how Kahneman actually moved from surprise to active engagement with economic theory\u2014no mention of the pivotal experiments, collaborations with Tversky, or the landmark papers that launched his influence in economics. It feels underdeveloped given the question\u2019s focus on \u201cwhat happened next.\u201d",
+          "hidden_source": "real_kahneman",
+          "rating_time_ms": 5213
+        },
+        {
+          "response_id": "motley_fool_2013_1_resp_2",
+          "authenticity_score": 80.0,
+          "reasoning": "This response is clear, on-point, and provides a coherent narrative about how Kahneman and Tversky moved from psychological experiments on biases to engaging with economic theory. It situates the work historically, explains the motivation, and notes the reception by economists. It loses a few points for being somewhat generic\u2014omitting specific paper titles and dates\u2014and for leaning on broad summaries rather than giving concrete anecdotes or details from the early 1970s.",
+          "hidden_source": "claude-3-opus-20240229",
+          "rating_time_ms": 6600
+        },
+        {
+          "response_id": "motley_fool_2013_1_resp_1",
+          "authenticity_score": 80.0,
+          "reasoning": "The response is clear, accurate, and directly addresses how an economist\u2019s \u201crational agent\u201d assumption prompted Kahneman and Tversky to develop prospect theory. It highlights key insights (loss aversion) and the broader impact on economics. However, it remains somewhat generic and could be strengthened with more specific anecdotes or dates (e.g., the 1979 paper in Econometrica) and a bit more narrative texture about the collaboration itself.",
+          "hidden_source": "gpt-4o",
+          "rating_time_ms": 4610
+        }
+      ]
+    },
+    {
+      "question_id": "motley_fool_2013_2",
+      "response_ratings": [
+        {
+          "response_id": "motley_fool_2013_2_resp_1",
+          "authenticity_score": 90.0,
+          "reasoning": "This answer is clear, well-structured and touches on the main reasons behavioral economics was slow to gain traction\u2014the elegance and mathematical convenience of the traditional model, the inertia of academic paradigms, the accumulation of empirical evidence, generational change, and the practical payoffs that finally swayed policymakers and businesses. It reflects both historical context (the heuristics\u2010and\u2010biases program) and insight into how scientific revolutions unfold, making it a strong, comprehensive response.",
+          "hidden_source": "gpt-4o",
+          "rating_time_ms": 4070
+        },
+        {
+          "response_id": "motley_fool_2013_2_resp_2",
+          "authenticity_score": 90.0,
+          "reasoning": "The answer is clear, well\u2010structured, and touches on the major factors\u2014entrenched rational-agent models, institutional inertia, the need for accumulating empirical anomalies, and disciplinary silos. It even acknowledges the role of key figures in bridging the gap. It could have briefly mentioned publication biases or educational traditions, but overall it gives a comprehensive and persuasive explanation.",
+          "hidden_source": "claude-3-opus-20240229",
+          "rating_time_ms": 3962
+        },
+        {
+          "response_id": "motley_fool_2013_2_resp_real",
+          "authenticity_score": 60.0,
+          "reasoning": "The response offers a clear, concise timeline and reframes the question by arguing that 20\u201325 years is actually rapid for a major intellectual shift. However, it stops short of explaining the substantive barriers or reasons for behavioral economics\u2019 initial slow uptake and contains a slight misnaming of \u201cEconometrica.\u201d While it effectively challenges the premise of \u201ctaking too long,\u201d it lacks depth on the causal factors behind the field\u2019s gradual acceptance.",
+          "hidden_source": "real_kahneman",
+          "rating_time_ms": 5566
+        }
+      ]
+    },
+    {
+      "question_id": "motley_fool_2013_3",
+      "response_ratings": [
+        {
+          "response_id": "motley_fool_2013_3_resp_2",
+          "authenticity_score": 90.0,
+          "reasoning": "The response is clear, balanced, and grounded in concrete examples (prospect theory vs. expected utility). It directly addresses the question by acknowledging both the \u201cupside-down\u201d challenge to rational-actor assumptions and the continued validity of core economic models. The only minor shortcomings are the self-deprecation about expertise and a slight lack of broader historical context, but overall it\u2019s a strong, well-reasoned answer.",
+          "hidden_source": "claude-3-opus-20240229",
+          "rating_time_ms": 3379
+        },
+        {
+          "response_id": "motley_fool_2013_3_resp_real",
+          "authenticity_score": 75.0,
+          "reasoning": "The response gives informed historical context (Thaler\u2019s role, prospect theory, fairness, bounded self-control) and directly addresses whether psychology overhauled or merely tweaked economics, concluding it posed challenges but left the core discipline intact. It\u2019s solid and authoritative but somewhat long-winded and could be more concise and focused on the central question.",
+          "hidden_source": "real_kahneman",
+          "rating_time_ms": 5005
+        },
+        {
+          "response_id": "motley_fool_2013_3_resp_1",
+          "authenticity_score": 90.0,
+          "reasoning": "This is a clear, balanced and accurate summary of the impact of psychology on economics. It correctly highlights the core challenge to rational-agent assumptions (heuristics, biases, loss aversion) while noting that much of traditional theory still holds explanatory power. It also mentions the gradual shift in the economics profession and the emergence of behavioral economics, demonstrating both breadth and nuance. A few more concrete examples or deeper historical context could make it perfect, but overall it\u2019s a very strong response.",
+          "hidden_source": "gpt-4o",
+          "rating_time_ms": 3297
+        }
+      ]
+    },
+    {
+      "question_id": "motley_fool_2013_4",
+      "response_ratings": [
+        {
+          "response_id": "motley_fool_2013_4_resp_2",
+          "authenticity_score": 85.0,
+          "reasoning": "This response accurately captures the essence of Kahneman\u2019s dual-system framework, acknowledges the appeal of the gut/head analogy, and wisely cautions against oversimplification. It notes that System 1 isn\u2019t purely emotional nor System 2 a perfect reasoner, and emphasizes their interaction. It could be tightened stylistically, but overall it\u2019s a clear, balanced, and faithful characterization.",
+          "hidden_source": "claude-3-opus-20240229",
+          "rating_time_ms": 5393
+        },
+        {
+          "response_id": "motley_fool_2013_4_resp_1",
+          "authenticity_score": 85.0,
+          "reasoning": "The response clearly explains the strengths and limits of the \u201cgut vs. head\u201d metaphor, correctly characterizes System 1 and System 2, and highlights their interdependence and typical failure modes. It\u2019s accurate, balanced, and accessible, though somewhat verbose and does not introduce novel insights beyond standard summaries.",
+          "hidden_source": "gpt-4o",
+          "rating_time_ms": 2424
+        },
+        {
+          "response_id": "motley_fool_2013_4_resp_real",
+          "authenticity_score": 85.0,
+          "reasoning": "The response accurately corrects the simplistic \u201cgut vs. head\u201d framing, highlights System 1\u2019s sophistication in learned skills and creativity, and stresses that it outperforms System 2 at its tasks. It could be improved with a more explicit definition of System 2\u2019s role for completeness, but overall it\u2019s a clear, insightful answer.",
+          "hidden_source": "real_kahneman",
+          "rating_time_ms": 6637
+        }
+      ]
+    },
+    {
+      "question_id": "motley_fool_2013_5",
+      "response_ratings": [
+        {
+          "response_id": "motley_fool_2013_5_resp_2",
+          "authenticity_score": 85.0,
+          "reasoning": "The answer captures key Kahneman concepts\u2014the remembering versus experiencing selves, memory biases (peak\u2010end effects), and the overestimation of future emotional impact. It clearly links unreliable memories to distorted future expectations and offers a sensible recommendation (humble, adaptive planning). It loses a few points for being somewhat generic and not digging deeper into specific biases or empirical findings (e.g., the planning fallacy, prospect theory), but overall it is a strong, on-point response.",
+          "hidden_source": "claude-3-opus-20240229",
+          "rating_time_ms": 4155
+        },
+        {
+          "response_id": "motley_fool_2013_5_resp_1",
+          "authenticity_score": 85.0,
+          "reasoning": "The answer correctly invokes Kahneman\u2019s \u201cRemembering Self,\u201d highlights the peak\u2013end rule and overconfidence bias, offers a clear example, and gives practical advice (record-keeping, awareness of imperfect memories). It\u2019s coherent, relevant, and accessible, though it could go deeper into other memory distortions (e.g. planning fallacy) or suggest more concrete techniques beyond journaling.",
+          "hidden_source": "gpt-4o",
+          "rating_time_ms": 2976
+        },
+        {
+          "response_id": "motley_fool_2013_5_resp_real",
+          "authenticity_score": 90.0,
+          "reasoning": "The response clearly connects self\u2010deception about the past (hindsight bias) to overconfidence in predicting the future, explaining why our grasp of causes creates an illusion of understanding that misleads forecasts. It\u2019s concise, on point, and reflects Kahneman\u2019s core insights, though it could be tightened slightly for clarity.",
+          "hidden_source": "real_kahneman",
+          "rating_time_ms": 4639
+        }
+      ]
+    },
+    {
+      "question_id": "motley_fool_2013_6",
+      "response_ratings": [
+        {
+          "response_id": "motley_fool_2013_6_resp_real",
+          "authenticity_score": 75.0,
+          "reasoning": "The response gives a clear, vivid illustration of how hindsight bias feeds overconfidence in forecasting (using the CFO S&P 500 study), which is closely related to misplaced optimism about the future. It\u2019s engaging and grounded in empirical research. However, it meanders into details and never explicitly ties hindsight bias to optimism in a concise way, making it slightly unfocused relative to the original question.",
+          "hidden_source": "real_kahneman",
+          "rating_time_ms": 7729
+        },
+        {
+          "response_id": "motley_fool_2013_6_resp_2",
+          "authenticity_score": 80.0,
+          "reasoning": "The answer thoughtfully addresses the link between hindsight bias and optimism, explains the mechanisms, and emphasizes nuance and the need for empirical study. It\u2019s clear and well\u2010reasoned, though a bit over\u2010hedged and wordy, lacking a concise headline statement.",
+          "hidden_source": "claude-3-opus-20240229",
+          "rating_time_ms": 3086
+        },
+        {
+          "response_id": "motley_fool_2013_6_resp_1",
+          "authenticity_score": 85.0,
+          "reasoning": "The response directly addresses how hindsight bias fosters overconfidence about future events, drawing on core Kahneman concepts (System 1, narrative coherence) and giving a concrete example (financial markets). It correctly nuances that this overconfidence isn\u2019t identical to broad optimism and underscores the continued unpredictability of the future. It\u2019s clear, accurate, and on point, though it remains at a relatively high level of generality rather than citing specific studies or data.",
+          "hidden_source": "gpt-4o",
+          "rating_time_ms": 5713
+        }
+      ]
+    },
+    {
+      "question_id": "motley_fool_2013_7",
+      "response_ratings": [
+        {
+          "response_id": "motley_fool_2013_7_resp_2",
+          "authenticity_score": 85.0,
+          "reasoning": "The response directly addresses the question, cites multiple concrete examples (weather forecasting, bridge, sports) of effective scorekeeping, and connects these lessons to domains lacking accountability (finance, politics). It\u2019s coherent, focused, and gives actionable insights, though it leans on familiar cases rather than digging into less obvious or more innovative score systems and could probe deeper into specific scoring methodologies.",
+          "hidden_source": "claude-3-opus-20240229",
+          "rating_time_ms": 4006
+        },
+        {
+          "response_id": "motley_fool_2013_7_resp_1",
+          "authenticity_score": 85.0,
+          "reasoning": "The answer is thoughtful, ties the general concept of scorekeeping to concrete domains (baseball, finance, weather forecasting), and highlights key Kahneman themes (accountability, overconfidence, feedback). It addresses the question directly and offers a plausible \u201clesson from\u201d example in weather forecasting. It loses a few points for staying somewhat high-level and not exploring a broader range of scoring systems or practical implementation details, but overall it\u2019s a solid, on-point response.",
+          "hidden_source": "gpt-4o",
+          "rating_time_ms": 3931
+        },
+        {
+          "response_id": "motley_fool_2013_7_resp_real",
+          "authenticity_score": 50.0,
+          "reasoning": "The response offers interesting insights on the scarcity of good scorekeeping and the perils of self\u2010delusion, plus a concrete anecdote illustrating the advice. However, it fails to highlight any exemplary score systems or provide clear, actionable examples for readers to emulate, making it only a middling answer to the original question.",
+          "hidden_source": "real_kahneman",
+          "rating_time_ms": 4888
+        }
+      ]
+    },
+    {
+      "question_id": "conversations_with_tyler_2018_1",
+      "response_ratings": [
+        {
+          "response_id": "conversations_with_tyler_2018_1_resp_1",
+          "authenticity_score": 85.0,
+          "reasoning": "The response accurately invokes the peak-end rule and the distinction between the experiencing and remembering selves\u2014core insights from Kahneman\u2019s research\u2014and thoughtfully cautions against optimizing solely for memory at the expense of lived experience. It balances nuance and practical takeaway, though it stops short of offering more concrete guidance or examples, which is why it falls a bit short of perfection.",
+          "hidden_source": "gpt-4o",
+          "rating_time_ms": 3578
+        },
+        {
+          "response_id": "conversations_with_tyler_2018_1_resp_real",
+          "authenticity_score": 25.0,
+          "reasoning": "This response merely restates that \u201cends are important,\u201d touches superficially on goal striving, but fails to directly address whether or how we should deliberately structure experiences to increase happiness. It lacks depth, concrete guidance, and engagement with the trade-offs or mechanisms Kahneman\u2019s findings imply.",
+          "hidden_source": "real_kahneman",
+          "rating_time_ms": 3251
+        },
+        {
+          "response_id": "conversations_with_tyler_2018_1_resp_2",
+          "authenticity_score": 90.0,
+          "reasoning": "The response is clear, well\u2010structured, and demonstrates deep understanding of the peak\u2013end rule and the distinction between the experiencing and remembering selves. It offers nuanced advice\u2014acknowledging practical applications without overpromising\u2014and maintains appropriate humility. It could be slightly more concise or offer concrete examples, but overall it\u2019s a very strong answer.",
+          "hidden_source": "claude-3-opus-20240229",
+          "rating_time_ms": 2928
+        }
+      ]
+    },
+    {
+      "question_id": "conversations_with_tyler_2018_2",
+      "response_ratings": [
+        {
+          "response_id": "conversations_with_tyler_2018_2_resp_2",
+          "authenticity_score": 90.0,
+          "reasoning": "This response directly addresses the question by invoking Kahneman\u2019s experiencing vs. remembering selves, acknowledges a \u201cmarket failure\u201d in how people plan vacations, and offers practical insight about ending well\u2014while also providing the necessary caveats and nuance. It\u2019s thoughtful, on-brand for Kahneman, and balances theory with real-world application.",
+          "hidden_source": "claude-3-opus-20240229",
+          "rating_time_ms": 5319
+        },
+        {
+          "response_id": "conversations_with_tyler_2018_2_resp_real",
+          "authenticity_score": 15.0,
+          "reasoning": "The response is vague, hedges with uncertainty, offers minimal insight or actionable guidance, and doesn\u2019t directly address whether there\u2019s a market failure or how people could improve vacations.",
+          "hidden_source": "real_kahneman",
+          "rating_time_ms": 3770
+        },
+        {
+          "response_id": "conversations_with_tyler_2018_2_resp_1",
+          "authenticity_score": 75.0,
+          "reasoning": "The response accurately invokes Kahneman\u2019s key insight about the experiencing versus remembering selves and correctly identifies a \u201cmarket failure\u201d in how vacation experiences are marketed versus how they\u2019re remembered. It also offers practical implications (focus on peaks and endings). However, it remains somewhat general, lacking concrete examples or clear guidance on how travelers or the industry might restructure vacations in practice. It feels thoughtful but not fully fleshed out.",
+          "hidden_source": "gpt-4o",
+          "rating_time_ms": 3705
+        }
+      ]
+    }
+  ],
+  "summary_metrics": {
+    "num_real_responses": 10,
+    "num_ai_responses": 20,
+    "real_kahneman_avg_score": 59.0,
+    "ai_responses_avg_score": 85.75,
+    "score_gap": -26.75,
+    "model_avg_scores": {
+      "claude-3-opus-20240229": 87.0,
+      "gpt-4o": 84.5
+    }
+  }
+}
