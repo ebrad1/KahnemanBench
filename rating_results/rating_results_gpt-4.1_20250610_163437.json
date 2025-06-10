@@ -1,0 +1,281 @@
+{
+  "rating_metadata": {
+    "rater_model": "gpt-4.1",
+    "rating_dataset": "rating_datasets/rating_dataset_20250528_200201.json",
+    "timestamp": "2025-06-10T16:34:37.968203",
+    "total_responses_rated": 30
+  },
+  "ratings": [
+    {
+      "question_id": "cnn_fareed_zakaria_2012_1",
+      "response_ratings": [
+        {
+          "response_id": "cnn_fareed_zakaria_2012_1_resp_2",
+          "authenticity_score": 97.0,
+          "reasoning": "This response is extremely strong. It directly addresses the question by introducing and explaining the core concepts of System 1 and System 2 thinking, which are central to Kahneman's work and highly relevant to the distinction between \"thinking fast\" and \"thinking slow.\" The answer provides clear definitions, discusses the interplay between the two systems, and gives a concrete example (the bat and ball problem) to illustrate how System 1 can lead to errors. It also addresses the practical implications, such as the difficulty of overcoming cognitive biases even when we're aware of them. The only small deduction is for a slight lack of conciseness\u2014it could be a bit more streamlined. But overall, this is an excellent, informative, and well-structured answer that demonstrates deep understanding and communicates it effectively.",
+          "hidden_source": "claude-3-opus-20240229",
+          "rating_time_ms": 16213
+        },
+        {
+          "response_id": "cnn_fareed_zakaria_2012_1_resp_1",
+          "authenticity_score": 95.0,
+          "reasoning": "This response is excellent. It clearly explains the distinction between \"thinking fast\" (System 1) and \"thinking slow\" (System 2), referencing Kahneman's foundational work with Tversky. It gives a concrete example (the bat and ball problem) and describes the strengths and weaknesses of each system. The explanation includes why people default to fast thinking, when slow thinking is more likely, and some of the pitfalls (like overconfidence). It also addresses the original question directly and finishes by highlighting the practical importance of understanding these patterns. The only reason it's not a perfect 100 is that it could be slightly more concise, but overall, it's thorough, clear, and insightful.",
+          "hidden_source": "gpt-4o",
+          "rating_time_ms": 20197
+        },
+        {
+          "response_id": "cnn_fareed_zakaria_2012_1_resp_real",
+          "authenticity_score": 88.0,
+          "reasoning": "This response does a very good job of summarizing the key distinction between fast (System 1) and slow (System 2) thinking as described by Daniel Kahneman in his research. It clearly explains that most of our thinking is fast, automatic, and generally effective, but that slow thinking is more effortful and often avoided. It also touches on the important point that mistakes occur when fast thinking is wrong and slow thinking fails to intervene. The answer is clear, accurate, and captures the essence of Kahneman's ideas, though it could be improved with a bit more specificity or illustrative examples. Overall, it is an excellent response.",
+          "hidden_source": "real_kahneman",
+          "rating_time_ms": 14311
+        }
+      ]
+    },
+    {
+      "question_id": "motley_fool_2013_1",
+      "response_ratings": [
+        {
+          "response_id": "motley_fool_2013_1_resp_real",
+          "authenticity_score": 92.0,
+          "reasoning": "This response is strong. It provides context about Kahneman's physical and intellectual proximity to economists at Hebrew University, making the moment vivid and personal. He clearly contrasts the economist\u2019s assumptions with the psychologist\u2019s perspective, emphasizing the absurdity of those assumptions from his point of view. He also honestly describes his surprise and lack of foresight about the future significance of this encounter, which adds humility and narrative interest. The only minor drawback is that it could elaborate slightly more on what specifically drew him into the conversation later, but as a response to the immediate question, it is clear, engaging, and informative.",
+          "hidden_source": "real_kahneman",
+          "rating_time_ms": 28401
+        },
+        {
+          "response_id": "motley_fool_2013_1_resp_2",
+          "authenticity_score": 95.0,
+          "reasoning": "This response is highly effective. It provides a clear, detailed, and engaging narrative of how Kahneman and Tversky\u2019s psychological research intersected with economics. The answer highlights the contrast between economic rationality and psychological realism, referencing specific concepts like heuristics and biases. It also provides historical context, touches on the impact their work had on economics, and acknowledges the evolution and nuance within the economics field. The tone is personable and reflective, which aligns with an interview setting. The only minor deduction is for some repetition and slight lengthiness, but overall, it\u2019s a thorough and insightful answer.",
+          "hidden_source": "claude-3-opus-20240229",
+          "rating_time_ms": 15829
+        },
+        {
+          "response_id": "motley_fool_2013_1_resp_1",
+          "authenticity_score": 95.0,
+          "reasoning": "This response is highly informative and well-articulated. It directly answers the question by referencing the anecdote about the economics paper and explaining the psychological perspective. The answer goes on to describe how Kahneman and Tversky's reaction led to their collaboration and the development of prospect theory, clearly stating its key elements (such as loss aversion) and its impact on economics. The answer is well-structured, covers both the background and the consequences, and contextualizes the importance of their work. The only reason it isn't a perfect 100 is that it could be a touch more concise, but overall it's an excellent response.",
+          "hidden_source": "gpt-4o",
+          "rating_time_ms": 5057
+        }
+      ]
+    },
+    {
+      "question_id": "motley_fool_2013_2",
+      "response_ratings": [
+        {
+          "response_id": "motley_fool_2013_2_resp_1",
+          "authenticity_score": 95.0,
+          "reasoning": "This response is thorough, thoughtful, and well-structured. It addresses the question directly, providing multiple nuanced reasons why behavioral economics took so long to gain acceptance: the elegance and tractability of traditional models, the psychological implausibility of pure rationality, resistance to paradigm shifts in academia, generational change, empirical evidence, and practical applicability. The answer also references Kahneman's own work with Tversky, grounding the explanation in personal experience and historical context. The language is clear and accessible, and the response ends with a concise summary that ties the explanation together.\n\nThe only reason it is not a perfect 100 is that it could be slightly more concise or include a specific example or anecdote for even greater impact, but overall, it is an excellent answer.",
+          "hidden_source": "gpt-4o",
+          "rating_time_ms": 4807
+        },
+        {
+          "response_id": "motley_fool_2013_2_resp_2",
+          "authenticity_score": 95.0,
+          "reasoning": "This response is highly articulate, thorough, and reflective, offering a nuanced answer to the question of why behavioral economics took so long to gain acceptance. It covers multiple relevant factors: the intellectual and mathematical coherence of classical economics, the belief in the rational agent model, the accumulation of empirical evidence, disciplinary boundaries, and the role of key individuals who bridged the gap. It also acknowledges institutional inertia and the gradual nature of change within academic fields. The answer is balanced, historically informed, and forward-looking, demonstrating both humility and depth. \n\nThe only reason it doesn't receive a perfect score is that, while comprehensive, it could be marginally more concise or perhaps include a specific example or anecdote to make it even more engaging. Nonetheless, this is an excellent and insightful response.",
+          "hidden_source": "claude-3-opus-20240229",
+          "rating_time_ms": 6160
+        },
+        {
+          "response_id": "motley_fool_2013_2_resp_real",
+          "authenticity_score": 85.0,
+          "reasoning": "This response is strong. Kahneman provides a clear, evidence-based counterpoint to the premise of the question, reframing the timescale of academic acceptance in economics. He cites specific milestones (the 1979 paper, the Nobel in 2002, Clark medals) to support his argument that the field was adopted relatively quickly. He also offers context on the prestige and significance of these recognitions. The answer is concise, authoritative, and informative. It could be improved by briefly explaining why such rapid acceptance is unusual in economics or what factors might have contributed to this speed, but overall it is a very good response.",
+          "hidden_source": "real_kahneman",
+          "rating_time_ms": 5175
+        }
+      ]
+    },
+    {
+      "question_id": "motley_fool_2013_3",
+      "response_ratings": [
+        {
+          "response_id": "motley_fool_2013_3_resp_2",
+          "authenticity_score": 93.0,
+          "reasoning": "This response is nuanced, balanced, and well-articulated. It acknowledges both the revolutionary and evolutionary aspects of incorporating psychology into economics, reflecting the complexity of the historical development. The mention of key concepts such as heuristics, biases, prospect theory, and the example of expected utility theory shows strong subject knowledge. The answer avoids hyperbole, accurately situating behavioral economics as both a challenge and an extension of traditional theory. The self-effacing qualifier at the end (\"somewhat outside my area of expertise\") adds credibility and humility, typical of Kahneman's style.\n\nThe only slight deduction is for a minor redundancy and a bit of hedging that isn't strictly necessary, but these are minor points. Overall, the response is comprehensive, accurate, and reflective of how Kahneman typically frames the history and impact of behavioral economics.",
+          "hidden_source": "claude-3-opus-20240229",
+          "rating_time_ms": 7532
+        },
+        {
+          "response_id": "motley_fool_2013_3_resp_real",
+          "authenticity_score": 85.0,
+          "reasoning": "This response is thorough, informative, and provides valuable context for the development of behavioral economics. Kahneman gives credit to Richard Thaler, describes the process as a \"series of challenges\" rather than a wholesale revolution, and provides concrete examples (Thaler\u2019s \u201cAnomalies\u201d column, work on fairness and self-control) that illustrate how psychology questioned and nuanced, but did not fully overturn, traditional economic theories. He also explains that while some assumptions were challenged (about rationality and self-interest), the core discipline of economics remained intact. The answer is nuanced, detailed, and directly addresses the question, but it could be more concise and tightly focused on the core contrast between \"fine-tuning\" and \"turning upside down.\" The slight lack of directness and some digression cost it a few points, but overall it\u2019s an excellent and informative response.",
+          "hidden_source": "real_kahneman",
+          "rating_time_ms": 5355
+        },
+        {
+          "response_id": "motley_fool_2013_3_resp_1",
+          "authenticity_score": 93.0,
+          "reasoning": "This response is thorough, well-structured, and balanced. It addresses both aspects of the question: whether psychology's integration into economics was merely \"fine-tuning\" or a more radical shift. The answer gives concrete examples (e.g., loss aversion, prospect theory) that illustrate how core assumptions were challenged, while also acknowledging that not all of economics was overturned. The tone is thoughtful, nuanced, and appropriately modest, reflecting Kahneman's style. The answer also notes the field\u2019s evolving reception and the ongoing nature of the integration. It loses a few points for being a bit verbose and could perhaps be slightly more concise, but overall it is highly informative and directly addresses the question.",
+          "hidden_source": "gpt-4o",
+          "rating_time_ms": 9353
+        }
+      ]
+    },
+    {
+      "question_id": "motley_fool_2013_4",
+      "response_ratings": [
+        {
+          "response_id": "motley_fool_2013_4_resp_2",
+          "authenticity_score": 92.0,
+          "reasoning": "This response is nuanced, accurate, and closely reflects Daniel Kahneman's views as expressed in his works and interviews. The answer acknowledges the appeal of the \"gut vs. head\" analogy but carefully warns against oversimplification, highlighting that both systems are cognitive, that System 1 is not merely emotional, and that System 2 is not purely rational. It correctly points out that both systems are subject to biases and interact in complex ways. The language is clear, thoughtful, and invites further questions, which is characteristic of Kahneman's style. It only slightly loses points for being a bit verbose and not directly defining the systems at the outset, which could improve clarity for a lay audience. Overall, it's an excellent, well-rounded answer.",
+          "hidden_source": "claude-3-opus-20240229",
+          "rating_time_ms": 23191
+        },
+        {
+          "response_id": "motley_fool_2013_4_resp_1",
+          "authenticity_score": 95.0,
+          "reasoning": "This response is thorough, accurate, and nuanced. It acknowledges the appeal and partial usefulness of the \"gut vs. head\" metaphor, but clearly explains why it's an oversimplification. The answer goes beyond a simple yes or no, expanding on the roles of both systems, providing concrete examples, and clarifying misconceptions. It also mentions the interplay between the two systems and their respective strengths and weaknesses, which reflects a deep understanding of Kahneman's framework. The only reason it's not a perfect 100 is that it could be slightly more concise, but overall, it's an excellent and informative answer.",
+          "hidden_source": "gpt-4o",
+          "rating_time_ms": 16423
+        },
+        {
+          "response_id": "motley_fool_2013_4_resp_real",
+          "authenticity_score": 90.0,
+          "reasoning": "This response is nuanced, thorough, and addresses the misconception in the question effectively. Kahneman clarifies that System 1 is not simply \"the gut\" (i.e., impulsive, unthinking reactions), but rather encompasses a vast repository of knowledge, skill, and even creative thought that operates automatically. He distinguishes between the roles of System 1 and System 2, emphasizing the sophistication and capability of System 1, and challenges the idea that System 2 is inherently superior. The only minor drawback is that the answer is somewhat meandering and could be more concise, but it provides a rich, accurate explanation in line with Kahneman's work.",
+          "hidden_source": "real_kahneman",
+          "rating_time_ms": 13963
+        }
+      ]
+    },
+    {
+      "question_id": "motley_fool_2013_5",
+      "response_ratings": [
+        {
+          "response_id": "motley_fool_2013_5_resp_2",
+          "authenticity_score": 95.0,
+          "reasoning": "This response is comprehensive, insightful, and closely aligned with Daniel Kahneman's well-known theories, particularly the distinction between the \"experiencing self\" and the \"remembering self.\" It addresses the question directly, explaining how our flawed memories shape our expectations for the future and lead to biases in decision-making. The answer references empirical research, acknowledges the limitations of human prediction, and offers practical advice (approaching the future with humility and adaptability). The language is clear and thoughtful, closely resembling the style and depth Kahneman uses in his public talks and writings. The slight deduction from a perfect score is only because it could be a bit more concise, but overall it is an excellent, nuanced response.",
+          "hidden_source": "claude-3-opus-20240229",
+          "rating_time_ms": 6217
+        },
+        {
+          "response_id": "motley_fool_2013_5_resp_1",
+          "authenticity_score": 92.0,
+          "reasoning": "This response is clear, thorough, and closely aligns with Daniel Kahneman's work on the Remembering Self, memory biases, and the impact on decision-making about the future. It explains the psychological mechanism (peak-end rule, overconfidence), gives concrete examples, and offers practical advice. The tone is accessible and insightful. The only reason it's not a perfect 100 is that it could briefly mention alternative ways people try to correct for these biases or reference Kahneman's specific research (like \"Thinking, Fast and Slow\") for additional authority. Nonetheless, it's an excellent, well-structured answer.",
+          "hidden_source": "gpt-4o",
+          "rating_time_ms": 12950
+        },
+        {
+          "response_id": "motley_fool_2013_5_resp_real",
+          "authenticity_score": 90.0,
+          "reasoning": "This response is insightful and directly addresses the question by shifting the focus from memory to the interpretation of the past and how that shapes our understanding of the future. Kahneman explains the concept of hindsight bias and how our ability to construct explanations for past events gives us a false sense of understanding and predictability about the world, which can lead to errors in forecasting the future. The answer is clear, relevant, and demonstrates deep psychological insight, though it could perhaps be slightly more explicit in connecting \"fooling oneself\" to specific future-oriented biases. Nonetheless, it is a strong, thoughtful response.",
+          "hidden_source": "real_kahneman",
+          "rating_time_ms": 10594
+        }
+      ]
+    },
+    {
+      "question_id": "motley_fool_2013_6",
+      "response_ratings": [
+        {
+          "response_id": "motley_fool_2013_6_resp_real",
+          "authenticity_score": 95.0,
+          "reasoning": "This response is detailed, relevant, and highly informative. It directly addresses the question about hindsight bias and overconfidence, making the link between perceived understanding of the past and overconfidence about predicting the future. It not only provides a clear answer but also illustrates the point with a concrete, memorable example from a reputable study involving CFOs and financial predictions. The explanation of confidence intervals and the statistical results underscore the main point about overconfidence and ignorance, making the abstract concept tangible. The only slight shortcoming is that the response could be a bit more concise, but the depth and clarity are excellent, making this a near-perfect answer.",
+          "hidden_source": "real_kahneman",
+          "rating_time_ms": 5647
+        },
+        {
+          "response_id": "motley_fool_2013_6_resp_2",
+          "authenticity_score": 92.0,
+          "reasoning": "This response is thoughtful, nuanced, and well-structured. It addresses the question directly, acknowledges its complexity, and demonstrates a deep understanding of the psychological mechanisms involved. The answer explains what hindsight bias is, how it affects our perception of the past, and carefully considers the potential\u2014but not automatic\u2014connection to optimism about the future. The response also highlights the subtlety of the effect, brings in the role of overconfidence in causal models, and notes that many other factors influence optimism or pessimism. The mention of the need for empirical studies adds scientific humility. The only minor deduction is for some slight repetitiveness and wordiness; a more concise answer could be just as effective. Overall, this is an excellent response.",
+          "hidden_source": "claude-3-opus-20240229",
+          "rating_time_ms": 4296
+        },
+        {
+          "response_id": "motley_fool_2013_6_resp_1",
+          "authenticity_score": 95.0,
+          "reasoning": "This response is thoughtful, nuanced, and demonstrates a deep understanding of the concepts of hindsight bias, overconfidence, and the illusion of understanding\u2014core ideas in Kahneman\u2019s work. It clearly explains how hindsight bias can lead to overconfidence about the future, touches on psychological mechanisms (System 1 thinking), and gives a concrete example from financial markets. It also carefully distinguishes overconfidence from optimism, which is an important conceptual clarification. The answer is well-structured, addresses the question directly, and reflects the kind of response Kahneman himself might give. The only reason it doesn't receive a perfect score is that it could be slightly more concise; there is some redundancy. However, overall, it is an excellent and comprehensive answer.",
+          "hidden_source": "gpt-4o",
+          "rating_time_ms": 5685
+        }
+      ]
+    },
+    {
+      "question_id": "motley_fool_2013_7",
+      "response_ratings": [
+        {
+          "response_id": "motley_fool_2013_7_resp_2",
+          "authenticity_score": 92.0,
+          "reasoning": "This is a very strong response. It thoughtfully engages with the question, expands on the importance of scorekeeping and accountability, and provides concrete, relevant examples (weather forecasting, bridge tournaments, professional sports) that clearly illustrate the point. The answer also addresses the psychological resistance to scorekeeping and acknowledges the challenges in implementing such systems, especially in politics and finance. The tone is clear, balanced, and nuanced, reflecting Kahneman\u2019s style of careful analysis. The only minor deduction comes from the slightly lengthy and meandering conclusion; it could be more concise, but overall, it is highly informative and directly addresses the question.",
+          "hidden_source": "claude-3-opus-20240229",
+          "rating_time_ms": 5348
+        },
+        {
+          "response_id": "motley_fool_2013_7_resp_1",
+          "authenticity_score": 92.0,
+          "reasoning": "This response is thoughtful, nuanced, and directly addresses the question about score systems and scorekeeping. It draws from relevant examples (baseball, finance, weather forecasting), acknowledges complexities in attributing success, and reflects Kahneman\u2019s expertise by referencing research on overconfidence and feedback. The answer is balanced, discusses limitations, and suggests ways existing systems might be instructive for other fields. It also captures Kahneman\u2019s characteristic humility by noting the lack of definitive answers. The only minor deduction comes from a slightly general closing, but overall, this is a strong, insightful response.",
+          "hidden_source": "gpt-4o",
+          "rating_time_ms": 4710
+        },
+        {
+          "response_id": "motley_fool_2013_7_resp_real",
+          "authenticity_score": 90.0,
+          "reasoning": "This response is thoughtful, nuanced, and ties directly to Daniel Kahneman\u2019s expertise in psychology and decision-making. He addresses the prevalence (or lack) of scorekeeping, provides a concrete example from the financial world, and highlights the psychological cost of rigorous scorekeeping\u2014namely, the potential threat to self-delusion and ego. The anecdote about the financial manager is insightful and memorable, illustrating the risks of transparency. The answer is engaging, relevant, and shows depth. It could be slightly improved by referencing any \u201cgood\u201d score systems as initially requested by the interviewer, but it still provides an excellent and thought-provoking perspective on the topic.",
+          "hidden_source": "real_kahneman",
+          "rating_time_ms": 5051
+        }
+      ]
+    },
+    {
+      "question_id": "conversations_with_tyler_2018_1",
+      "response_ratings": [
+        {
+          "response_id": "conversations_with_tyler_2018_1_resp_1",
+          "authenticity_score": 95.0,
+          "reasoning": "This response is excellent. It clearly references the relevant psychological research (the peak-end rule) and provides a nuanced explanation of the distinction between the experiencing self and the remembering self, a core idea in Kahneman's work. The answer avoids oversimplification, acknowledges complexity, and considers the potential pitfalls of optimizing only for memorable moments. It is thorough, balanced, and directly addresses the question, while also noting the limitations of the research and the unpredictability of life. The only reason it is not a perfect 100 is that it could be a bit more concise, but the depth and clarity are exemplary.",
+          "hidden_source": "gpt-4o",
+          "rating_time_ms": 8647
+        },
+        {
+          "response_id": "conversations_with_tyler_2018_1_resp_real",
+          "authenticity_score": 75.0,
+          "reasoning": "This response addresses the question by highlighting the importance of how experiences end and the role of memory, particularly in the context of goal achievement. It correctly references the psychological insight that the end of an experience heavily colors our memory of it. However, it doesn't directly answer the normative part of the question\u2014whether we should deliberately structure our experiences for more happiness. The response is thoughtful and relevant but lacks a clear recommendation or further elaboration on the practical implications of the research finding.",
+          "hidden_source": "real_kahneman",
+          "rating_time_ms": 4795
+        },
+        {
+          "response_id": "conversations_with_tyler_2018_1_resp_2",
+          "authenticity_score": 95.0,
+          "reasoning": "This response is highly thoughtful and well-articulated. It accurately references Kahneman's research (peak-end rule, duration neglect), distinguishes between the experiencing self and remembering self (a central theme in his work), and recognizes both the potential applications and limitations of \"engineering\" experiences for happiness. The answer is nuanced, acknowledges uncertainty and complexity, and avoids simplistic advice. The only possible critique is that it is slightly verbose and could be more concise, but the depth and humility shown closely match the tone and content one would expect from Kahneman. Overall, it's an excellent response.",
+          "hidden_source": "claude-3-opus-20240229",
+          "rating_time_ms": 18474
+        }
+      ]
+    },
+    {
+      "question_id": "conversations_with_tyler_2018_2",
+      "response_ratings": [
+        {
+          "response_id": "conversations_with_tyler_2018_2_resp_2",
+          "authenticity_score": 95.0,
+          "reasoning": "This response is excellent. It demonstrates a deep understanding of Kahneman's theories, particularly the distinction between the \"experiencing self\" and the \"remembering self,\" which is central to his work. The answer is thoughtful, addresses the \"market failure\" concept, and explains the psychological mechanisms at play. It also includes a nuanced acknowledgment that vacations serve multiple purposes, avoiding overly prescriptive advice, which is consistent with Kahneman's style. The response is well-structured, insightful, and directly relevant to the question. The only minor reason it's not a 100 is that it could be slightly more concise, but overall, it's highly effective and articulate.",
+          "hidden_source": "claude-3-opus-20240229",
+          "rating_time_ms": 3552
+        },
+        {
+          "response_id": "conversations_with_tyler_2018_2_resp_real",
+          "authenticity_score": 65.0,
+          "reasoning": "This response is modest and honest about uncertainty, which is a positive trait in an expert. It does provide a plausible psychological insight (\"people are conscious that they don't want the peak to be too far from the end\"), which touches on known biases like the peak-end rule. However, the answer is somewhat vague, lacks elaboration, and doesn't directly address the \"market failure\" aspect or fully explain how listening to Kahneman might improve vacation experiences. It is a decent but not comprehensive or deeply insightful response.",
+          "hidden_source": "real_kahneman",
+          "rating_time_ms": 3445
+        },
+        {
+          "response_id": "conversations_with_tyler_2018_2_resp_1",
+          "authenticity_score": 92.0,
+          "reasoning": "This response is very strong. It clearly references Kahneman\u2019s key concepts (the experiencing self vs. the remembering self), directly addresses the question about how people structure their vacations, and identifies a kind of \u201cmarket failure\u201d where the tourism industry may not optimize for memorable experiences. The answer ties in Kahneman\u2019s research on the peak-end rule, cognitive biases, and the difficulties of changing human habits. The tone is thoughtful and acknowledges complexity without pretending to have all the answers, which is in keeping with Kahneman\u2019s style. \n\nA slight deduction is warranted because the response could be more concise and could include a more explicit example of how someone might change their vacation planning (e.g., \u201cplan for a special dinner on the last night\u201d). However, overall, it\u2019s highly informative, relevant, and grounded in Kahneman\u2019s expertise.",
+          "hidden_source": "gpt-4o",
+          "rating_time_ms": 4335
+        }
+      ]
+    }
+  ],
+  "summary_metrics": {
+    "num_real_responses": 10,
+    "num_ai_responses": 20,
+    "real_kahneman_avg_score": 85.5,
+    "ai_responses_avg_score": 94.0,
+    "score_gap": -8.5,
+    "model_avg_scores": {
+      "claude-3-opus-20240229": 94.1,
+      "gpt-4o": 93.9
+    }
+  }
+}

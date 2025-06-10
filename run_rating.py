@@ -4,6 +4,7 @@ import json
 import weave
 import asyncio
 import re
+import os
 from datetime import datetime
 from typing import List, Dict, Any, Tuple
 from fire import Fire
@@ -99,13 +100,18 @@ def save_rating_results(
     ratings: Dict[str, Any],
     rater_model: str,
     dataset_path: str,
-    output_path: str = None
+    output_path: str = None,
+    output_dir: str = "rating_results"
 ) -> str:
-    """Save rating results to JSON file."""
+    """Save rating results to JSON file in specified directory."""
+    
+    # Create output directory if it doesn't exist
+    os.makedirs(output_dir, exist_ok=True)
     
     if output_path is None:
         timestamp = datetime.now().strftime("%Y%m%d_%H%M%S")
-        output_path = f"rating_results_{rater_model}_{timestamp}.json"
+        filename = f"rating_results_{rater_model.replace('/', '-')}_{timestamp}.json"
+        output_path = os.path.join(output_dir, filename)
     
     with open(output_path, 'w') as f:
         json.dump(ratings, f, indent=2)
@@ -123,7 +129,8 @@ async def run_rating(
     top_p: float = 0.95,
     max_retries: int = 3,
     system_prompt_path: str = "prompt_library/kahneman_rater_prompt.txt",
-    output_path: str = None
+    output_path: str = None,
+    output_dir: str = "rating_results"
 ):
     """
     Run rating task on a dataset of Kahneman responses.
@@ -139,6 +146,7 @@ async def run_rating(
         max_retries (int): Maximum number of retries for the model.
         system_prompt_path (str): Path to system prompt file.
         output_path (str): Path to save results (auto-generated if None).
+        output_dir (str): Directory to save results in. Default is "rating_results".
     """
     
     # Initialize Weave
@@ -207,7 +215,7 @@ async def run_rating(
     }
     
     # Save results
-    output_file = save_rating_results(output_data, rater_model, dataset_path, output_path)
+    output_file = save_rating_results(output_data, rater_model, dataset_path, output_path, output_dir)
     
     # Print summary
     print(f"\n{'='*50}")
@@ -232,7 +240,8 @@ def main(
     top_p: float = 0.95,
     max_retries: int = 3,
     system_prompt_path: str = "prompt_library/kahneman_rater_prompt.txt",
-    output_path: str = None
+    output_path: str = None,
+    output_dir: str = "rating_results"
 ):
     """Main entry point for CLI usage."""
     return asyncio.run(run_rating(
@@ -245,7 +254,8 @@ def main(
         top_p=top_p,
         max_retries=max_retries,
         system_prompt_path=system_prompt_path,
-        output_path=output_path
+        output_path=output_path,
+        output_dir=output_dir
     ))
 
 if __name__ == "__main__":
