@@ -1,14 +1,18 @@
-# python run_multi_impersonation.py --models=gpt-4o,claude-3-opus-20240229 --dataset_path=data/kahneman_dataset_v1.json
+# python scripts/run_multi_impersonation.py --models=gpt-4o,claude-3-opus-20240229 --dataset_path=02_curated_datasets/kahneman_dataset_v1.json
 
 import json
 import weave
 import asyncio
 import random
 import os
+import sys
 from datetime import datetime
 from typing import List, Dict, Any
 from fire import Fire
 from dotenv import load_dotenv
+
+# Add parent directory to path for imports
+sys.path.insert(0, os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
 
 load_dotenv()
 
@@ -178,7 +182,7 @@ def create_rating_dataset(
         "questions": rating_questions
     }
 
-def save_rating_dataset(rating_dataset: Dict[str, Any], output_dir: str = "rating_datasets") -> str:
+def save_rating_dataset(rating_dataset: Dict[str, Any], output_dir: str = "04_rating_datasets") -> str:
     """Save the rating dataset."""
     os.makedirs(output_dir, exist_ok=True)
     
@@ -194,7 +198,7 @@ def save_rating_dataset(rating_dataset: Dict[str, Any], output_dir: str = "ratin
 
 async def run_multi_model_impersonation(
     models: str = "gpt-4o,claude-3-opus-20240229",
-    dataset_path: str = "data/kahneman_dataset_v1.json",
+    dataset_path: str = "02_curated_datasets/kahneman_dataset_v1.json",
     entity: str = None,
     project: str = "kahneman_multi_impersonation",
     temp: float = 0.7,
@@ -202,8 +206,8 @@ async def run_multi_model_impersonation(
     top_p: float = 0.95,
     max_retries: int = 3,
     system_prompt_path: str = "prompt_library/kahneman_impersonation_prompt.txt",
-    output_dir: str = "impersonation_runs",
-    rating_output_dir: str = "rating_datasets",
+    output_dir: str = "03_impersonation_runs",
+    rating_output_dir: str = "04_rating_datasets",
     random_seed: int = 42
 ):
     """
@@ -292,7 +296,7 @@ async def run_multi_model_impersonation(
 
 def main(
     models: str = "gpt-4o,claude-3-opus-20240229",
-    dataset_path: str = "data/kahneman_dataset_v1.json",
+    dataset_path: str = "02_curated_datasets/kahneman_dataset_v1.json",
     entity: str = None,
     project: str = "kahneman_multi_impersonation",
     temp: float = 0.7,
@@ -300,8 +304,8 @@ def main(
     top_p: float = 0.95,
     max_retries: int = 3,
     system_prompt_path: str = "prompt_library/kahneman_impersonation_prompt.txt",
-    output_dir: str = "impersonation_runs",
-    rating_output_dir: str = "rating_datasets",
+    output_dir: str = "03_impersonation_runs",
+    rating_output_dir: str = "04_rating_datasets",
     random_seed: int = 42
 ):
     """Main entry point for CLI usage."""

@@ -1,12 +1,17 @@
-# python run_impersonation.py --model_name=gpt-4o --dataset_path=data/kahneman_dataset_v1.json
+# python scripts/run_impersonation.py --model_name=gpt-4o --dataset_path=02_curated_datasets/kahneman_dataset_v1.json
 
 import json
 import weave
 import asyncio
+import sys
+import os
 from datetime import datetime
 from typing import List, Dict, Any
 from fire import Fire
 from dotenv import load_dotenv
+
+# Add parent directory to path for imports
+sys.path.insert(0, os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
 
 load_dotenv()
 
@@ -80,7 +85,7 @@ def save_impersonation_results(
     
     if output_path is None:
         timestamp = datetime.now().strftime("%Y%m%d_%H%M%S")
-        output_path = f"kahneman_impersonation_{model_name}_{timestamp}.json"
+        output_path = f"03_impersonation_runs/kahneman_impersonation_{model_name}_{timestamp}.json"
     
     output_data = {
         "run_metadata": {
@@ -102,7 +107,7 @@ def save_impersonation_results(
 
 async def run_kahneman_impersonation(
     model_name: str = "gpt-4o",
-    dataset_path: str = "data/kahneman_dataset_v1.json",
+    dataset_path: str = "02_curated_datasets/kahneman_dataset_v1.json",
     entity: str = None,
     project: str = "kahneman_impersonation",
     temp: float = 0.7,
@@ -175,7 +180,7 @@ async def run_kahneman_impersonation(
 
 def main(
     model_name: str = "gpt-4o",
-    dataset_path: str = "data/kahneman_dataset_v1.json",
+    dataset_path: str = "02_curated_datasets/kahneman_dataset_v1.json",
     entity: str = None,
     project: str = "kahneman_impersonation", 
     temp: float = 0.7,

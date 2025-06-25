@@ -1,14 +1,18 @@
-# python run_rating.py --rater_model=gpt-4o --dataset_path=rating_datasets/rating_dataset_20250528_200201.json
+# python scripts/run_rating.py --rater_model=gpt-4o --dataset_path=04_rating_datasets/rating_dataset_20250528_200201.json
 
 import json
 import weave
 import asyncio
 import re
 import os
+import sys
 from datetime import datetime
 from typing import List, Dict, Any, Tuple
 from fire import Fire
 from dotenv import load_dotenv
+
+# Add parent directory to path for imports
+sys.path.insert(0, os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
 
 load_dotenv()
 
@@ -101,7 +105,7 @@ def save_rating_results(
     rater_model: str,
     dataset_path: str,
     output_path: str = None,
-    output_dir: str = "rating_results"
+    output_dir: str = "05_rating_results"
 ) -> str:
     """Save rating results to JSON file in specified directory."""
     
@@ -121,7 +125,7 @@ def save_rating_results(
 
 async def run_rating(
     rater_model: str = "gpt-4o",
-    dataset_path: str = "rating_datasets/rating_dataset_20250528_200201.json",
+    dataset_path: str = "04_rating_datasets/rating_dataset_20250528_200201.json",
     entity: str = None,
     project: str = "kahneman_rating",
     temp: float = 0.7,
@@ -130,7 +134,7 @@ async def run_rating(
     max_retries: int = 3,
     system_prompt_path: str = "prompt_library/kahneman_rater_prompt.txt",
     output_path: str = None,
-    output_dir: str = "rating_results"
+    output_dir: str = "05_rating_results"
 ):
     """
     Run rating task on a dataset of Kahneman responses.
@@ -232,7 +236,7 @@ async def run_rating(
 
 def main(
     rater_model: str = "gpt-4o",
-    dataset_path: str = "rating_datasets/rating_dataset_20250528_200201.json",
+    dataset_path: str = "04_rating_datasets/rating_dataset_20250528_200201.json",
     entity: str = None,
     project: str = "kahneman_rating",
     temp: float = 0.7,
@@ -241,7 +245,7 @@ def main(
     max_retries: int = 3,
     system_prompt_path: str = "prompt_library/kahneman_rater_prompt.txt",
     output_path: str = None,
-    output_dir: str = "rating_results"
+    output_dir: str = "05_rating_results"
 ):
     """Main entry point for CLI usage."""
     return asyncio.run(run_rating(
