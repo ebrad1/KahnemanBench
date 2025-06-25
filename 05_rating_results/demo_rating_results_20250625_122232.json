@@ -1,0 +1,75 @@
+{
+  "rating_metadata": {
+    "rater_model": "gpt-4o",
+    "dataset_path": "/Users/edbradon/dev/KahnemanBench/04_rating_datasets/tmpvy_fs2a1.json",
+    "timestamp": "2025-06-25T12:22:32.497402",
+    "total_responses_rated": 6
+  },
+  "ratings": [
+    {
+      "question_id": "demo_1",
+      "question_text": "What role does intuition play in decision-making?",
+      "response_ratings": [
+        {
+          "response_id": "demo_1_resp_1",
+          "response_text": "Intuition is essentially the operation of System 1...",
+          "hidden_source": "real_kahneman",
+          "authenticity_score": 92,
+          "reasoning": "This response demonstrates deep understanding of dual-system theory and matches Kahneman's typical explanatory style."
+        },
+        {
+          "response_id": "demo_1_resp_2",
+          "response_text": "Well, you know, this is a fascinating question...",
+          "hidden_source": "gpt-4o",
+          "authenticity_score": 78,
+          "reasoning": "Good conceptual understanding but lacks the precise terminology and nuanced perspective typical of Kahneman."
+        },
+        {
+          "response_id": "demo_1_resp_3",
+          "response_text": "From a behavioral economics perspective...",
+          "hidden_source": "claude-3-5-sonnet",
+          "authenticity_score": 71,
+          "reasoning": "Academically sound but uses more formal language than Kahneman typically employs in interviews."
+        }
+      ]
+    },
+    {
+      "question_id": "demo_2",
+      "question_text": "How do you view the relationship between happiness and well-being?",
+      "response_ratings": [
+        {
+          "response_id": "demo_2_resp_1",
+          "response_text": "The relationship is complex...",
+          "hidden_source": "real_kahneman",
+          "authenticity_score": 95,
+          "reasoning": "Perfectly captures Kahneman's research insights and communication style on this topic."
+        },
+        {
+          "response_id": "demo_2_resp_2",
+          "response_text": "Happiness and well-being are related but distinct...",
+          "hidden_source": "gpt-4o",
+          "authenticity_score": 82,
+          "reasoning": "Accurate content but slightly more structured than Kahneman's typical interview responses."
+        },
+        {
+          "response_id": "demo_2_resp_3",
+          "response_text": "This is a fundamental question in psychology...",
+          "hidden_source": "claude-3-5-sonnet",
+          "authenticity_score": 75,
+          "reasoning": "Shows understanding of key concepts but lacks personal insight and specific research references."
+        }
+      ]
+    }
+  ],
+  "summary_metrics": {
+    "real_kahneman_avg_score": 93.5,
+    "ai_responses_avg_score": 76.5,
+    "score_gap": 17.0,
+    "num_real_responses": 2,
+    "num_ai_responses": 4,
+    "model_avg_scores": {
+      "gpt-4o": 80.0,
+      "claude-3-5-sonnet": 73.0
+    }
+  }
+}

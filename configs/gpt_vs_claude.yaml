@@ -1,0 +1,23 @@
+# GPT vs Claude comparison - focus on the two main model families
+name: "GPT vs Claude"
+description: "Direct comparison between OpenAI GPT and Anthropic Claude models"
+
+# Models for impersonation generation (GPT vs Claude)
+models:
+  - "gpt-4o"
+  - "gpt-4o-mini"
+  - "claude-3-5-sonnet"
+  - "claude-3-opus-20240229"
+
+# Model for rating evaluation (neutral rater)
+rater_model: "gpt-4o"
+
+# Dataset path
+dataset_path: "02_curated_datasets/kahneman_dataset_v1.json"
+
+# Pipeline options
+skip_impersonation: false
+rating_dataset_path: null
+
+# Weave project settings
+project_suffix: "_gpt_vs_claude"

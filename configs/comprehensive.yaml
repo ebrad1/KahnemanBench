@@ -1,0 +1,24 @@
+# Comprehensive evaluation - all major models
+name: "Comprehensive Evaluation"
+description: "Full evaluation across all major AI models for research/publication"
+
+# Models for impersonation generation (all major models)
+models:
+  - "gpt-4o"
+  - "gpt-4o-mini"
+  - "claude-3-5-sonnet"
+  - "claude-3-haiku"
+  - "claude-3-opus-20240229"
+
+# Model for rating evaluation
+rater_model: "gpt-4o"
+
+# Dataset path
+dataset_path: "02_curated_datasets/kahneman_dataset_v1.json"
+
+# Pipeline options
+skip_impersonation: false
+rating_dataset_path: null
+
+# Weave project settings
+project_suffix: "_comprehensive"

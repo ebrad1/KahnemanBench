@@ -505,23 +505,59 @@ def generate_html_dashboard(results: List[Dict[str, Any]], output_path: str = "r
     
     print(f"Dashboard generated: {output_path}")
 
-def main(rating_dir: str = ".", output_path: str = "rating_dashboard.html"):
-    """Generate an HTML dashboard from rating results."""
+def main(
+    rating_dir: str = ".", 
+    output_path: str = "rating_dashboard.html",
+    rating_results: str = None,
+    update_dashboard: bool = False
+):
+    """
+    Generate an HTML dashboard from rating results.
     
-    # Load all rating results
+    Args:
+        rating_dir: Directory containing rating results files
+        output_path: Path for generated HTML dashboard
+        rating_results: Specific rating results file to include
+        update_dashboard: If True, update the default dashboard location
+    """
+    
+    # Determine output path
+    if update_dashboard:
+        output_path = "06_analysis_outputs/rating_dashboard.html"
+    
+    # Load rating results
     results = []
-    for filename in os.listdir(rating_dir):
-        if filename.startswith("rating_results_") and filename.endswith(".json"):
-            filepath = os.path.join(rating_dir, filename)
-            try:
-                with open(filepath, 'r') as f:
-                    results.append(json.load(f))
-            except Exception as e:
-                print(f"Error loading {filename}: {e}")
+    
+    if rating_results:
+        # Load specific rating results file
+        try:
+            with open(rating_results, 'r') as f:
+                results.append(json.load(f))
+            print(f"Loaded specific rating results: {rating_results}")
+        except Exception as e:
+            print(f"Error loading {rating_results}: {e}")
+            return
+    else:
+        # Load all rating results from directory
+        search_dir = rating_dir if rating_dir != "." else "05_rating_results"
+        
+        if not os.path.exists(search_dir):
+            print(f"Rating results directory not found: {search_dir}")
+            return
+            
+        for filename in os.listdir(search_dir):
+            if filename.startswith("rating_results_") and filename.endswith(".json"):
+                filepath = os.path.join(search_dir, filename)
+                try:
+                    with open(filepath, 'r') as f:
+                        results.append(json.load(f))
+                except Exception as e:
+                    print(f"Error loading {filename}: {e}")
     
     if results:
         generate_html_dashboard(results, output_path)
-        print(f"\nOpen {output_path} in your browser to view the dashboard")
+        print(f"Dashboard generated: {output_path}")
+        print(f"Open {output_path} in your browser to view the results")
     else:
         print("No rating results found!")
 

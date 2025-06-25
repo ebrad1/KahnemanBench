@@ -45,10 +45,27 @@ export ANTHROPIC_API_KEY="your-key-here"
 ```
 
 ### Running Evaluations
+
+#### Full Pipeline (Recommended)
 ```bash
 # Activate environment first
 source venv/bin/activate
 
+# Quick test with 2 models
+python scripts/run_full_pipeline.py --config=configs/quick_test.yaml
+
+# Comprehensive evaluation with all models
+python scripts/run_full_pipeline.py --config=configs/comprehensive.yaml
+
+# Custom model selection
+python scripts/run_full_pipeline.py --models=gpt-4o,claude-3-5-sonnet --rater_model=gpt-4o
+
+# Rating only (skip impersonation)
+python scripts/run_full_pipeline.py --skip_impersonation --rating_dataset_path=04_rating_datasets/[dataset_file] --rater_model=gpt-4o
+```
+
+#### Individual Scripts
+```bash
 # Single model impersonation
 python scripts/run_impersonation.py --model_name=gpt-4o
 
@@ -60,6 +77,9 @@ python scripts/run_rating.py --rater_model=gpt-4o --dataset_path=04_rating_datas
 
 # Original SimpleBench
 python scripts/run_benchmark.py --model_name=gpt-4o --dataset_path=simple_bench_public.json
+
+# Generate analysis dashboard
+python 06_analysis_outputs/analyze_ratings.py --rating_dir=05_rating_results
 ```
 
 ### Testing
@@ -71,6 +91,9 @@ python3 tests/test_structure_only.py
 source venv/bin/activate
 python3 tests/test_basic_functionality.py
 python3 tests/test_integration.py
+
+# Pipeline automation tests
+python3 tests/test_pipeline.py
 ```
 
 ## Key Data Structures

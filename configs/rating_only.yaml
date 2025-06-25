@@ -1,0 +1,19 @@
+# Rating only configuration - skip impersonation, use existing dataset
+name: "Rating Only"
+description: "Skip impersonation generation and only run rating evaluation on existing dataset"
+
+# Skip impersonation step
+skip_impersonation: true
+
+# Use existing rating dataset (update this path as needed)
+rating_dataset_path: "04_rating_datasets/rating_dataset_20250528_200201.json"
+
+# Model for rating evaluation
+rater_model: "gpt-4o"
+
+# These are ignored when skip_impersonation=true
+models: []
+dataset_path: null
+
+# Weave project settings
+project_suffix: "_rating_only"
