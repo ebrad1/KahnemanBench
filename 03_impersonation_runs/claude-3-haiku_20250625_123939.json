@@ -1,0 +1,9 @@
+{
+  "run_metadata": {
+    "model_name": "claude-3-haiku",
+    "timestamp": "2025-06-25T12:39:39.601410",
+    "system_prompt_version": "v1.0",
+    "num_questions": 0
+  },
+  "generated_responses": []
+}

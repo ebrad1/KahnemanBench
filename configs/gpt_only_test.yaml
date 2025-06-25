@@ -1,0 +1,20 @@
+# GPT-only test configuration - test new prompt with just OpenAI models
+name: "GPT Only Test"
+description: "Test updated prompt using only GPT models (no Anthropic API key needed)"
+
+# Only GPT models for impersonation generation
+models:
+  - "gpt-4o-mini"
+
+# GPT model for rating evaluation  
+rater_model: "gpt-4o-mini"
+
+# Dataset path
+dataset_path: "02_curated_datasets/kahneman_dataset_v1.json"
+
+# Pipeline options
+skip_impersonation: false
+rating_dataset_path: null
+
+# Weave project settings
+project_suffix: "_gpt_only_test"

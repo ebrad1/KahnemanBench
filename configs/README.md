@@ -13,6 +13,24 @@ This directory contains pre-configured YAML files for common evaluation scenario
 python scripts/run_full_pipeline.py --config=configs/quick_test.yaml
 ```
 
+### `cheap_test.yaml`
+**Purpose**: Minimal cost testing with cheapest models  
+**Models**: gpt-4o-mini, claude-3-haiku  
+**Use case**: Testing prompt changes and pipeline functionality on a budget
+
+```bash
+python scripts/run_full_pipeline.py --config=configs/cheap_test.yaml
+```
+
+### `gpt_only_test.yaml`
+**Purpose**: Test with only OpenAI models (no Anthropic API key needed)  
+**Models**: gpt-4o-mini  
+**Use case**: Testing when Anthropic API key not available
+
+```bash
+python scripts/run_full_pipeline.py --config=configs/gpt_only_test.yaml
+```
+
 ### `comprehensive.yaml`
 **Purpose**: Full evaluation across all major models  
 **Models**: gpt-4o, gpt-4o-mini, claude-3-5-sonnet, claude-3-haiku, claude-3-opus-20240229  

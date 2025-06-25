@@ -1,0 +1,21 @@
+# Cheap test configuration - minimal cost for testing prompt changes
+name: "Cheap Test"
+description: "Low-cost pipeline test using cheapest available models"
+
+# Cheapest models for impersonation generation
+models:
+  - "gpt-4o-mini"
+  - "claude-3-haiku"
+
+# Cheap model for rating evaluation  
+rater_model: "gpt-4o-mini"
+
+# Dataset path
+dataset_path: "02_curated_datasets/kahneman_dataset_v1.json"
+
+# Pipeline options
+skip_impersonation: false
+rating_dataset_path: null
+
+# Weave project settings
+project_suffix: "_cheap_test"

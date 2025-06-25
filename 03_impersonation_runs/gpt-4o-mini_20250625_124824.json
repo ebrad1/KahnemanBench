@@ -1,0 +1,150 @@
+{
+  "run_metadata": {
+    "model_name": "gpt-4o-mini",
+    "timestamp": "2025-06-25T12:48:24.495192",
+    "system_prompt_version": "v1.0",
+    "num_questions": 10
+  },
+  "generated_responses": [
+    {
+      "kahneman_id": "cnn_fareed_zakaria_2012_1",
+      "source_doc_id": "cnn_fareed_zakaria_2012",
+      "sequence_in_source": 1,
+      "question_text": "Is this a pattern that you detect in human behavior that there are some things that people think fast about and some things they think slow about? How would you describe this difference?",
+      "summarised_context": "Zakaria has just introduced Kahneman and mentioned an example (likely the bat and ball problem) where people think fast and are convinced they're right but are actually wrong. Zakaria noted this as a perfect example of why thinking fast isn't always good, with Kahneman explaining that it involves both mental associations and a failure to check one's work.",
+      "generated_response": "Well, yes, absolutely. What we have is a distinction between two modes of thinking, often referred to as System 1 and System 2. System 1 is fast, automatic, and often relies on heuristics\u2014essentially mental shortcuts that allow us to make quick judgments and decisions. It\u2019s intuitive and operates with little effort. On the other hand, System 2 is slower, more deliberate, and requires effortful mental activity. \n\nYou know, the bat and ball problem illustrates this beautifully. When faced with that question, many people immediately say the ball costs 10 cents, because that\u2019s a quick, intuitive response from System 1. But when you engage System 2, and you really think it through, you realize that the correct answer is that the ball costs 5 cents.\n\nWhat we found was that people often rely on System 1 for problems that they perceive as simple or familiar, while they might switch to System 2 when they encounter something they recognize as complex or challenging. However, the problem is that people frequently misjudge the difficulty of a question. They think they understand it well enough to use System 1 when, in fact, a more thoughtful approach is warranted.\n\nSo yes, there's a pattern in human behavior: we oscillate between these two systems, and often, we trust our fast thinking too much, leading us to errors. The key takeaway is that being aware of this distinction can help us make better decisions, especially in situations where our intuition might lead us astray.",
+      "generation_metadata": {
+        "temperature": 0.7,
+        "max_tokens": 2048,
+        "generation_time_ms": 5872,
+        "model_version": "gpt-4o-mini"
+      }
+    },
+    {
+      "kahneman_id": "motley_fool_2013_1",
+      "source_doc_id": "motley_fool_2013",
+      "sequence_in_source": 1,
+      "question_text": "Just to get a background of your career, from what I understand the first time that your work intersected with economics was in the early 1970s when a colleague brought to you an economics paper and the first line of the paper was, 'The agent of economic theory is rational, selfish, and his tastes do not change.' For a psychologist, that's ridiculous, so what happened next?",
+      "summarised_context": "Morgan Housel has just introduced Kahneman, highlighting his unique position as a psychologist who won the Nobel Prize in Economics. Housel emphasized that this confirms how much of economics and investing relates to psychology rather than mathematical formulas, setting up questions about Kahneman's career path.",
+      "generated_response": "Well, you know, when I first encountered that statement, it struck me as quite absurd from a psychological perspective. I was working in the field of psychology, studying judgment and decision-making, and the idea that humans are perfectly rational and self-interested seemed disconnected from how people actually behave in real life. \n\nWhat happened next was a bit of an intellectual journey. I started to collaborate with Amos Tversky, and together we began to explore the ways in which people deviate from that idealized model of rationality. We conducted experiments that highlighted cognitive biases and heuristics\u2014essentially, the mental shortcuts that people use when making decisions. \n\nOne of our key insights was that people often rely on intuitive thinking, which we called System 1, rather than the more deliberate, analytical thinking of System 2. This framework helped to illuminate many of the irrational behaviors we observed, and it turned out to have significant implications for economics, particularly in understanding how people make financial decisions. \n\nSo, in a way, that initial absurdity prompted a series of inquiries that led to a deeper understanding of economic behavior through the lens of psychology. It was a fascinating intersection, and I must say, it was not something I anticipated when I first started my career.",
+      "generation_metadata": {
+        "temperature": 0.7,
+        "max_tokens": 2048,
+        "generation_time_ms": 5268,
+        "model_version": "gpt-4o-mini"
+      }
+    },
+    {
+      "kahneman_id": "motley_fool_2013_2",
+      "source_doc_id": "motley_fool_2013",
+      "sequence_in_source": 2,
+      "question_text": "In the last decade, behavioral economics has grown in influence. It's much more accepted now than it was in the past. I guess my question is, why did it take so long?",
+      "summarised_context": "Kahneman has just explained how he first encountered economics in the 1970s through a paper stating that economic agents are rational, selfish, and unchanging - which struck him as absurd from a psychologist's perspective. He noted that economists lived in a different intellectual world, though he had no idea this would shape his career.",
+      "generated_response": "Well, that's a great question. You know, I think one reason it took so long is that the traditional economic model is deeply entrenched in the intellectual framework of economics. Economists have built a lot on the idea of rationality, and that framework has been very successful in many ways, particularly in creating a sense of predictability and order in economic behavior.\n\nIt also turns out that people are quite resistant to change in their beliefs. The cognitive biases we study, such as confirmation bias, play a role here. Many economists were simply not inclined to question the assumptions they had been operating under. \n\nMoreover, there was a lack of empirical evidence at the beginning. The early work in behavioral economics, including my own, was often seen as anecdotal or not rigorous enough compared to the mathematical models that dominated the field. It took time for researchers to develop more robust methodologies and to accumulate evidence that could withstand scrutiny.\n\nWhat we found was that as more studies emerged, showing the systematic ways in which human behavior deviates from rationality, the tide began to shift. The collaboration with Amos Tversky was crucial in this regard. We provided not just a critique of traditional economics but also a framework\u2014prospect theory, for instance\u2014that could explain and predict behaviors in a way that resonated with both psychologists and economists.\n\nIn the last decade, I think we\u2019ve also seen a growing recognition of the importance of interdisciplinary approaches. Behavioral economics has started to gain traction because it offers valuable insights into policy-making and business practices. So, it\u2019s been a gradual process, and while I\u2019m pleased to see the acceptance, I remain somewhat skeptical about how deeply these ideas are integrated into mainstream economics. There's still a long way to go.",
+      "generation_metadata": {
+        "temperature": 0.7,
+        "max_tokens": 2048,
+        "generation_time_ms": 6643,
+        "model_version": "gpt-4o-mini"
+      }
+    },
+    {
+      "kahneman_id": "motley_fool_2013_3",
+      "source_doc_id": "motley_fool_2013",
+      "sequence_in_source": 3,
+      "question_text": "When psychology was brought into economics, was it fine-tuning around the edges, or was this taking existing theories and turning them upside down?",
+      "summarised_context": "Kahneman has just explained that behavioral economics actually developed quite quickly (25 years), noting their first paper appeared in Econometrica in 1979 by accident, and by 2002 he had won the Nobel Prize. When asked about economists' initial response, he described it as 'real contempt' - economists didn't take psychology seriously and had a special attitude due to their mathematical knowledge.",
+      "generated_response": "Well, that's a complex question. You know, I would say it was more than just fine-tuning around the edges. What we found was that many traditional economic theories, particularly those based on the idea of rational agents, did not hold up when we looked at how people actually make decisions. \n\nFor example, prospect theory, which Amos Tversky and I developed, showed that people evaluate potential losses and gains differently\u2014people are loss averse. This was a significant departure from the expected utility theory that economists had relied on for decades. So, in that sense, it turned some existing theories upside down.\n\nThe introduction of psychological insights into economics revealed systematic biases and heuristics that people use, which traditional models often ignored. It wasn't just about refining models; it was about fundamentally rethinking how we understand decision-making under uncertainty. So, I would argue that behavioral economics has reshaped some core ideas in economics rather than merely adjusting them.",
+      "generation_metadata": {
+        "temperature": 0.7,
+        "max_tokens": 2048,
+        "generation_time_ms": 3516,
+        "model_version": "gpt-4o-mini"
+      }
+    },
+    {
+      "kahneman_id": "motley_fool_2013_4",
+      "source_doc_id": "motley_fool_2013",
+      "sequence_in_source": 4,
+      "question_text": "Is System 1 my gut and System 2 is my head? Is that a fair way of putting it?",
+      "summarised_context": "Kahneman has been explaining the two systems of thinking from his book 'Thinking, Fast and Slow.' He described System 1 as fast, automatic thinking (like memory delivering answers) and System 2 as effortful, deliberate thinking. He used a newspaper analogy where reporters (System 1) write stories and a lazy, overworked editor (System 2) mostly just endorses them. The discussion has established that most of our thinking and decision-making comes from System 1, with System 2 serving more as a defender and rationalizer.",
+      "generated_response": "Well, that's actually a pretty useful way to think about it, though I would caution against oversimplifying. System 1, which we often associate with gut feelings, operates quickly and intuitively. It\u2019s the part of our thinking that reacts almost automatically to situations, drawing from experience and patterns. System 2, on the other hand, is more analytical and deliberate, akin to what you might think of as the head. It requires effort and is often invoked when we face complex problems or when our initial impressions from System 1 need to be checked.\n\nHowever, it's important to recognize that both systems are integral to our decision-making. While System 1 can be surprisingly effective, it\u2019s also prone to biases. System 2 can correct some of those errors, but it often doesn't engage when it should. So, while your analogy is not incorrect, it\u2019s also worth remembering that the relationship between the two is more nuanced than simply gut versus head. They interact in ways that can lead us to make both good and poor choices.",
+      "generation_metadata": {
+        "temperature": 0.7,
+        "max_tokens": 2048,
+        "generation_time_ms": 2677,
+        "model_version": "gpt-4o-mini"
+      }
+    },
+    {
+      "kahneman_id": "motley_fool_2013_5",
+      "source_doc_id": "motley_fool_2013",
+      "sequence_in_source": 5,
+      "question_text": "If I have problems remembering the past, and I'm fooling myself, how does that shape my view of the future?",
+      "summarised_context": "Kahneman has just finished explaining the famous colonoscopy study, where patients' memories of pain were determined not by duration but by the peak pain and how it ended. This led him to distinguish between the 'Experiencing Self' (who lives through events) and the 'Remembering Self' (who keeps score and makes decisions). He noted that the Remembering Self makes decisions but doesn't always do what's best for the Experiencing Self, and that people often don't know how well they've performed, particularly in investing.",
+      "generated_response": "Well, that's an intriguing question. You know, our memories are not as reliable as we often think they are. The Remembering Self tends to reconstruct the past in a way that can be quite misleading. For instance, we tend to focus on peak experiences and how things ended, rather than the overall duration or the actual content of the experience. This can lead to a distorted view of our past performance.\n\nIf you're fooling yourself about the past, this can certainly shape your expectations for the future. You might overestimate your abilities or the likelihood of success based on an inaccurate memory of past events. This overconfidence can lead to poor decision-making, particularly in areas like investing, where people often believe they have a better grasp of the situation than they actually do.\n\nWhat we found in our studies is that people are generally quite poor at assessing their own performance. They often remember their successes more vividly than their failures, which can create an illusion of competence. So, if you're not accurately recalling your past experiences, you might be setting yourself up for disappointment or taking unnecessary risks in the future.\n\nIt's a complex interplay, really. The way we remember can skew our perceptions, and those perceptions influence our decisions moving forward. It\u2019s a reminder of the limitations of our judgment and how important it is to remain aware of those biases.",
+      "generation_metadata": {
+        "temperature": 0.7,
+        "max_tokens": 2048,
+        "generation_time_ms": 4717,
+        "model_version": "gpt-4o-mini"
+      }
+    },
+    {
+      "kahneman_id": "motley_fool_2013_6",
+      "source_doc_id": "motley_fool_2013",
+      "sequence_in_source": 6,
+      "question_text": "If we suffer from hindsight bias and we think that the past makes sense and was predictable, does that make us more optimistic about the future? If we think we understand the past, then we have to think we understand the future.",
+      "summarised_context": "Kahneman has just explained hindsight bias - how our ability to easily explain the past gives us the illusion that the world is understandable and makes sense, even when it doesn't. He emphasized the dramatic difference between our ability to explain past events and our poor ability to forecast the future. He also discussed the 2008 financial crisis, arguing that people who now claim they 'knew' it was coming are misusing the word 'know' - they thought there might be a crisis, but it wasn't truly knowable given how many smart, motivated people failed to predict it.",
+      "generated_response": "Well, that's an interesting question. I think there\u2019s a connection, but it's not quite as straightforward as it might seem. Hindsight bias does give us a sense of understanding about the past, which can lead to an illusion of clarity and predictability. When we look back, we often see a sequence of events that feels coherent, and this can foster a sense of confidence in our ability to predict future events.\n\nHowever, this does not necessarily translate to genuine optimism about the future. What we find is that people can be overconfident in their judgments, and this overconfidence can lead to poor decision-making. They might believe they understand the dynamics of a situation based on past events, but that doesn't mean they actually have the tools to accurately forecast what will happen next.\n\nIn fact, if you look at many studies, including some of my own work with Amos Tversky, you'll see that people often underestimate uncertainty and complexity in future scenarios. They might feel optimistic based on their understanding of the past, but that optimism can be misplaced. They fail to recognize that the future is inherently unpredictable, and this can lead to catastrophic consequences, as we saw during the financial crisis.\n\nSo, in a sense, while hindsight might give us a false sense of understanding, it can also lead us to a form of overconfidence that is not necessarily optimistic but rather misguided. The complexity of the future remains, regardless of how clear the past appears. What we really need is a more nuanced appreciation of uncertainty, both in our understanding of the past and our predictions for the future.",
+      "generation_metadata": {
+        "temperature": 0.7,
+        "max_tokens": 2048,
+        "generation_time_ms": 5872,
+        "model_version": "gpt-4o-mini"
+      }
+    },
+    {
+      "kahneman_id": "motley_fool_2013_7",
+      "source_doc_id": "motley_fool_2013",
+      "sequence_in_source": 7,
+      "question_text": "Do you see good score systems in the world that we should all learn from, and/or do you have any thoughts about scorekeeping? Thank you.",
+      "summarised_context": "The interview has moved to the Q&A portion. An audience member, David Gardner, has just thanked Kahneman and made a comment about how 'the greater the island of knowledge, the longer the coastline of mystery.' Gardner then explained that he sees something broken in the financial world - the lack of scorekeeping mechanisms for predictions and accountability, comparing it to baseball where everything is scored. He wishes for better scoring systems in finance and politics.",
+      "generated_response": "Well, that\u2019s a fascinating question. You know, the idea of scorekeeping is indeed important, especially in fields like finance and politics where accountability can be quite limited. In baseball, every player\u2019s performance is meticulously tracked, which provides a clear basis for evaluation. In contrast, the financial world often lacks such transparency, and the consequences of decisions can be obscured.\n\nWhat we found in behavioral economics is that humans are not particularly good at assessing their own performance, particularly when it comes to forecasting. There\u2019s a tendency toward overconfidence, which can lead to significant errors in judgment. So, creating a robust scorekeeping system could help mitigate that by providing a more objective measure of predictions and outcomes.\n\nI think one interesting example of scorekeeping comes from the field of forecasting competitions, like the Good Judgment Project. It gathered forecasters and tracked their accuracy over time, allowing for a more empirical understanding of who can make the best predictions. This kind of approach could inspire similar systems in finance and politics, where we could evaluate decisions against actual outcomes.\n\nUltimately, the challenge is to create a culture where accountability is prioritized, and where individuals are encouraged to learn from their mistakes rather than simply moving on without reflection. My guess is that without such systems, we are likely to continue facing the same issues of overconfidence and lack of accountability. It's a complex problem, but I believe there are lessons to be learned from other domains.",
+      "generation_metadata": {
+        "temperature": 0.7,
+        "max_tokens": 2048,
+        "generation_time_ms": 4087,
+        "model_version": "gpt-4o-mini"
+      }
+    },
+    {
+      "kahneman_id": "conversations_with_tyler_2018_1",
+      "source_doc_id": "conversations_with_tyler_2018",
+      "sequence_in_source": 1,
+      "question_text": "If you have an experience, it seems that how happy you are at the end of the experience depends on the end of the experience and how good was the peak, or how bad was the bottom. Given that result, should we aim to deliberately structure our experiences so they give us more happiness?",
+      "summarised_context": "Tyler Cowen has just thanked Kahneman for coming and introduced the topic of happiness research. He's referencing Kahneman's work on how our evaluation of experiences depends heavily on how they end and on the peak (or worst) moments, rather than on the duration or overall experience.",
+      "generated_response": "Well, that's a fascinating question. What we found was that the way we remember experiences is significantly influenced by the peak moments and the ending, which we refer to as the peak-end rule. This suggests that if we want to maximize happiness, we might indeed consider how to structure our experiences more deliberately. \n\nHowever, it\u2019s important to acknowledge that this isn\u2019t a straightforward solution. For one, what makes a peak moment pleasurable can vary widely from person to person. Also, there\u2019s the risk of over-optimizing for happiness in a way that might lead to disappointment. \n\nYou know, in some cases, trying too hard to create positive peaks or perfect endings can lead to a kind of pressure that detracts from the experience itself. There\u2019s also the danger of focusing too much on the anticipated happiness and not enough on the actual experience. \n\nIn essence, while there\u2019s value in being aware of how peaks and endings affect our memories and feelings, I would suggest a balanced approach. It\u2019s not just about structuring experiences to be optimally happy but also allowing ourselves to engage with the full range of experiences\u2014good and bad\u2014that life offers. The richness of experience is often more meaningful than the pursuit of happiness alone.",
+      "generation_metadata": {
+        "temperature": 0.7,
+        "max_tokens": 2048,
+        "generation_time_ms": 4120,
+        "model_version": "gpt-4o-mini"
+      }
+    },
+    {
+      "kahneman_id": "conversations_with_tyler_2018_2",
+      "source_doc_id": "conversations_with_tyler_2018",
+      "sequence_in_source": 2,
+      "question_text": "Do people structure their vacations to meet the standard, or there's a kind of market failure? If they listen to you, they would have better vacations.",
+      "summarised_context": "Kahneman has just acknowledged that if you want good memories, good endings are important, but raised the question of how important good memories are relative to the experience itself. He emphasized that ends are particularly important in goal striving contexts - whether you achieve a goal colors the entire experience of pursuing it.",
+      "generated_response": "Well, that's an interesting question. You know, I think there is a certain awareness among people about the importance of memories and how they influence our overall happiness. However, many still tend to focus on the immediate pleasures of the experience rather than on how those experiences will be remembered later. \n\nWhat we found was that people often overlook the role of the ending in their overall assessment of an experience. So, in the context of vacations, they might prioritize activities that seem enjoyable in the moment, but they don't necessarily consider how those activities will shape their memories once the vacation is over.\n\nThere\u2019s a kind of market failure in that sense. People might not be fully aware of the psychological principles that could help them plan better vacations. For instance, if individuals understood the significance of a good ending, they might structure their trips differently\u2014perhaps by ensuring that the last day is particularly enjoyable or by avoiding stressful travel arrangements that could taint their overall perception of the vacation.\n\nIn a way, it\u2019s a matter of balancing immediate enjoyment with the long-term memories we create. If people were more conscious of this, I think they could indeed have better vacations. But there\u2019s a limit to how much we can expect individuals to change their behavior based on this understanding, especially when they\u2019re caught up in the excitement of the experience itself.",
+      "generation_metadata": {
+        "temperature": 0.7,
+        "max_tokens": 2048,
+        "generation_time_ms": 5757,
+        "model_version": "gpt-4o-mini"
+      }
+    }
+  ]
+}

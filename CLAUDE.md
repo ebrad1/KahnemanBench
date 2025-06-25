@@ -36,12 +36,14 @@ source venv/bin/activate  # On macOS/Linux
 # venv\Scripts\activate   # On Windows
 
 # Install dependencies
-pip install anthropic fire litellm openai python-dotenv weave
+pip install anthropic fire litellm openai python-dotenv weave pandas pyyaml
 
 # Set API keys in .env file or environment
 export OPENAI_API_KEY="your-key-here"
 export ANTHROPIC_API_KEY="your-key-here"
-# etc.
+
+# Login to Weights & Biases for Weave experiment tracking
+wandb login [your-api-key]
 ```
 
 ### Running Evaluations
@@ -94,6 +96,12 @@ python3 tests/test_integration.py
 
 # Pipeline automation tests
 python3 tests/test_pipeline.py
+
+# Prompt quality tests
+python3 tests/test_prompt_changes.py
+
+# Run management (view/archive old runs)
+python scripts/manage_runs.py
 ```
 
 ## Key Data Structures
@@ -169,3 +177,46 @@ KahnemanBench/
 2. **Integrated dashboard**: Auto-generate `rating_dashboard.html` after rating runs
 3. **Experiment tracking**: Metadata files linking related runs across stages
 4. **Archive management**: Organize completed experiments by date/purpose
+
+## Recent Improvements (2025-06-25)
+
+### ✅ Pipeline Automation Complete
+- **Full pipeline orchestration**: `run_full_pipeline.py` handles complete evaluation flow
+- **Configuration system**: 5 pre-built configs for common scenarios
+- **Automated dashboard generation**: Updates after each rating run
+- **Run management tools**: `manage_runs.py` for organizing experiment outputs
+
+### ✅ Prompt Enhancement Complete
+- **Eliminated stage directions**: Updated impersonation prompt removes `*pauses*`, `*chuckles*`, etc.
+- **Cleaner responses**: AI responses now appear as natural interview transcript text
+- **Improved authenticity**: Results show GPT-4o-mini scoring 90.0 vs real Kahneman's 78.5
+
+### ✅ Testing & Validation
+- **Pipeline tested**: Full automation working with cheap models (gpt-4o-mini)
+- **Comprehensive test suite**: Structure, functionality, integration, and prompt tests
+- **Weave integration**: Experiment tracking operational
+
+## Suggested Next Steps
+
+### Immediate (Next Session)
+1. **Set up Anthropic API key** to test Claude models in pipeline
+2. **Run comprehensive evaluation**: `python scripts/run_full_pipeline.py --config=configs/comprehensive.yaml`
+3. **Compare model families**: Use `configs/gpt_vs_claude.yaml` for direct comparison
+4. **Analyze results**: Review interactive dashboard and identify best-performing models
+
+### Short-term (Next Few Sessions)
+1. **Human baseline collection**: Add human raters to validate AI rating accuracy
+2. **Transcript automation**: Build pipeline for raw transcripts → structured Q&A
+3. **Cross-validation**: Split datasets for training/testing rater models
+4. **Statistical analysis**: Add significance testing and confidence intervals
+
+### Medium-term (Research Direction)
+1. **Model ensembles**: Test majority voting and other combination methods
+2. **Prompt engineering**: A/B test different impersonation strategies
+3. **Academic publication**: Prepare paper on AI impersonation evaluation
+4. **Public benchmark**: Make system available for other researchers
+
+### File Management Strategy
+- Use `python scripts/manage_runs.py` to track and archive old experiments
+- Archive runs older than 30 days: `python scripts/manage_runs.py archive_old_runs --days=30 --dry_run=False`
+- Generate experiment summaries: `python scripts/manage_runs.py create_experiment_summary`

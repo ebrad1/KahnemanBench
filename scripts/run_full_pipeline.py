@@ -124,8 +124,8 @@ class PipelineRunner:
             rating_dataset_path = None
             
             for line in output_lines:
-                if "Rating dataset saved to:" in line:
-                    rating_dataset_path = line.split("Rating dataset saved to:")[-1].strip()
+                if "Saved rating dataset to:" in line:
+                    rating_dataset_path = line.split("Saved rating dataset to:")[-1].strip()
                     break
             
             if rating_dataset_path:

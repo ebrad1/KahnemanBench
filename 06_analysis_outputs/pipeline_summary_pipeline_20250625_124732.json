@@ -1,0 +1,73 @@
+{
+  "pipeline_run": {
+    "run_id": "pipeline_20250625_124732",
+    "start_time": "2025-06-25T12:47:32.711117",
+    "steps_completed": [
+      {
+        "step": "multi_impersonation",
+        "status": "starting",
+        "timestamp": "2025-06-25T12:47:32.712259",
+        "details": {}
+      },
+      {
+        "step": "multi_impersonation",
+        "status": "completed",
+        "timestamp": "2025-06-25T12:48:25.563030",
+        "details": {
+          "models": [
+            "gpt-4o-mini"
+          ],
+          "rating_dataset": "04_rating_datasets/rating_dataset_20250625_124824.json"
+        }
+      },
+      {
+        "step": "rating_evaluation",
+        "status": "starting",
+        "timestamp": "2025-06-25T12:48:25.563662",
+        "details": {}
+      },
+      {
+        "step": "rating_evaluation",
+        "status": "completed",
+        "timestamp": "2025-06-25T12:49:28.235227",
+        "details": {
+          "rater_model": "gpt-4o-mini",
+          "rating_results": "05_rating_results/rating_results_gpt-4o-mini_20250625_124924.json"
+        }
+      },
+      {
+        "step": "dashboard_generation",
+        "status": "starting",
+        "timestamp": "2025-06-25T12:49:28.235892",
+        "details": {}
+      },
+      {
+        "step": "dashboard_generation",
+        "status": "completed",
+        "timestamp": "2025-06-25T12:49:28.778119",
+        "details": {
+          "dashboard_path": "06_analysis_outputs/rating_dashboard.html"
+        }
+      },
+      {
+        "step": "summary_generation",
+        "status": "starting",
+        "timestamp": "2025-06-25T12:49:28.778442",
+        "details": {}
+      }
+    ],
+    "outputs": {
+      "rating_dataset": "04_rating_datasets/rating_dataset_20250625_124824.json",
+      "rating_results": "05_rating_results/rating_results_gpt-4o-mini_20250625_124924.json",
+      "dashboard": "06_analysis_outputs/rating_dashboard.html"
+    },
+    "errors": []
+  },
+  "duration_minutes": 1.93445665,
+  "outputs_generated": [
+    "rating_dataset",
+    "rating_results",
+    "dashboard"
+  ],
+  "success": true
+}
