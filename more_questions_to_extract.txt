@@ -1,0 +1,17 @@
+tippet 'my mother'
+tippet 'rationality'
+tippet '2008'
+tippet 'effort and attention'
+tippet 'behavioral economics'
+tippet 'surprise'
+tippet 'irrefutable'
+tippet 'going a bit far'
+tippet 'experiencing vs. remembering self'
+tippet 'overconfidence'
+tippet 'what you see is all there is'
+tippet' consciousness'
+tippet 'de-bias'
+tippet 'desultory'
+
+
+note: add a guess / rate kahneman-like-ness version of the rating prompt
