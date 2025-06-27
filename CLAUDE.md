@@ -17,11 +17,11 @@ KahnemanBench is an AI benchmark that evaluates models' ability to impersonate D
 ### Key Components
 - `weave_utils/models.py`: Model wrappers including `LiteLLMModel` and `MajorityVoteModel`
 - `weave_utils/scorers.py`: Evaluation functions for multiple-choice scoring
-- `data/kahneman_dataset_v1.json`: Core dataset with interview questions and true responses
+- `02_curated_datasets/kahneman_dataset_v2.json`: Expanded dataset with 103 Q&A pairs from multiple interviews
 - `prompt_library/`: Contains impersonation and rating prompts
 
 ### Data Flow
-1. Questions from `kahneman_dataset_v1.json` → AI model responses
+1. Questions from `kahneman_dataset_v2.json` → AI model responses
 2. Multi-model runs create mixed datasets (real + AI responses)
 3. Rater models evaluate authenticity (0-100 scores)
 4. Results saved to `rating_results_*` files
@@ -108,11 +108,13 @@ python scripts/manage_runs.py
 
 ### Dataset Format
 Each question contains:
-- `kahneman_id`: Unique identifier
+- `kahneman_id`: Unique identifier (e.g., "strategy_business_2003_11")
 - `source_doc_id`: Interview source reference
+- `sequence_in_source`: Order within that interview
+- `full_context`: Extended context (currently empty, reserved for future use)
+- `summarised_context`: Interviewer style and conversational flow description
 - `question_text`: The interview question
-- `summarised_context`: Interview context
-- `true_kahneman_response`: Kahneman's actual response
+- `true_kahneman_response`: Kahneman's actual response with preserved paragraph breaks
 
 ### Model Configuration
 Models are configured in `weave_utils/models.py` with comprehensive mapping for current models (GPT-4o, Claude-4, O3, etc.). All API calls use async/await for efficiency.
@@ -128,9 +130,10 @@ Models are configured in `weave_utils/models.py` with comprehensive mapping for 
 The KahnemanBench evaluation follows this end-to-end pipeline:
 
 ### Stage 1: Source Data Preparation
-- **Raw materials**: 28 interview transcript files in `data/interview_transcripts/`
-- **Manual curation**: Extract Q&A pairs into `data/kahneman_dataset_v1.json` (10 questions)
-- **Context**: Each question includes interview context and source attribution
+- **Raw materials**: 28 interview transcript files in `01_source_data/interview_transcripts/`
+- **Manual curation**: Extract Q&A pairs into `02_curated_datasets/kahneman_dataset_v2.json` (103 questions)
+- **Coverage**: 9 different interview sources with diverse conversational styles
+- **Context**: Each question includes interviewer style description and conversational flow
 
 ### Stage 2: AI Impersonation Generation
 - **Single model**: `run_impersonation.py` generates responses for one model
@@ -178,7 +181,7 @@ KahnemanBench/
 3. **Experiment tracking**: Metadata files linking related runs across stages
 4. **Archive management**: Organize completed experiments by date/purpose
 
-## Recent Improvements (2025-06-25)
+## Recent Improvements (2025-06-27)
 
 ### ✅ Pipeline Automation Complete
 - **Full pipeline orchestration**: `run_full_pipeline.py` handles complete evaluation flow
@@ -190,6 +193,14 @@ KahnemanBench/
 - **Eliminated stage directions**: Updated impersonation prompt removes `*pauses*`, `*chuckles*`, etc.
 - **Cleaner responses**: AI responses now appear as natural interview transcript text
 - **Improved authenticity**: Results show GPT-4o-mini scoring 90.0 vs real Kahneman's 78.5
+
+### ✅ Dataset Expansion Complete
+- **Major scale increase**: Expanded from 11 to 103 Q&A pairs (10x growth)
+- **Statistical robustness**: Achieved 100+ target for strong evaluation reliability
+- **Diverse interview sources**: 9 different interviews with varied conversational styles
+- **Interview coverage**: Strategy+Business, Bloomberg, Freakonomics, Knowledge Project, Issues in Science & Technology
+- **Enhanced structure**: Added sequence tracking and interviewer style descriptions
+- **Paragraph preservation**: Maintained natural speech rhythm in responses
 
 ### ✅ Testing & Validation
 - **Pipeline tested**: Full automation working with cheap models (gpt-4o-mini)
