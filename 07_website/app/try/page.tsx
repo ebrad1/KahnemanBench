@@ -1,48 +1,71 @@
 'use client'
 
 import { useState } from 'react'
-import QuestionViewer from '@/components/QuestionViewer'
-import { sampleQuestions } from '@/lib/questions'
+import ComparisonViewer from '@/components/ComparisonViewer'
+import { publicQuestions } from '@/lib/publicQuestions'
 
 export default function TryPage() {
-  const [showResults, setShowResults] = useState(false)
-  const [answers, setAnswers] = useState<Record<string, string>>({})
+  const [completed, setCompleted] = useState(false)
+  const [selections, setSelections] = useState<Record<string, string>>({})
 
-  const handleComplete = (completedAnswers: Record<string, string>) => {
-    setAnswers(completedAnswers)
-    setShowResults(true)
+  const handleComplete = (userSelections: Record<string, string>) => {
+    setSelections(userSelections)
+    setCompleted(true)
+    
+    // Calculate score
+    const correct = Object.entries(userSelections).filter(([questionId, responseId]) => {
+      const question = publicQuestions.find(q => q.question_id === questionId)
+      const response = question?.responses.find(r => r.response_id === responseId)
+      return response?.hidden_source === 'real_kahneman'
+    }).length
+
+    console.log(`Score: ${correct}/${publicQuestions.length}`)
   }
 
   const handleReset = () => {
-    setShowResults(false)
-    setAnswers({})
+    setCompleted(false)
+    setSelections({})
   }
 
   return (
-    <div className="min-h-screen bg-gray-50 py-12">
-      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-        <div className="text-center mb-12">
-          <h1 className="text-3xl font-bold text-gray-900 mb-4">
-            Try KahnemanBench
-          </h1>
-          <p className="text-lg text-gray-600 max-w-2xl mx-auto">
-            Experience the same questions we use to evaluate AI systems. 
-            See if you can identify the cognitive biases at play.
-          </p>
+    <div className="min-h-screen bg-gray-50">
+      {/* Header */}
+      <div className="bg-white border-b border-gray-200">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-8">
+          <div className="text-center">
+            <h1 className="text-3xl font-bold text-gray-900 mb-2">
+              Can You Identify Kahneman?
+            </h1>
+            <p className="text-lg text-gray-600 max-w-3xl mx-auto">
+              One of these responses is from Daniel Kahneman himself. The others are AI-generated. 
+              Can you tell which is which?
+            </p>
+          </div>
         </div>
+      </div>
 
-        {!showResults ? (
-          <QuestionViewer 
-            questions={sampleQuestions}
+      {/* Main Content */}
+      <div className="py-8">
+        {!completed ? (
+          <ComparisonViewer 
+            questions={publicQuestions}
             onComplete={handleComplete}
+            mode="public"
           />
         ) : (
-          <div className="max-w-4xl mx-auto">
+          <div className="max-w-4xl mx-auto px-4">
             <div className="bg-white rounded-xl shadow-sm border border-gray-200 p-8 text-center">
               <h2 className="text-2xl font-bold mb-4">Complete!</h2>
+              <p className="text-lg text-gray-600 mb-2">
+                You correctly identified {Object.entries(selections).filter(([qId, rId]) => {
+                  const q = publicQuestions.find(q => q.question_id === qId)
+                  const r = q?.responses.find(r => r.response_id === rId)
+                  return r?.hidden_source === 'real_kahneman'
+                }).length} out of {publicQuestions.length} Kahneman responses.
+              </p>
               <p className="text-gray-600 mb-6">
-                Thank you for trying KahnemanBench. In a real evaluation, we would compare your responses 
-                to both Kahneman&apos;s findings and AI model outputs.
+                This demonstrates how AI can sometimes capture the style and substance of human experts, 
+                making it increasingly difficult to distinguish between human and AI responses.
               </p>
               <button
                 onClick={handleReset}

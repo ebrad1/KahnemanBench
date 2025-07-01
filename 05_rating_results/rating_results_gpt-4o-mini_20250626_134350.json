@@ -1,0 +1,1122 @@
+{
+  "rating_metadata": {
+    "rater_model": "gpt-4o-mini",
+    "rating_dataset": "04_rating_datasets/rating_dataset_20250626_132502.json",
+    "timestamp": "2025-06-26T13:43:50.773877",
+    "total_responses_rated": 116
+  },
+  "ratings": [
+    {
+      "question_id": "cnn_fareed_zakaria_2012_1",
+      "response_ratings": [
+        {
+          "response_id": "cnn_fareed_zakaria_2012_1_resp_1",
+          "authenticity_score": 95.0,
+          "reasoning": "This response effectively captures the essence of Kahneman's theories regarding System 1 and System 2 thinking. It provides a clear and concise explanation of both systems, illustrates the concepts with relatable examples (like the bat and ball problem), and highlights the implications of over-reliance on intuitive thinking. The mention of context and task complexity adds depth to the answer. The only minor critique could be that it could benefit from a brief mention of practical applications or solutions to mitigate the biases discussed, but overall, it's a comprehensive and insightful response.",
+          "hidden_source": "gpt-4o-mini",
+          "rating_time_ms": 2037
+        },
+        {
+          "response_id": "cnn_fareed_zakaria_2012_1_resp_real",
+          "authenticity_score": 75.0,
+          "reasoning": "The response addresses the question by highlighting the distinction between fast and slow thinking, which aligns with Kahneman's well-known concepts from his book \"Thinking, Fast and Slow.\" It effectively conveys that fast thinking is often instinctual and efficient, while slow thinking requires more cognitive effort and is less frequently utilized. However, the answer could benefit from more clarity and depth regarding the implications of these thinking processes, as well as examples or a more nuanced exploration of why people might avoid slow thinking. Overall, it's a solid response but lacks some depth and precision.",
+          "hidden_source": "real_kahneman",
+          "rating_time_ms": 2200
+        }
+      ]
+    },
+    {
+      "question_id": "motley_fool_2013_1",
+      "response_ratings": [
+        {
+          "response_id": "motley_fool_2013_1_resp_real",
+          "authenticity_score": 85.0,
+          "reasoning": "The response provides a clear and personal narrative about the initial reaction to the economic theory and highlights the contrast between psychology and economics. It effectively illustrates Kahneman's surprise and the intellectual divide between the disciplines. However, it could be improved by offering more detail on how this realization influenced his subsequent work or by providing specific examples of the conversations or research that followed. Overall, it's insightful and relevant, contributing well to understanding his career beginnings.",
+          "hidden_source": "real_kahneman",
+          "rating_time_ms": 1944
+        },
+        {
+          "response_id": "motley_fool_2013_1_resp_1",
+          "authenticity_score": 90.0,
+          "reasoning": "This response effectively captures the essence of Kahneman's early career and his initial reaction to economic theories, providing a clear narrative of how he transitioned into the field of behavioral economics. It mentions the collaboration with Amos Tversky, the development of prospect theory, and the significance of their findings in challenging traditional economic assumptions. The response is well-structured and provides insightful reflections on the limitations of classical economics, demonstrating Kahneman's critical thinking and the relevance of psychology in understanding economic behavior. The only minor point of improvement could be a bit more emphasis on personal anecdotes or emotions to enhance engagement, but overall, it's an excellent and thorough response.",
+          "hidden_source": "gpt-4o-mini",
+          "rating_time_ms": 2817
+        }
+      ]
+    },
+    {
+      "question_id": "motley_fool_2013_2",
+      "response_ratings": [
+        {
+          "response_id": "motley_fool_2013_2_resp_real",
+          "authenticity_score": 85.0,
+          "reasoning": "The response effectively addresses the question by providing a timeline and context for the acceptance of behavioral economics. Kahneman highlights the relatively short time it has taken for the field to gain traction compared to other intellectual developments. He backs up his points with specific examples, such as the publication of their first paper and his own Nobel Prize. However, the response could be improved by offering more insight into why the acceptance was slow initially or mentioning specific barriers that were overcome. Overall, it is a strong and informative answer, but it lacks a bit of depth in discussing the reasons behind the timeline.",
+          "hidden_source": "real_kahneman",
+          "rating_time_ms": 2824
+        },
+        {
+          "response_id": "motley_fool_2013_2_resp_1",
+          "authenticity_score": 90.0,
+          "reasoning": "The response is well-structured and insightful, addressing multiple dimensions of the question. It effectively explains the historical context of traditional economics, the challenges posed by cognitive biases, and the shift in academic culture. The mention of influential figures like Richard Thaler adds credibility to the argument. However, it could be slightly improved by offering more specific examples of evidence that contributed to the acceptance of behavioral economics or discussing the implications of this shift more explicitly. Overall, it is a comprehensive and thoughtful answer.",
+          "hidden_source": "gpt-4o-mini",
+          "rating_time_ms": 2332
+        }
+      ]
+    },
+    {
+      "question_id": "motley_fool_2013_3",
+      "response_ratings": [
+        {
+          "response_id": "motley_fool_2013_3_resp_real",
+          "authenticity_score": 85.0,
+          "reasoning": "The response effectively highlights the pivotal role Richard Thaler played in the emergence of behavioral economics and discusses the impact of his work on the field. Kahneman acknowledges the nuances in how psychology was integrated into economics, indicating that while some fundamental assumptions were challenged, the core of economics remained intact. This response provides a historical context and personal insights, showing both depth and breadth in understanding the evolution of the discipline. However, it could have been more concise, and a clearer distinction between 'fine-tuning' and 'turning upside down' could have been made for a stronger answer.",
+          "hidden_source": "real_kahneman",
+          "rating_time_ms": 2258
+        },
+        {
+          "response_id": "motley_fool_2013_3_resp_1",
+          "authenticity_score": 90.0,
+          "reasoning": "The response is well-articulated and addresses the question comprehensively by acknowledging both aspects: fine-tuning existing theories and the revolutionary impact of psychological insights on economics. It provides specific examples, such as prospect theory, which adds depth and credibility to the argument. The mention of biases, heuristics, and emotional factors illustrates a clear understanding of the complexities involved in human decision-making. However, while the response is strong, it could be slightly more concise to enhance clarity and impact.",
+          "hidden_source": "gpt-4o-mini",
+          "rating_time_ms": 2666
+        }
+      ]
+    },
+    {
+      "question_id": "motley_fool_2013_4",
+      "response_ratings": [
+        {
+          "response_id": "motley_fool_2013_4_resp_1",
+          "authenticity_score": 90.0,
+          "reasoning": "This response effectively addresses the question by acknowledging the simplification in the gut versus head analogy while providing a more nuanced understanding of System 1 and System 2. It accurately describes the characteristics of both systems, including their strengths and limitations, and highlights their interaction in decision-making. The mention of overconfidence adds depth to the explanation and aligns with Kahneman's work on cognitive biases. However, the response could be slightly more concise, as it is somewhat lengthy, which detracts from its clarity. Overall, it is a strong and insightful answer.",
+          "hidden_source": "gpt-4o-mini",
+          "rating_time_ms": 2251
+        },
+        {
+          "response_id": "motley_fool_2013_4_resp_real",
+          "authenticity_score": 85.0,
+          "reasoning": "The response provides a nuanced and detailed explanation of the differences between System 1 and System 2, effectively countering the oversimplification of equating System 1 with \"gut\" feelings. It highlights the strengths of System 1, such as its efficiency and role in creativity, while also subtly correcting the misconception that System 2 is superior. However, the response could be more concise and better structured to enhance clarity and impact, which prevents it from receiving a perfect score.",
+          "hidden_source": "real_kahneman",
+          "rating_time_ms": 2223
+        }
+      ]
+    },
+    {
+      "question_id": "motley_fool_2013_5",
+      "response_ratings": [
+        {
+          "response_id": "motley_fool_2013_5_resp_real",
+          "authenticity_score": 85.0,
+          "reasoning": "The response effectively addresses the question by distinguishing between remembering the past and thinking about the past. It highlights a key insight from Kahneman's work regarding the ease with which people explain past events compared to forecasting future events. The mention of hindsight bias and its implications for understanding the world is particularly relevant and insightful. However, the response could be improved by providing a clearer connection to how these concepts specifically shape an individual's view of the future, as it primarily focuses on the general tendency rather than personal implications.",
+          "hidden_source": "real_kahneman",
+          "rating_time_ms": 3811
+        },
+        {
+          "response_id": "motley_fool_2013_5_resp_1",
+          "authenticity_score": 90.0,
+          "reasoning": "The response provides a well-structured and insightful analysis of how faulty memories can distort one's view of the future. It effectively incorporates Kahneman's concepts, such as the Remembering Self and the significance of peaks and ends in memory recall. The example of investing illustrates the practical implications of this distortion, making the explanation relatable and relevant. The mention of the \"illusion of understanding\" adds depth to the response, highlighting the broader consequences of misremembering. However, it could have been slightly more concise to enhance clarity, but overall, it captures the essence of the question and offers valuable insights.",
+          "hidden_source": "gpt-4o-mini",
+          "rating_time_ms": 2810
+        }
+      ]
+    },
+    {
+      "question_id": "motley_fool_2013_6",
+      "response_ratings": [
+        {
+          "response_id": "motley_fool_2013_6_resp_1",
+          "authenticity_score": 90.0,
+          "reasoning": "The response effectively addresses the question by clearly explaining the relationship between hindsight bias and optimism about the future. It acknowledges the illusion of predictability that hindsight bias creates while also emphasizing the distinction between understanding past events and predicting future outcomes. The use of a relevant example (the 2008 financial crisis) strengthens the argument and illustrates the potential consequences of misplaced optimism. Additionally, the response concludes with a valuable insight about the importance of recognizing our limitations, which adds depth to the answer. However, it could have been slightly more concise in some areas to enhance clarity and impact. Overall, it is a well-rounded and thoughtful response.",
+          "hidden_source": "gpt-4o-mini",
+          "rating_time_ms": 4357
+        },
+        {
+          "response_id": "motley_fool_2013_6_resp_real",
+          "authenticity_score": 85.0,
+          "reasoning": "The response effectively addresses the question by linking hindsight bias to overconfidence in predicting the future. Kahneman provides a clear explanation of how this bias manifests in the context of CFOs' predictions about the S&P 500, supported by data from a specific study. This strengthens the argument and adds credibility. The complexity of the topic is well conveyed, although the response could be slightly more concise to enhance clarity. Overall, it demonstrates a deep understanding of cognitive biases and their implications for judgment and decision-making, earning a high score.",
+          "hidden_source": "real_kahneman",
+          "rating_time_ms": 2659
+        }
+      ]
+    },
+    {
+      "question_id": "motley_fool_2013_7",
+      "response_ratings": [
+        {
+          "response_id": "motley_fool_2013_7_resp_1",
+          "authenticity_score": 85.0,
+          "reasoning": "The response is thoughtful and demonstrates a deep understanding of the complexities involved in scorekeeping across different fields, particularly finance and politics. It effectively draws parallels with sports, which helps clarify the points being made. The mention of biases like overconfidence and hindsight bias adds depth to the analysis. However, while the response is well-articulated, it could be strengthened by providing specific examples of good score systems from other fields that could be applied to finance and politics. Additionally, the overall structure could be more concise to enhance clarity.",
+          "hidden_source": "gpt-4o-mini",
+          "rating_time_ms": 2151
+        },
+        {
+          "response_id": "motley_fool_2013_7_resp_real",
+          "authenticity_score": 75.0,
+          "reasoning": "The response provides thoughtful insights on the concept of scorekeeping, highlighting both its potential benefits and the risks associated with it. Kahneman effectively uses a real-world example to illustrate his point, making the concept more relatable. However, the answer could be more structured, as it tends to meander at times, which may obscure the main argument. Additionally, while it touches on the dangers of scorekeeping, it could benefit from a more balanced view that addresses how scorekeeping can also lead to improvement and accountability. Overall, it is a strong response but lacks clarity and conciseness.",
+          "hidden_source": "real_kahneman",
+          "rating_time_ms": 1733
+        }
+      ]
+    },
+    {
+      "question_id": "conversations_with_tyler_2018_1",
+      "response_ratings": [
+        {
+          "response_id": "conversations_with_tyler_2018_1_resp_1",
+          "authenticity_score": 90.0,
+          "reasoning": "The response effectively explains the peak-end rule and its implications for structuring experiences to enhance happiness, demonstrating a clear understanding of the concept. It provides practical advice, like ensuring enjoyable highlights in experiences, while also acknowledging the limitations and potential downsides of trying to engineer happiness, such as the loss of spontaneity. The caution against over-engineering happiness adds depth to the answer, showing a nuanced perspective that considers the complexity of human emotions. However, while the response is comprehensive, it could have been slightly more concise to enhance clarity and engagement.",
+          "hidden_source": "gpt-4o-mini",
+          "rating_time_ms": 2368
+        },
+        {
+          "response_id": "conversations_with_tyler_2018_1_resp_real",
+          "authenticity_score": 70.0,
+          "reasoning": "The response effectively acknowledges the importance of ends in shaping memories and experiences, which aligns with Kahneman's research on happiness. However, it lacks a direct answer to the question of whether we should deliberately structure our experiences for more happiness. While it touches on relevant concepts, it could be clearer and more focused on the implications of structuring experiences for happiness.",
+          "hidden_source": "real_kahneman",
+          "rating_time_ms": 1529
+        }
+      ]
+    },
+    {
+      "question_id": "conversations_with_tyler_2018_2",
+      "response_ratings": [
+        {
+          "response_id": "conversations_with_tyler_2018_2_resp_real",
+          "authenticity_score": 50.0,
+          "reasoning": "The response shows some engagement with the question but lacks depth and clarity. Kahneman acknowledges uncertainty and provides a personal hypothesis about vacation structuring, which is interesting but does not offer substantial insights or evidence to support his guess. The answer could benefit from more elaboration on the psychological principles involved in vacation planning and how they relate to potential market failures. Overall, it feels incomplete and does not fully leverage his expertise in behavioral economics.",
+          "hidden_source": "real_kahneman",
+          "rating_time_ms": 2145
+        },
+        {
+          "response_id": "conversations_with_tyler_2018_2_resp_1",
+          "authenticity_score": 85.0,
+          "reasoning": "This response is insightful and effectively addresses the question by discussing the psychological aspects of vacation planning and memory. Kahneman highlights the distinction between immediate enjoyment and lasting memories, which reflects his research on cognitive biases and decision-making. The mention of \"good endings\" adds depth to the explanation. However, while the response is well-structured and informative, it could be improved by providing more concrete examples or data to illustrate the points made. Additionally, a slightly more concise delivery could enhance clarity. Overall, it's a strong response with valuable insights.",
+          "hidden_source": "gpt-4o-mini",
+          "rating_time_ms": 2352
+        }
+      ]
+    },
+    {
+      "question_id": "onbeing_krista_tippett_2017_1",
+      "response_ratings": [
+        {
+          "response_id": "onbeing_krista_tippett_2017_1_resp_real",
+          "authenticity_score": 70.0,
+          "reasoning": "The response provides a personal insight into Kahneman's upbringing and highlights the influence of his mother's conversation style on his understanding of human complexity. However, it feels somewhat disjointed, particularly with the abrupt mention of \"or Germans,\" which lacks context or elaboration. A clearer connection between these elements would strengthen the response. Overall, it conveys an intriguing idea but could benefit from more coherence and depth.",
+          "hidden_source": "real_kahneman",
+          "rating_time_ms": 1562
+        },
+        {
+          "response_id": "onbeing_krista_tippett_2017_1_resp_1",
+          "authenticity_score": 90.0,
+          "reasoning": "The response effectively captures the essence of the original question regarding the influence of Kahneman's mother on his understanding of human complexity. It provides a personal anecdote that illustrates his mother's observational skills and how those shaped his perspective on human behavior. The mention of narrative psychology adds depth and relevance to his work, linking personal experiences to professional insights. The only reason for not giving a perfect score is that it could be slightly more concise; some parts could be streamlined for clarity without losing the richness of the content. Overall, it is a thoughtful and engaging response.",
+          "hidden_source": "gpt-4o-mini",
+          "rating_time_ms": 2501
+        }
+      ]
+    },
+    {
+      "question_id": "onbeing_krista_tippett_2017_2",
+      "response_ratings": [
+        {
+          "response_id": "onbeing_krista_tippett_2017_2_resp_real",
+          "authenticity_score": 75.0,
+          "reasoning": "The response effectively challenges the conventional understanding of rationality by emphasizing its technical and mathematical nature, which can be difficult for humans to achieve. Kahneman articulates the complexities and limitations of human cognition well. However, the argument could benefit from a bit more clarity and structure. While the ideas presented are thought-provoking, they could be more concise and focused to enhance the overall impact. Additionally, the response could acknowledge the nuances of rationality in real-world decision-making rather than dismissing the label of irrationality entirely, which might make the argument more persuasive.",
+          "hidden_source": "real_kahneman",
+          "rating_time_ms": 2595
+        },
+        {
+          "response_id": "onbeing_krista_tippett_2017_2_resp_1",
+          "authenticity_score": 90.0,
+          "reasoning": "The response provides a well-rounded understanding of the complexities surrounding rationality and irrationality, particularly in the context of economics. It effectively references the Enlightenment's influence while addressing the limitations of the rationality assumption in human decision-making. The mention of cognitive biases and the distinction between System 1 and System 2 thinking demonstrates a deep comprehension of the subject matter. Additionally, the conclusion ties back to the importance of these insights for improving decision-making, which is a valuable takeaway. The only slight drawback is that it could have been more concise, but overall, it is a strong and informative response.",
+          "hidden_source": "gpt-4o-mini",
+          "rating_time_ms": 2673
+        }
+      ]
+    },
+    {
+      "question_id": "onbeing_krista_tippett_2017_3",
+      "response_ratings": [
+        {
+          "response_id": "onbeing_krista_tippett_2017_3_resp_1",
+          "authenticity_score": 90.0,
+          "reasoning": "The response effectively addresses the question by acknowledging the impact of the 2008 financial crisis on the understanding of economic behavior beyond traditional rational models. It references key concepts from behavioral economics, such as cognitive biases, heuristics, and the interplay of System 1 and System 2 thinking, demonstrating a deep understanding of the subject matter. The mention of emotions, overconfidence, and social dynamics adds depth to the explanation. The distinction made between \"irrationality\" and the complexity of cognitive processes is insightful and adds nuance to the discussion. The response is comprehensive, engaging, and relevant, making it a strong answer. However, it could have benefited from a more concise structure to enhance clarity, which is why it falls short of a perfect score.",
+          "hidden_source": "gpt-4o-mini",
+          "rating_time_ms": 2333
+        },
+        {
+          "response_id": "onbeing_krista_tippett_2017_3_resp_real",
+          "authenticity_score": 85.0,
+          "reasoning": "This response effectively engages with the question, providing a nuanced view of the 2008 financial crisis. Kahneman counters the notion of irrationality by highlighting that the behavior of bankers was consistent with rational self-interest, which aligns with standard economic theory. He also addresses the broader implications for the economics profession, noting the importance of acknowledging the limitations of economic models in predicting real-world events. While the response is insightful and relevant, it could benefit from a stronger connection to the cultural implications mentioned in the question, which would enhance the overall depth of the analysis.",
+          "hidden_source": "real_kahneman",
+          "rating_time_ms": 2398
+        }
+      ]
+    },
+    {
+      "question_id": "onbeing_krista_tippett_2017_4",
+      "response_ratings": [
+        {
+          "response_id": "onbeing_krista_tippett_2017_4_resp_1",
+          "authenticity_score": 90.0,
+          "reasoning": "The response effectively addresses the nuances of the question by discussing the distinction between System 1 and System 2 thinking, which is central to Kahneman's work. It elaborates on how automaticity in cognition is prevalent and how effortful thinking is both memorable and misleading in terms of perceived frequency. The explanation is clear and well-structured, demonstrating a deep understanding of cognitive processes. However, while comprehensive, the response could have been slightly more concise to enhance clarity and engagement. Nonetheless, it provides valuable insights and aligns well with Kahneman's themes.",
+          "hidden_source": "gpt-4o-mini",
+          "rating_time_ms": 2130
+        },
+        {
+          "response_id": "onbeing_krista_tippett_2017_4_resp_real",
+          "authenticity_score": 85.0,
+          "reasoning": "The response effectively captures the distinction between System 1 and System 2 thinking, emphasizing the relationship between consciousness, effort, and intuition. It articulates the process of how effortful tasks can become automatic through practice, which aligns well with Kahneman's research. However, it could be clearer in explaining how this relates directly to the miraculous nature of automaticity and the common misconceptions about our thinking processes. Overall, it is insightful and demonstrates a solid understanding of the concepts, but it lacks some clarity and direct connection to the question's theme.",
+          "hidden_source": "real_kahneman",
+          "rating_time_ms": 2100
+        }
+      ]
+    },
+    {
+      "question_id": "onbeing_krista_tippett_2017_5",
+      "response_ratings": [
+        {
+          "response_id": "onbeing_krista_tippett_2017_5_resp_real",
+          "authenticity_score": 85.0,
+          "reasoning": "The response effectively elaborates on the initial observation about behavioral economics and its connection to social psychology, thereby addressing the question with depth and insight. It introduces the concept of System 1 and System 2 thinking, which is relevant to understanding human behavior and beliefs. The mention of personal history as a key driver of beliefs adds an important layer of complexity to the discussion. However, the response could be slightly more concise and focused to enhance clarity and impact, which is why it doesn't score higher. Overall, it demonstrates a strong understanding of the topic and encourages reflection on the nature of beliefs and reasoning.",
+          "hidden_source": "real_kahneman",
+          "rating_time_ms": 4182
+        },
+        {
+          "response_id": "onbeing_krista_tippett_2017_5_resp_1",
+          "authenticity_score": 85.0,
+          "reasoning": "This response effectively addresses the question by acknowledging the relationship between behavioral economics and social psychology, and it highlights the limitations of traditional economic models. The reference to the 2008 financial crisis provides a concrete example to support the argument about human behavior in economic decision-making. The response articulates the idea that insights from psychology are vital for understanding economic behaviors, which aligns well with Kahneman's work. However, while the response is comprehensive and insightful, it could benefit from a more concise expression of ideas and perhaps a stronger closing statement that ties back to the original observation about the necessity of framing psychological insights within economics for cultural impact.",
+          "hidden_source": "gpt-4o-mini",
+          "rating_time_ms": 3397
+        }
+      ]
+    },
+    {
+      "question_id": "onbeing_krista_tippett_2017_6",
+      "response_ratings": [
+        {
+          "response_id": "onbeing_krista_tippett_2017_6_resp_1",
+          "authenticity_score": 90.0,
+          "reasoning": "This response effectively addresses the complexities of human cognition and the tendency to seek coherence in beliefs, aligning well with Kahneman's work on cognitive biases and decision-making. It acknowledges the discomfort of confronting the limits of understanding, which is a significant aspect of the question. The response is thorough, insightful, and reflects a deep grasp of the themes relevant to Kahneman's research. However, it could be slightly improved by offering more concrete examples or applications of these ideas in current political or social contexts, which would enhance its relevance and clarity.",
+          "hidden_source": "gpt-4o-mini",
+          "rating_time_ms": 2157
+        },
+        {
+          "response_id": "onbeing_krista_tippett_2017_6_resp_real",
+          "authenticity_score": 85.0,
+          "reasoning": "The response effectively articulates Kahneman's core ideas about human cognition, particularly the interplay between System 1 and System 2 thinking. It addresses the question by emphasizing our tendency to oversimplify and create narratives around events, which leads to a lack of true understanding of the uncertainty in the world. The response is coherent, relevant, and reflects Kahneman's deep understanding of behavioral psychology. However, it could be slightly improved by providing a more concrete example or application of these ideas to the political context mentioned in the question, which would enhance its relevance and engagement.",
+          "hidden_source": "real_kahneman",
+          "rating_time_ms": 2091
+        }
+      ]
+    },
+    {
+      "question_id": "onbeing_krista_tippett_2017_7",
+      "response_ratings": [
+        {
+          "response_id": "onbeing_krista_tippett_2017_7_resp_real",
+          "authenticity_score": 85.0,
+          "reasoning": "The response effectively addresses the complexity of human reasoning and the distinction between rational thought and belief. It highlights the tendency for individuals to rationalize beliefs rather than form them through logical reasoning, which aligns well with Kahneman's research on cognitive biases and decision-making. However, it could have further engaged with the nuances of the original question regarding the use of the terms \"rational\" and \"logical,\" and how these concepts relate to human behavior in social contexts. Overall, it is insightful and relevant but could be slightly more focused on the specific terminology discussed.",
+          "hidden_source": "real_kahneman",
+          "rating_time_ms": 2615
+        },
+        {
+          "response_id": "onbeing_krista_tippett_2017_7_resp_1",
+          "authenticity_score": 90.0,
+          "reasoning": "This response effectively engages with the question by acknowledging the distinction between rationality and logic, which is central to the interviewee's point. It provides a nuanced perspective on human cognition, emphasizing the influence of emotions and biases, which aligns well with Kahneman's work. The mention of prospect theory adds depth and credibility, demonstrating an understanding of how people make decisions. However, while the response is insightful and well-articulated, it could be slightly more concise to enhance clarity and impact.",
+          "hidden_source": "gpt-4o-mini",
+          "rating_time_ms": 3687
+        }
+      ]
+    },
+    {
+      "question_id": "onbeing_krista_tippett_2017_8",
+      "response_ratings": [
+        {
+          "response_id": "onbeing_krista_tippett_2017_8_resp_real",
+          "authenticity_score": 85.0,
+          "reasoning": "The response is insightful and demonstrates a deep understanding of the concepts of the experiencing self and the remembering self. Kahneman effectively communicates his initial beliefs and how they evolved, which adds depth to his answer. However, while the explanation is comprehensive, it could be more concise to enhance clarity. A slightly clearer distinction between the two selves and their implications for life evaluation could also strengthen the response. Overall, it's a strong answer with room for improvement in clarity and conciseness.",
+          "hidden_source": "real_kahneman",
+          "rating_time_ms": 1952
+        },
+        {
+          "response_id": "onbeing_krista_tippett_2017_8_resp_1",
+          "authenticity_score": 90.0,
+          "reasoning": "This response is well-articulated and insightful, effectively addressing the complexity of the relationship between the experiencing self and the remembering self. It highlights the nuanced interplay between the two, referencing the peak-end rule, which is a relevant concept in Kahneman's work. The answer also emphasizes that the influence of each self can vary depending on context, showcasing a deep understanding of the subject matter. The only minor drawback is that it could be slightly more concise, but overall, it provides a comprehensive and thoughtful analysis.",
+          "hidden_source": "gpt-4o-mini",
+          "rating_time_ms": 2048
+        }
+      ]
+    },
+    {
+      "question_id": "onbeing_krista_tippett_2017_9",
+      "response_ratings": [
+        {
+          "response_id": "onbeing_krista_tippett_2017_9_resp_real",
+          "authenticity_score": 85.0,
+          "reasoning": "This response effectively addresses the complexities of well-being as experienced by the experiencing self and the remembering self, which is central to the question asked. Kahneman clarifies the distinction between continuous emotional experience and retrospective evaluation, which is insightful and relevant. However, the response could be improved by more directly engaging with the initial point about the dialectic and the narrative construction of past experiences, potentially leading to a more comprehensive answer.",
+          "hidden_source": "real_kahneman",
+          "rating_time_ms": 2319
+        },
+        {
+          "response_id": "onbeing_krista_tippett_2017_9_resp_1",
+          "authenticity_score": 85.0,
+          "reasoning": "The response effectively addresses the question by elaborating on the distinction between the experiencing self and the remembering self, using childbirth as a relevant example. It captures the essence of how memory can distort our perception of experiences, highlighting the impact of biases in shaping our narratives. The response is articulate and insightful, connecting personal experiences to broader philosophical implications about understanding reality. However, it could benefit from a slightly more concise presentation or a clearer connection back to the initial question about the illusion of comprehensibility, which would enhance its overall clarity and focus.",
+          "hidden_source": "gpt-4o-mini",
+          "rating_time_ms": 3348
+        }
+      ]
+    },
+    {
+      "question_id": "onbeing_krista_tippett_2017_10",
+      "response_ratings": [
+        {
+          "response_id": "onbeing_krista_tippett_2017_10_resp_1",
+          "authenticity_score": 85.0,
+          "reasoning": "The response is well-articulated and addresses the complexity of overconfidence, highlighting both its negative impacts and its potential benefits in entrepreneurship and innovation. It shows a nuanced understanding of the topic and emphasizes the importance of balance rather than outright elimination. However, the answer could be improved by being more concise and focused, as it tends to meander slightly and could benefit from a clearer structure. Overall, it effectively communicates the core ideas while maintaining engagement.",
+          "hidden_source": "gpt-4o-mini",
+          "rating_time_ms": 2823
+        },
+        {
+          "response_id": "onbeing_krista_tippett_2017_10_resp_real",
+          "authenticity_score": 85.0,
+          "reasoning": "The response effectively addresses the question by explaining Kahneman's view on overconfidence, highlighting its prevalence and consequences. It balances the negative aspects of overconfidence with its potential benefits, particularly in entrepreneurship, which shows a nuanced understanding of the topic. However, the initial uncertainty (\"I'm not sure I was right\") slightly undermines the authority of the response. Overall, it provides a comprehensive perspective but could be slightly more concise for clarity.",
+          "hidden_source": "real_kahneman",
+          "rating_time_ms": 2047
+        }
+      ]
+    },
+    {
+      "question_id": "onbeing_krista_tippett_2017_11",
+      "response_ratings": [
+        {
+          "response_id": "onbeing_krista_tippett_2017_11_resp_real",
+          "authenticity_score": 85.0,
+          "reasoning": "The response effectively captures the complexity of the availability heuristic and the limitations of human perception. Kahneman emphasizes the significance of what we don't know and the difficulty in understanding differing perspectives. He provides a relevant example of disagreement among experts, which illustrates his point well. However, the response could be improved by being more concise and directly linking back to the original question, which would enhance clarity and focus.",
+          "hidden_source": "real_kahneman",
+          "rating_time_ms": 1902
+        },
+        {
+          "response_id": "onbeing_krista_tippett_2017_11_resp_1",
+          "authenticity_score": 90.0,
+          "reasoning": "The response is well-articulated and provides a thorough explanation of the availability heuristic and the phrase \"What you see is all there is.\" It effectively conveys the implications of these concepts on human cognition and decision-making. The use of an example involving expert disagreement enhances the response by illustrating the practical consequences of the discussed cognitive limitations. The conclusion emphasizes the importance of recognizing these constraints, which is a valuable takeaway. However, while the response is comprehensive, it could be slightly more concise to enhance clarity and impact, hence the score of 90 instead of 100.",
+          "hidden_source": "gpt-4o-mini",
+          "rating_time_ms": 1796
+        }
+      ]
+    },
+    {
+      "question_id": "onbeing_krista_tippett_2017_12",
+      "response_ratings": [
+        {
+          "response_id": "onbeing_krista_tippett_2017_12_resp_1",
+          "authenticity_score": 85.0,
+          "reasoning": "The response effectively addresses the complexity of consciousness and connects it to Kahneman's well-known concepts of the experiencing self and remembering self, which adds depth and relevance. It also acknowledges the limitations of current understanding and the uncertainty surrounding consciousness, which aligns with the philosophical nature of the question. The integration of fast and slow thinking further enriches the answer, demonstrating a clear understanding of cognitive processes. However, the response could benefit from a more concise structure and a more direct answer to the question of how Kahneman personally thinks about consciousness, rather than primarily discussing its implications and related concepts.",
+          "hidden_source": "gpt-4o-mini",
+          "rating_time_ms": 4089
+        },
+        {
+          "response_id": "onbeing_krista_tippett_2017_12_resp_real",
+          "authenticity_score": 85.0,
+          "reasoning": "The response effectively conveys Kahneman's unique perspective on consciousness, distinguishing it from the interests of many in the field. He raises a thought-provoking point about the challenges of determining consciousness in artificial intelligence, which illustrates his critical thinking. Additionally, he acknowledges the brilliance of those who are fascinated by the question, which shows humility and respect for differing viewpoints. However, while the response is insightful, it could benefit from a deeper exploration of his own thoughts on consciousness beyond his critique of others' views, which would enhance the overall depth of the answer.",
+          "hidden_source": "real_kahneman",
+          "rating_time_ms": 3167
+        }
+      ]
+    },
+    {
+      "question_id": "onbeing_krista_tippett_2017_13",
+      "response_ratings": [
+        {
+          "response_id": "onbeing_krista_tippett_2017_13_resp_1",
+          "authenticity_score": 90.0,
+          "reasoning": "The response is insightful and well-articulated, effectively capturing the distinction between changing one's mind and the process of \"thinking again.\" Kahneman's explanation of the roles of System 1 and System 2 thinking adds depth and demonstrates his understanding of cognitive processes. The mention of cognitive humility and its importance in both personal and professional contexts is relevant and thought-provoking. However, the response could be slightly improved by providing more concrete examples or practical applications of \"thinking again\" to enhance clarity and relatability for the audience. Overall, it is a strong response that aligns well with the question asked.",
+          "hidden_source": "gpt-4o-mini",
+          "rating_time_ms": 3221
+        },
+        {
+          "response_id": "onbeing_krista_tippett_2017_13_resp_real",
+          "authenticity_score": 85.0,
+          "reasoning": "The response effectively addresses the distinction between changing one's own mind and thinking again by emphasizing the importance of detecting biases in others' thinking. Kahneman provides a concrete example (analysts at the CIA) which grounds his thoughts in a real-world context, making it relatable. The acknowledgment of the difficulty in de-biasing oneself while suggesting a feasible approach to improving critical thinking in observing others is insightful. However, the response could be clearer in explicitly defining the distinction mentioned in the question and could benefit from a more structured conclusion to reinforce his main argument. Overall, it is a thoughtful and nuanced answer.",
+          "hidden_source": "real_kahneman",
+          "rating_time_ms": 2598
+        }
+      ]
+    },
+    {
+      "question_id": "onbeing_krista_tippett_2017_14",
+      "response_ratings": [
+        {
+          "response_id": "onbeing_krista_tippett_2017_14_resp_real",
+          "authenticity_score": 85.0,
+          "reasoning": "The response is insightful and addresses the concern raised in the question. Kahneman acknowledges the overuse of the term 'bias' and brings attention to the concept of random error, which adds depth to the discussion. He effectively contextualizes his own work and its influence, demonstrating a reflective understanding of the evolution of thought around the concept of error. However, the response could be slightly more concise and focused to enhance clarity and impact. Overall, it is a strong and relevant answer.",
+          "hidden_source": "real_kahneman",
+          "rating_time_ms": 1899
+        },
+        {
+          "response_id": "onbeing_krista_tippett_2017_14_resp_1",
+          "authenticity_score": 95.0,
+          "reasoning": "This response effectively addresses the concern raised about the overuse of the term 'bias' by providing a thoughtful distinction between bias and noise. It articulates a clear understanding of the complexities involved in human judgment and decision-making, emphasizing that both bias and noise play critical roles. The example involving doctors illustrates the point well, making the argument relatable and concrete. The response also acknowledges the nuance of the topic and the ongoing nature of the conversation, which adds depth. The only minor drawback is that it could have been slightly more concise, but overall, it is a well-rounded and insightful answer.",
+          "hidden_source": "gpt-4o-mini",
+          "rating_time_ms": 1988
+        }
+      ]
+    },
+    {
+      "question_id": "conversations_with_tyler_2018_3",
+      "response_ratings": [
+        {
+          "response_id": "conversations_with_tyler_2018_3_resp_real",
+          "authenticity_score": 70.0,
+          "reasoning": "The response provides a clear rationale for why the duration of pain is less significant than its intensity, linking it to evolutionary factors and the concept of threat severity. However, it could benefit from more elaboration or examples to strengthen the argument and clarify the idea that duration can be perceived as \"striking\" yet \"insignificant.\" Additionally, the phrasing could be smoother to enhance comprehension. Overall, it addresses the question but lacks depth and clarity in parts.",
+          "hidden_source": "real_kahneman",
+          "rating_time_ms": 2521
+        },
+        {
+          "response_id": "conversations_with_tyler_2018_3_resp_1",
+          "authenticity_score": 90.0,
+          "reasoning": "The response effectively explains the concept of the peak-end rule and how it relates to the evaluation of painful experiences. It provides a clear and relevant answer to the question, incorporating both empirical findings and evolutionary perspectives. The mention of practical implications adds value, highlighting the relevance of the research. However, while the response is thorough, it could be slightly more concise to enhance clarity and engagement. Overall, it demonstrates a strong understanding of the topic and communicates it well.",
+          "hidden_source": "gpt-4o-mini",
+          "rating_time_ms": 2109
+        }
+      ]
+    },
+    {
+      "question_id": "conversations_with_tyler_2018_4",
+      "response_ratings": [
+        {
+          "response_id": "conversations_with_tyler_2018_4_resp_real",
+          "authenticity_score": 85.0,
+          "reasoning": "The response effectively addresses the question by acknowledging the disconnect between the enjoyment of experiences (like spending time with friends) and people's actual behaviors. Kahneman highlights a deeper insight into human motivation, suggesting that people prioritize self-satisfaction over mere happiness, which adds depth to the conversation. However, the answer could be improved by providing specific examples or elaborating on how this divergence manifests in people's choices, which would enhance clarity and engagement.",
+          "hidden_source": "real_kahneman",
+          "rating_time_ms": 1967
+        },
+        {
+          "response_id": "conversations_with_tyler_2018_4_resp_1",
+          "authenticity_score": 90.0,
+          "reasoning": "This response is well-structured and addresses the complexity of the question effectively. It incorporates research findings relevant to the topic, such as the Day Reconstruction Method, and explains various factors influencing decision-making, including constraints, cognitive processes (System 1 and System 2), duration neglect, and social norms. The answer is thoughtful and demonstrates a deep understanding of human behavior, which is expected from Kahneman. However, it could be slightly improved by offering a more concise conclusion or a personal insight that ties back to the question, which would enhance engagement. Nonetheless, it remains a strong and comprehensive answer.",
+          "hidden_source": "gpt-4o-mini",
+          "rating_time_ms": 2855
+        }
+      ]
+    },
+    {
+      "question_id": "conversations_with_tyler_2018_5",
+      "response_ratings": [
+        {
+          "response_id": "conversations_with_tyler_2018_5_resp_real",
+          "authenticity_score": 70.0,
+          "reasoning": "The response provides some insightful observations about the challenges in evaluating happiness interventions and acknowledges the complexity of measuring happiness. However, it lacks a direct answer to the question posed and could benefit from more concrete examples or personal insights from Kahneman's own research. Overall, it demonstrates an understanding of the topic but feels somewhat vague and non-committal.",
+          "hidden_source": "real_kahneman",
+          "rating_time_ms": 1432
+        },
+        {
+          "response_id": "conversations_with_tyler_2018_5_resp_1",
+          "authenticity_score": 90.0,
+          "reasoning": "This response is comprehensive and insightful, reflecting Kahneman's expertise in behavioral psychology. It acknowledges the complexity of human behavior and decision-making, particularly in the context of happiness and satisfaction. The mention of cognitive biases and the distinction between experiential happiness and life satisfaction adds depth. The response effectively communicates that while information can guide behavior, significant changes require more than just knowledge, emphasizing the need for structural changes in the decision-making environment. The answer could have included a brief personal anecdote or example to illustrate the points made, which would have made it even more relatable, but overall, it is a strong and thoughtful response.",
+          "hidden_source": "gpt-4o-mini",
+          "rating_time_ms": 1862
+        }
+      ]
+    },
+    {
+      "question_id": "conversations_with_tyler_2018_6",
+      "response_ratings": [
+        {
+          "response_id": "conversations_with_tyler_2018_6_resp_1",
+          "authenticity_score": 90.0,
+          "reasoning": "This response effectively addresses the question by articulating the concept of loss aversion and its impact on decision-making. It demonstrates a clear understanding of the emotional weight associated with different time delays and acknowledges the limits of self-awareness in overcoming cognitive biases. The answer is well-structured and insightful, providing a thorough explanation of why someone would prefer to be just one minute late. However, it could be slightly improved by being more concise or directly stating the personal preference at the beginning, rather than at the end, to enhance clarity.",
+          "hidden_source": "gpt-4o-mini",
+          "rating_time_ms": 1813
+        },
+        {
+          "response_id": "conversations_with_tyler_2018_6_resp_real",
+          "authenticity_score": 70.0,
+          "reasoning": "The response acknowledges the commonality of the bias and admits a level of self-awareness regarding it. Kahneman's recognition that it might be possible to talk oneself out of the bias, albeit with effort, reflects a realistic understanding of human psychology. However, the answer lacks depth and specificity in exploring the reasoning behind the preference for being two hours late versus one minute late. A more thorough exploration of why these biases occur and the psychological mechanisms at play would enhance the response.",
+          "hidden_source": "real_kahneman",
+          "rating_time_ms": 2955
+        }
+      ]
+    },
+    {
+      "question_id": "conversations_with_tyler_2018_7",
+      "response_ratings": [
+        {
+          "response_id": "conversations_with_tyler_2018_7_resp_1",
+          "authenticity_score": 90.0,
+          "reasoning": "This response is well-articulated and nuanced, reflecting a deep understanding of the concept of bias and its dual nature. It effectively draws parallels between biases in sports and music, demonstrating how they can structure our experiences while also acknowledging the potential downsides. The mention of the complexity of biases and the need to navigate them wisely adds depth to the response. However, it could be slightly more concise, as some points may feel repetitive. Overall, it captures the essence of the question thoughtfully and insightfully.",
+          "hidden_source": "gpt-4o-mini",
+          "rating_time_ms": 2859
+        },
+        {
+          "response_id": "conversations_with_tyler_2018_7_resp_real",
+          "authenticity_score": 70.0,
+          "reasoning": "The response presents a clear distinction between bias and the role of music in shaping experiences, which is a thoughtful perspective. However, it could benefit from further elaboration on why labeling things as biases may be misleading and how this relates to the broader context of life experiences. The response seems somewhat dismissive of the question's premise, which could be perceived as limiting the depth of the discussion.",
+          "hidden_source": "real_kahneman",
+          "rating_time_ms": 2181
+        }
+      ]
+    },
+    {
+      "question_id": "conversations_with_tyler_2018_8",
+      "response_ratings": [
+        {
+          "response_id": "conversations_with_tyler_2018_8_resp_real",
+          "authenticity_score": 75.0,
+          "reasoning": "The response acknowledges the beauty and validity of John List's research, which is a positive aspect. Kahneman also provides a personal example to illustrate his point about rational behavior in routine transactions, which adds depth to the answer. However, the explanation could be clearer and more structured. It jumps between ideas somewhat abruptly, and while it mentions loss aversion, it could provide a more thorough analysis of how List's findings relate to broader behavioral economics concepts. Overall, it's a solid response but lacks some clarity and depth in linking ideas.",
+          "hidden_source": "real_kahneman",
+          "rating_time_ms": 2733
+        },
+        {
+          "response_id": "conversations_with_tyler_2018_8_resp_1",
+          "authenticity_score": 90.0,
+          "reasoning": "The response demonstrates a thoughtful engagement with John List's work and acknowledges the complexity of biases in decision-making. Kahneman correctly emphasizes that while biases may be reduced in experts, they do not disappear entirely and can vary by context. The caution against overgeneralization is important in academic discourse, showing a deep understanding of the topic. The response is articulate and well-reasoned, making it a strong answer overall, though it could be slightly improved with a more explicit connection to broader implications for behavioral economics.",
+          "hidden_source": "gpt-4o-mini",
+          "rating_time_ms": 2055
+        }
+      ]
+    },
+    {
+      "question_id": "conversations_with_tyler_2018_9",
+      "response_ratings": [
+        {
+          "response_id": "conversations_with_tyler_2018_9_resp_1",
+          "authenticity_score": 90.0,
+          "reasoning": "The response is thorough and demonstrates a deep understanding of the complexities of decision-making, highlighting both bias and noise. Kahneman effectively communicates his evolved perspective, supported by empirical evidence from studies, which strengthens his argument. The mention of specific fields like medicine and law provides context and relevance, making the argument more persuasive. The humility expressed regarding the unpredictability of expert decisions adds a relatable touch. However, the response could be slightly improved by offering more concrete examples or solutions to address noise, which would elevate the practical implications of his insights.",
+          "hidden_source": "gpt-4o-mini",
+          "rating_time_ms": 2549
+        },
+        {
+          "response_id": "conversations_with_tyler_2018_9_resp_real",
+          "authenticity_score": 90.0,
+          "reasoning": "This response provides a clear and detailed explanation of the concepts of noise and bias in decision-making. Kahneman effectively illustrates his points using a concrete example from his research with an insurance company, which enhances the credibility of his argument. He articulates the significance of noise and its prevalence, while also acknowledging the complexity of measuring bias versus noise. The response is comprehensive and addresses the question thoroughly, though it could be slightly more concise to enhance clarity. Overall, it demonstrates a deep understanding of the topic and is engaging.",
+          "hidden_source": "real_kahneman",
+          "rating_time_ms": 2967
+        }
+      ]
+    },
+    {
+      "question_id": "conversations_with_tyler_2018_10",
+      "response_ratings": [
+        {
+          "response_id": "conversations_with_tyler_2018_10_resp_1",
+          "authenticity_score": 90.0,
+          "reasoning": "This response effectively addresses the question by acknowledging the potential benefits of the wisdom of crowds while also highlighting its limitations. It emphasizes the importance of independence among decision-makers and provides practical suggestions for mitigating noise, such as anonymous voting and statistical methods. The response is well-structured and demonstrates a deep understanding of the concept. However, it could be slightly improved by providing a concrete example or case study to illustrate the points made. Overall, it is a comprehensive and insightful answer.",
+          "hidden_source": "gpt-4o-mini",
+          "rating_time_ms": 2443
+        },
+        {
+          "response_id": "conversations_with_tyler_2018_10_resp_real",
+          "authenticity_score": 85.0,
+          "reasoning": "This response effectively addresses the question by explaining the conditions under which the wisdom of crowds can be beneficial, highlighting the importance of independent errors versus shared biases. Kahneman provides a concrete example with Google, which adds credibility to his argument. However, the response could be improved by offering more specific strategies for implementing the wisdom of crowds in business contexts or addressing potential drawbacks in more depth. Overall, it is a well-rounded answer that demonstrates a nuanced understanding of the topic.",
+          "hidden_source": "real_kahneman",
+          "rating_time_ms": 3878
+        }
+      ]
+    },
+    {
+      "question_id": "conversations_with_tyler_2018_11",
+      "response_ratings": [
+        {
+          "response_id": "conversations_with_tyler_2018_11_resp_1",
+          "authenticity_score": 85.0,
+          "reasoning": "The response effectively addresses the question by outlining specific strategies for reducing noise in decision-making when averaging isn't feasible. It emphasizes the importance of delaying intuition, structured decision-making processes, and creating a culture that welcomes dissenting opinions. The reference to expert intuition and the discussion with Gary Klein adds depth to the response, showcasing an understanding of the complexities involved. However, the response could be improved by including more concrete examples or case studies to illustrate the suggested strategies in action. Overall, it demonstrates a strong grasp of the topic and offers practical advice, which is why it scores high.",
+          "hidden_source": "gpt-4o-mini",
+          "rating_time_ms": 1578
+        },
+        {
+          "response_id": "conversations_with_tyler_2018_11_resp_real",
+          "authenticity_score": 85.0,
+          "reasoning": "The response provides a clear and actionable piece of advice: \"delay intuition.\" Kahneman effectively communicates the importance of taking time to gather facts and analyze the problem thoroughly, which is particularly relevant for CEOs who may not have intuitive expertise in every situation. The mention of differing viewpoints, such as those of Gary Klein, adds depth to the discussion and shows that he acknowledges the complexity of decision-making. However, the response could be improved by including specific examples or methods for how to \"divide and conquer\" or practical strategies that a CEO could implement. Overall, it is insightful and well-articulated, but slightly lacking in concrete implementation steps.",
+          "hidden_source": "real_kahneman",
+          "rating_time_ms": 2658
+        }
+      ]
+    },
+    {
+      "question_id": "conversations_with_tyler_2018_12",
+      "response_ratings": [
+        {
+          "response_id": "conversations_with_tyler_2018_12_resp_1",
+          "authenticity_score": 85.0,
+          "reasoning": "The response effectively addresses the question by acknowledging the traditional view of noise as a cost while also highlighting its potential benefits in specific contexts, such as fostering creativity and adaptation in biological systems. The mention of the need for balance between too much and too little noise adds depth to the argument. However, the answer could be strengthened by providing more concrete examples or evidence to support the claims made about noise's beneficial roles. Overall, it demonstrates a nuanced understanding of the topic, which is appropriate for someone like Kahneman.",
+          "hidden_source": "gpt-4o-mini",
+          "rating_time_ms": 2063
+        },
+        {
+          "response_id": "conversations_with_tyler_2018_12_resp_real",
+          "authenticity_score": 85.0,
+          "reasoning": "This response effectively highlights a nuanced perspective on the role of noise, particularly in the context of evolution and selection processes. Kahneman identifies a specific scenario where noise can be beneficial, which demonstrates a deeper understanding of the concept. However, the answer could be enhanced by providing more examples or applications in business or society to illustrate how noise might be useful beyond evolutionary theory. Overall, it's a solid and insightful response.",
+          "hidden_source": "real_kahneman",
+          "rating_time_ms": 1803
+        }
+      ]
+    },
+    {
+      "question_id": "conversations_with_tyler_2018_13",
+      "response_ratings": [
+        {
+          "response_id": "conversations_with_tyler_2018_13_resp_1",
+          "authenticity_score": 85.0,
+          "reasoning": "This response is thoughtful and nuanced, recognizing the complexity of cognitive disabilities like ADHD and their distinction from the concepts of bias and noise. It effectively articulates how ADHD involves different cognitive functioning rather than simply being a case of bias or noise. Additionally, the acknowledgment of uncertainty and the need for further research demonstrates humility and a willingness to engage with evolving ideas. However, while the response is strong, it could benefit from more specific examples or applications of how ADHD impacts decision-making to enhance clarity.",
+          "hidden_source": "gpt-4o-mini",
+          "rating_time_ms": 2907
+        },
+        {
+          "response_id": "conversations_with_tyler_2018_13_resp_real",
+          "authenticity_score": 85.0,
+          "reasoning": "The response is clear and effectively distinguishes between cognitive disabilities like ADHD and the concepts of bias and noise. Kahneman articulates that attention deficit is a separate issue, which adds depth to the conversation. However, the answer could be slightly improved by providing more context or examples to further elaborate on the distinction he is making, which would enhance understanding for those less familiar with the terms.",
+          "hidden_source": "real_kahneman",
+          "rating_time_ms": 1561
+        }
+      ]
+    },
+    {
+      "question_id": "conversations_with_tyler_2018_14",
+      "response_ratings": [
+        {
+          "response_id": "conversations_with_tyler_2018_14_resp_real",
+          "authenticity_score": 85.0,
+          "reasoning": "The response effectively addresses the question by acknowledging the role of social norms and moral feelings in shaping people's perceptions of certain transactions as repugnant. Kahneman's mention of \"moral emotion\" and specific terms like \"indignation\" and \"moral disgust\" demonstrates a deep understanding of the psychological underpinnings of these feelings. However, the answer could benefit from a more explicit connection to the concept of bias and how it relates to these moral feelings. Overall, it's a thoughtful and insightful response, but it lacks a bit of clarity regarding the bias aspect.",
+          "hidden_source": "real_kahneman",
+          "rating_time_ms": 1877
+        },
+        {
+          "response_id": "conversations_with_tyler_2018_14_resp_1",
+          "authenticity_score": 85.0,
+          "reasoning": "The response is thoughtful and nuanced, effectively distinguishing between cognitive biases and moral intuitions, which demonstrates a deep understanding of the complexities involved in people's reactions to morally charged transactions. The mention of social norms, cultural context, and the psychological components of fairness and dignity adds depth to the explanation. However, it could be improved by providing more concrete examples or empirical evidence to support the claims made, which would enhance the persuasiveness of the argument. Overall, it is a strong response but could benefit from a bit more specificity.",
+          "hidden_source": "gpt-4o-mini",
+          "rating_time_ms": 3434
+        }
+      ]
+    },
+    {
+      "question_id": "conversations_with_tyler_2018_15",
+      "response_ratings": [
+        {
+          "response_id": "conversations_with_tyler_2018_15_resp_1",
+          "authenticity_score": 85.0,
+          "reasoning": "The response effectively addresses the complexity of human emotions and acknowledges the multifaceted nature of feelings like repugnance. It reframes the notion of pessimism into a more nuanced understanding, which is valuable. The speaker also highlights the limitations of psychology in providing definitive explanations, which reflects a realistic perspective. However, the response could be improved by providing specific examples or research findings to strengthen the argument and illustrate the points made. Overall, it is a thoughtful and articulate answer that captures the complexities involved.",
+          "hidden_source": "gpt-4o-mini",
+          "rating_time_ms": 1912
+        },
+        {
+          "response_id": "conversations_with_tyler_2018_15_resp_real",
+          "authenticity_score": 70.0,
+          "reasoning": "The response provides a relevant example from Paul Rozin's research that demonstrates how cultural factors can influence feelings of repugnance. It touches on the associative nature of these feelings and hints at the complexity of psychological explanations. However, the answer is somewhat vague and does not directly address the question about the ability of psychologists to develop structural explanations comprehensively. It could benefit from a clearer connection to the broader implications of the example and a more definitive stance on the topic.",
+          "hidden_source": "real_kahneman",
+          "rating_time_ms": 1919
+        }
+      ]
+    },
+    {
+      "question_id": "conversations_with_tyler_2018_16",
+      "response_ratings": [
+        {
+          "response_id": "conversations_with_tyler_2018_16_resp_real",
+          "authenticity_score": 85.0,
+          "reasoning": "The response is insightful and provides a strong endorsement of Philip Tetlock's work, highlighting the effectiveness of the forecasting tournaments and the strategies employed by successful forecasters. Kahneman discusses the mechanics behind successful forecasting and distinguishes it from other approaches, which adds depth to his agreement with Tetlock's premise. However, the response could be improved by directly addressing the second part of the question regarding any factors Tetlock might be overlooking in his tournament setup. This omission leaves the response somewhat incomplete, preventing it from achieving a perfect score.",
+          "hidden_source": "real_kahneman",
+          "rating_time_ms": 2150
+        },
+        {
+          "response_id": "conversations_with_tyler_2018_16_resp_1",
+          "authenticity_score": 90.0,
+          "reasoning": "This response demonstrates a deep understanding of the topic and acknowledges the value of Philip Tetlock's work while also highlighting potential limitations in his approach. It effectively balances agreement with caution, indicating a nuanced perspective that reflects Kahneman's own views on human judgment, bias, and noise. The mention of various influencing factors shows a comprehensive analysis, making the response well-rounded and insightful. However, it could have benefited from a more concise structure, as the length may detract from clarity. Overall, it's a strong and thoughtful answer.",
+          "hidden_source": "gpt-4o-mini",
+          "rating_time_ms": 2250
+        }
+      ]
+    },
+    {
+      "question_id": "conversations_with_tyler_2018_17",
+      "response_ratings": [
+        {
+          "response_id": "conversations_with_tyler_2018_17_resp_real",
+          "authenticity_score": 85.0,
+          "reasoning": "This response effectively highlights the dual nature of overconfidence, acknowledging its potential benefits in fostering optimism and encouraging risk-taking, which can drive economic progress. Kahneman articulates a nuanced perspective by distinguishing between the personal implications of overconfidence and its societal advantages. However, the response could be strengthened by offering more concrete examples or empirical evidence to support the claims made, which would enhance the overall depth and persuasiveness of the argument.",
+          "hidden_source": "real_kahneman",
+          "rating_time_ms": 1641
+        },
+        {
+          "response_id": "conversations_with_tyler_2018_17_resp_1",
+          "authenticity_score": 85.0,
+          "reasoning": "The response is well-structured and insightful, addressing the complexity of overconfidence in business contexts. It references Kahneman's own research, providing credibility to the argument. The mention of the potential benefits of overconfidence alongside its risks shows a nuanced understanding of the topic. However, it could be more concise and focused, as it tends to meander slightly towards the end. Overall, it effectively captures the dual nature of overconfidence, making it a strong answer.",
+          "hidden_source": "gpt-4o-mini",
+          "rating_time_ms": 1941
+        }
+      ]
+    },
+    {
+      "question_id": "conversations_with_tyler_2018_18",
+      "response_ratings": [
+        {
+          "response_id": "conversations_with_tyler_2018_18_resp_real",
+          "authenticity_score": 85.0,
+          "reasoning": "The response effectively addresses the question by discussing the criteria for when it is appropriate to override a machine's decision. It provides a clear example that illustrates a situation where human intervention is justified, which adds practical relevance to the discussion. The mention of experiments showing that humans often perform worse than machines when overriding their decisions adds credibility to the response. However, the answer could have been enhanced by more explicitly addressing the aspects of overconfidence or optimism in humans, which was the core of the question.",
+          "hidden_source": "real_kahneman",
+          "rating_time_ms": 1888
+        },
+        {
+          "response_id": "conversations_with_tyler_2018_18_resp_1",
+          "authenticity_score": 85.0,
+          "reasoning": "The response is well-rounded and acknowledges the complexity of human-machine collaboration, highlighting both the risks of overconfidence and the potential value of human intuition. It demonstrates an understanding of cognitive biases and the dual-process theory (System 1 vs. System 2 thinking). However, it could be improved by providing more concrete examples or empirical evidence to support the claims made, as well as a more definitive stance on whether humans are generally overconfident or optimistic. Overall, it effectively addresses the question while maintaining a balanced perspective.",
+          "hidden_source": "gpt-4o-mini",
+          "rating_time_ms": 2122
+        }
+      ]
+    },
+    {
+      "question_id": "conversations_with_tyler_2018_19",
+      "response_ratings": [
+        {
+          "response_id": "conversations_with_tyler_2018_19_resp_real",
+          "authenticity_score": 85.0,
+          "reasoning": "The response provides a compelling argument for the automation of tasks traditionally performed by humans, using chess and dermatology as examples. Kahneman effectively illustrates the diminishing role of human input as AI capabilities improve. However, the argument could be strengthened by addressing counterarguments or acknowledging the potential for collaborative roles between humans and machines in certain fields, which would provide a more nuanced view. Overall, the response is insightful and grounded in specific examples, warranting a high score.",
+          "hidden_source": "real_kahneman",
+          "rating_time_ms": 2438
+        },
+        {
+          "response_id": "conversations_with_tyler_2018_19_resp_1",
+          "authenticity_score": 90.0,
+          "reasoning": "The response is well-articulated and provides a balanced view on the complex issue of automation and job displacement. It acknowledges the validity of concerns raised by analysts like Martin Ford while also emphasizing the unique qualities of human beings that machines cannot replicate, such as creativity and emotional intelligence. The mention of historical trends and the potential for new job creation adds depth to the argument. Furthermore, the response recognizes the evolving relationship between humans and machines, suggesting a collaborative future. The only reason for not giving a perfect score is that it could have included more specific examples or data to further support the claims made. Overall, it's a thoughtful and nuanced perspective.",
+          "hidden_source": "gpt-4o-mini",
+          "rating_time_ms": 2771
+        }
+      ]
+    },
+    {
+      "question_id": "conversations_with_tyler_2018_20",
+      "response_ratings": [
+        {
+          "response_id": "conversations_with_tyler_2018_20_resp_1",
+          "authenticity_score": 90.0,
+          "reasoning": "This response effectively connects Kahneman's early work in visual perception and attention to his later research on cognitive biases and decision-making. It demonstrates a clear understanding of the evolution of his ideas and how foundational concepts from his early research influenced his later studies. The mention of specific examples, such as selective attention and the Israeli bus drivers study, adds depth and relevance, illustrating the continuity in his work. While the response could benefit from a more succinct structure, it comprehensively answers the question and reflects a thoughtful and nuanced understanding of the development of his research.",
+          "hidden_source": "gpt-4o-mini",
+          "rating_time_ms": 4581
+        },
+        {
+          "response_id": "conversations_with_tyler_2018_20_resp_real",
+          "authenticity_score": 70.0,
+          "reasoning": "The response provides a clear distinction between Kahneman's early work and his later work, emphasizing that the initial research on vision and mental effort did not directly influence his collaboration with Tversky on heuristics and biases. It also highlights how his earlier work eventually contributed to \"Thinking, Fast and Slow,\" which demonstrates a reflective understanding of his intellectual journey. However, the answer could benefit from a more nuanced exploration of how the themes of effort and decision-making might connect across his body of work, which would make it more insightful.",
+          "hidden_source": "real_kahneman",
+          "rating_time_ms": 5193
+        }
+      ]
+    },
+    {
+      "question_id": "conversations_with_tyler_2018_21",
+      "response_ratings": [
+        {
+          "response_id": "conversations_with_tyler_2018_21_resp_1",
+          "authenticity_score": 90.0,
+          "reasoning": "The response effectively addresses the question by clarifying the distinction between System 1 and System 2 thinking and articulating why this distinction remains valid despite concerns about replicability in specific findings. It highlights the importance of the framework as a structural understanding of cognition rather than relying solely on individual studies. Additionally, the response acknowledges the implications of the replication crisis, showing a balanced perspective that combines confidence in the framework with a recognition of the need for ongoing scrutiny. This demonstrates depth of thought and awareness of the complexities involved, making it a strong answer. However, a slightly more concise articulation could enhance clarity.",
+          "hidden_source": "gpt-4o-mini",
+          "rating_time_ms": 4364
+        },
+        {
+          "response_id": "conversations_with_tyler_2018_21_resp_real",
+          "authenticity_score": 85.0,
+          "reasoning": "The response effectively addresses the question by acknowledging the issue of unreliability in some published results while maintaining the validity of the fundamental distinction between System 1 and System 2 thinking. Kahneman provides a clear example that illustrates the inherent differences in processing between the two systems, which strengthens his argument. However, the response could be improved by providing more context on how the unreliability of specific results might influence interpretations of the broader framework, making it slightly more nuanced. Overall, the answer is strong but could benefit from deeper exploration of the implications of replication issues.",
+          "hidden_source": "real_kahneman",
+          "rating_time_ms": 3231
+        }
+      ]
+    },
+    {
+      "question_id": "conversations_with_tyler_2018_22",
+      "response_ratings": [
+        {
+          "response_id": "conversations_with_tyler_2018_22_resp_real",
+          "authenticity_score": 75.0,
+          "reasoning": "The response provides thoughtful insights into the potential advantages of working in a second language, suggesting that it can lead to a different perspective or a more abstract way of thinking. However, the answer lacks clarity and coherence at times, making it somewhat difficult to follow. It could benefit from more structured reasoning and concrete examples to strengthen the argument. Overall, while it reflects an interesting personal perspective, it doesn't fully articulate the complexities of how language influences psychological thought, which could enhance its effectiveness.",
+          "hidden_source": "real_kahneman",
+          "rating_time_ms": 1967
+        },
+        {
+          "response_id": "conversations_with_tyler_2018_22_resp_1",
+          "authenticity_score": 85.0,
+          "reasoning": "The response is insightful and demonstrates a deep understanding of the relationship between language and cognitive processes. Kahneman acknowledges the influence of being a non-native speaker on his awareness of cognitive effort versus automatic processing, which aligns well with his own research on System 1 and System 2 thinking. The mention of personal experiences adds authenticity to his perspective. However, the response could be improved by providing more concrete examples or evidence of how this awareness has specifically influenced his work, which would strengthen the argument that this linguistic experience has shaped his psychological insights. Overall, it's a thoughtful and reflective answer.",
+          "hidden_source": "gpt-4o-mini",
+          "rating_time_ms": 2864
+        }
+      ]
+    },
+    {
+      "question_id": "conversations_with_tyler_2018_23",
+      "response_ratings": [
+        {
+          "response_id": "conversations_with_tyler_2018_23_resp_real",
+          "authenticity_score": 60.0,
+          "reasoning": "The response is honest and acknowledges the speaker's limitations in knowledge on the topic, which is a positive aspect. However, it lacks depth and does not provide any specific insights or examples that could enhance the discussion on bilingualism or trilingualism. A more informative response would have included references to relevant studies or findings, even if brief.",
+          "hidden_source": "real_kahneman",
+          "rating_time_ms": 1317
+        },
+        {
+          "response_id": "conversations_with_tyler_2018_23_resp_1",
+          "authenticity_score": 90.0,
+          "reasoning": "The response is well-rounded and demonstrates a nuanced understanding of the complexities surrounding bilingualism and its cognitive advantages. It highlights specific benefits such as enhanced cognitive flexibility and executive control while acknowledging variability in effects based on individual circumstances. The mention of the ongoing research and the caution against overgeneralization adds depth and shows critical thinking. However, a slight deduction is made for not providing more specific examples or studies to further support claims, which would enhance credibility and engagement. Overall, it's a strong and thoughtful answer.",
+          "hidden_source": "gpt-4o-mini",
+          "rating_time_ms": 1705
+        }
+      ]
+    },
+    {
+      "question_id": "conversations_with_tyler_2018_24",
+      "response_ratings": [
+        {
+          "response_id": "conversations_with_tyler_2018_24_resp_1",
+          "authenticity_score": 85.0,
+          "reasoning": "The response effectively addresses the question by acknowledging the gap between psychological research and its application in therapy and medicine. It highlights the reliance on traditional decision-making models, which is a core issue in the context of behavioral economics. The mention of the need for better training and understanding of human behavior is relevant and insightful. The answer is well-structured and provides a clear argument for the benefits of integrating behavioral insights into medical practice. However, it could be improved by providing specific examples or evidence of successful applications of behavioral economics in therapy, which would strengthen the argument further.",
+          "hidden_source": "gpt-4o-mini",
+          "rating_time_ms": 4145
+        },
+        {
+          "response_id": "conversations_with_tyler_2018_24_resp_real",
+          "authenticity_score": 70.0,
+          "reasoning": "The response provides a clear opinion on the effectiveness of cognitive behavioral therapy (CBT) and distinguishes it from other therapeutic approaches. It acknowledges the importance of evidence and personality dynamics in therapy, which adds depth to the answer. However, it could improve by more directly addressing whether therapists are underinvesting in behavioral economics and psychology, as well as discussing how these fields could enhance therapeutic practices. Overall, it's a solid response but lacks a comprehensive engagement with the question.",
+          "hidden_source": "real_kahneman",
+          "rating_time_ms": 1833
+        }
+      ]
+    },
+    {
+      "question_id": "conversations_with_tyler_2018_25",
+      "response_ratings": [
+        {
+          "response_id": "conversations_with_tyler_2018_25_resp_real",
+          "authenticity_score": 75.0,
+          "reasoning": "The response effectively shifts the focus from the technical aspects of AI development to the psychological implications of AI's understanding and common sense. Kahneman highlights important philosophical and cognitive questions regarding machine intelligence, which is relevant and insightful. However, the answer could be more focused and concise, as it meanders a bit and doesn't directly address the original question about obstacles in AI development. A clearer connection to the specific challenges of driverless cars would enhance the response.",
+          "hidden_source": "real_kahneman",
+          "rating_time_ms": 1846
+        },
+        {
+          "response_id": "conversations_with_tyler_2018_25_resp_1",
+          "authenticity_score": 90.0,
+          "reasoning": "The response provides a thoughtful and nuanced analysis of the obstacles facing AI, particularly in the context of driverless cars. It effectively highlights the complexities of real-world environments that AI must navigate, such as unpredictability and social cues, which are not easily captured by current AI systems. Additionally, the mention of overconfidence and cognitive biases adds depth to the discussion, illustrating a comprehensive understanding of both technical and psychological challenges. While the response is strong overall, it could be slightly improved by offering more specific examples or potential solutions, which would enhance its practical applicability.",
+          "hidden_source": "gpt-4o-mini",
+          "rating_time_ms": 4538
+        }
+      ]
+    },
+    {
+      "question_id": "conversations_with_tyler_2018_26",
+      "response_ratings": [
+        {
+          "response_id": "conversations_with_tyler_2018_26_resp_real",
+          "authenticity_score": 85.0,
+          "reasoning": "The response provides insightful reflections on how our understanding of cognitive processes has evolved in light of artificial intelligence. Kahneman touches on the complexities of perception and thinking, highlighting how AI challenges previous assumptions. The answer captures the nuanced relationship between human cognition and AI, making it a strong response. However, it could benefit from more specific examples or applications to further illustrate the points made.",
+          "hidden_source": "real_kahneman",
+          "rating_time_ms": 2464
+        },
+        {
+          "response_id": "conversations_with_tyler_2018_26_resp_1",
+          "authenticity_score": 90.0,
+          "reasoning": "The response provides a thoughtful and nuanced perspective on the relationship between artificial intelligence and human common sense. It effectively highlights how AI's limitations can illuminate the intricacies of human cognition and the nature of common sense. The mention of specific examples, such as the inability of AI to navigate social dynamics and handle ambiguity, strengthens the argument. Additionally, the reference to heuristics and biases ties back to Kahneman's work, adding credibility to the response. However, while the answer is comprehensive, it could be slightly more concise to enhance clarity and impact.",
+          "hidden_source": "gpt-4o-mini",
+          "rating_time_ms": 2520
+        }
+      ]
+    },
+    {
+      "question_id": "conversations_with_tyler_2018_27",
+      "response_ratings": [
+        {
+          "response_id": "conversations_with_tyler_2018_27_resp_1",
+          "authenticity_score": 90.0,
+          "reasoning": "This response effectively highlights aspects of Daniel Kahneman's collaboration with Amos Tversky that are often underappreciated, such as the joy, creativity, and emotional dynamics of their partnership. It provides a nuanced perspective that goes beyond the academic achievements, emphasizing the importance of their intellectual friendship and the trust that allowed for innovative thinking. The structure of the response is coherent, and it touches on several key points that reflect the depth of their collaboration. However, it could be slightly improved by providing a specific example or anecdote to illustrate these points, which would enhance the connection to the audience and make the insights more vivid.",
+          "hidden_source": "gpt-4o-mini",
+          "rating_time_ms": 2552
+        },
+        {
+          "response_id": "conversations_with_tyler_2018_27_resp_real",
+          "authenticity_score": 85.0,
+          "reasoning": "The response effectively highlights the personal qualities of Amos Tversky that may not be well-documented in literature, such as his charisma, humor, and the joy he brought to their collaboration. These aspects provide valuable insight into the dynamics of their partnership and the creative process behind their work, which could be underappreciated. However, the response could be strengthened by giving specific examples or anecdotes that illustrate these qualities in action, which would make the answer more vivid and engaging. Overall, it captures the essence of their collaboration well, but a bit more depth would enhance it further.",
+          "hidden_source": "real_kahneman",
+          "rating_time_ms": 1946
+        }
+      ]
+    },
+    {
+      "question_id": "conversations_with_tyler_2018_28",
+      "response_ratings": [
+        {
+          "response_id": "conversations_with_tyler_2018_28_resp_real",
+          "authenticity_score": 70.0,
+          "reasoning": "The response provides a thoughtful exploration of both shame and counterfactual thinking, touching on the complexities of these emotions. Kahneman acknowledges the dual nature of shame\u2014its potential social benefits versus its personal pain\u2014which reflects a nuanced understanding. However, the answer lacks a definitive stance or strong conclusions, which leaves the listener wanting more clarity. The discussion on counterfactual emotions is insightful, but it could benefit from more direct engagement with the specific question about their impact on happiness. Overall, it's a good response, but it could be more concise and focused.",
+          "hidden_source": "real_kahneman",
+          "rating_time_ms": 2880
+        },
+        {
+          "response_id": "conversations_with_tyler_2018_28_resp_1",
+          "authenticity_score": 85.0,
+          "reasoning": "The response effectively addresses both components of the question with clarity and depth. It acknowledges the complexity of shame, recognizing both its potential benefits and drawbacks, which shows a nuanced understanding of the emotion. The discussion of counterfactual thinking is also well-articulated, highlighting both its negative and positive impacts on happiness. The answer could be improved by providing more concrete examples or studies related to these topics, which would enhance its richness and applicability. Overall, the response is thoughtful and informative, meriting a high score.",
+          "hidden_source": "gpt-4o-mini",
+          "rating_time_ms": 2922
+        }
+      ]
+    },
+    {
+      "question_id": "conversations_with_tyler_2018_29",
+      "response_ratings": [
+        {
+          "response_id": "conversations_with_tyler_2018_29_resp_1",
+          "authenticity_score": 90.0,
+          "reasoning": "The response effectively addresses the complexities of recognition-primed decision-making (RPD) and acknowledges the influence of cognitive biases like availability and confirmation bias, which is relevant to the question. It provides a nuanced view that RPD is useful, particularly in high-pressure situations, while also highlighting the importance of being aware of its limitations. The mention of System 2 thinking adds depth to the response, suggesting a balance between intuition and deliberation. However, it could be slightly improved by providing more concrete examples or applications of RPD in practice, which would enhance its practical relevance. Overall, it is a strong and insightful response.",
+          "hidden_source": "gpt-4o-mini",
+          "rating_time_ms": 2920
+        },
+        {
+          "response_id": "conversations_with_tyler_2018_29_resp_real",
+          "authenticity_score": 85.0,
+          "reasoning": "The response is thoughtful and engages with the nuances of recognition-primed decision-making (RPD) and its effectiveness. It acknowledges the importance of accurate recognition and situational diagnosis while also recognizing the limitations of intuition in less structured environments. The reference to the relationship with Gary Klein adds credibility and context to the discussion. However, while the response is insightful, it could be enhanced by providing more concrete examples or evidence to illustrate the points made about the conditions under which intuition is effective. Overall, it effectively addresses the complexities of the topic, earning a high score.",
+          "hidden_source": "real_kahneman",
+          "rating_time_ms": 2610
+        }
+      ]
+    },
+    {
+      "question_id": "conversations_with_tyler_2018_30",
+      "response_ratings": [
+        {
+          "response_id": "conversations_with_tyler_2018_30_resp_real",
+          "authenticity_score": 85.0,
+          "reasoning": "The response provides a thoughtful reflection on the influence of growing up in Israel on Kahneman's thinking and creativity. He relates personal experiences that illustrate how the environment fostered a sense of agency and innovation. While he admits to not fully understanding the term \"forcing function,\" he nonetheless articulates the significance of his upbringing and its impact on his mindset. The answer is well-rounded, but it could have been improved by more directly addressing the term \"forcing function\" and its implications. Overall, it is insightful and relevant, warranting a high score.",
+          "hidden_source": "real_kahneman",
+          "rating_time_ms": 3173
+        },
+        {
+          "response_id": "conversations_with_tyler_2018_30_resp_1",
+          "authenticity_score": 85.0,
+          "reasoning": "The response effectively addresses the question by acknowledging the influence of growing up in Israel on Kahneman's thinking. He provides specific reasons why the Israeli environment fostered creativity and innovation, such as the culture of questioning authority and the emphasis on individual contribution. Moreover, he wisely contextualizes his experiences by mentioning the importance of other factors in his intellectual development, which adds depth to his answer. The only area for improvement could be a bit more conciseness, as the response is somewhat lengthy, but overall, it is thoughtful and insightful.",
+          "hidden_source": "gpt-4o-mini",
+          "rating_time_ms": 2484
+        }
+      ]
+    },
+    {
+      "question_id": "conversations_with_tyler_2018_31",
+      "response_ratings": [
+        {
+          "response_id": "conversations_with_tyler_2018_31_resp_1",
+          "authenticity_score": 90.0,
+          "reasoning": "This response effectively addresses the question by reflecting on personal beliefs that could be proven incorrect in the future, demonstrating an understanding of the evolving nature of scientific inquiry. Kahneman articulates specific beliefs about human emotions and social science, supported by empirical research and an acknowledgment of the complexities involved. The mention of intellectual humility and openness to being wrong adds depth and philosophical insight to the response. However, it could be slightly improved by providing more specific examples of potential changes in beliefs or advancements in the field. Overall, it is a thoughtful and well-structured answer.",
+          "hidden_source": "gpt-4o-mini",
+          "rating_time_ms": 2184
+        },
+        {
+          "response_id": "conversations_with_tyler_2018_31_resp_real",
+          "authenticity_score": 75.0,
+          "reasoning": "The response reflects a humble acknowledgment of the limitations of knowledge and the inevitability of change in ideas and frameworks over time. Kahneman's perspective on the evolution of beliefs demonstrates a deep understanding of the nature of knowledge and the unpredictability of future developments in social science. However, the response could be more specific regarding which beliefs he currently holds or examples of frameworks he anticipates might change. This would enhance the richness of the answer.",
+          "hidden_source": "real_kahneman",
+          "rating_time_ms": 1782
+        }
+      ]
+    },
+    {
+      "question_id": "conversations_with_tyler_2018_32",
+      "response_ratings": [
+        {
+          "response_id": "conversations_with_tyler_2018_32_resp_1",
+          "authenticity_score": 90.0,
+          "reasoning": "This response provides a comprehensive and insightful overview of the factors contributing to the delayed emergence of the replication crisis in social psychology. It addresses multiple angles, including theoretical emphasis, publication bias, and the culture within the field, demonstrating a deep understanding of the systemic issues at play. The mention of both individual and community dynamics adds depth to the analysis. The only aspect that could be improved is a more concise delivery, as the response could be somewhat lengthy for an interview setting. However, overall, it effectively captures the complexity of the issue.",
+          "hidden_source": "gpt-4o-mini",
+          "rating_time_ms": 2150
+        },
+        {
+          "response_id": "conversations_with_tyler_2018_32_resp_real",
+          "authenticity_score": 75.0,
+          "reasoning": "The response provides a nuanced perspective on the replication crisis, challenging the premise of the question by framing the timeline differently and highlighting the origins in medicine before transitioning to psychology. It acknowledges the contentious nature of the crisis and notes the positive changes that have occurred in psychology as a result. However, the answer could have been more structured and clearer in its main points, which might hinder the listener's understanding. Additionally, while it references the role of \"aggressors\" and \"defenders,\" it lacks specific examples or deeper analysis of these roles, which could strengthen the argument.",
+          "hidden_source": "real_kahneman",
+          "rating_time_ms": 2104
+        }
+      ]
+    },
+    {
+      "question_id": "conversations_with_tyler_2018_33",
+      "response_ratings": [
+        {
+          "response_id": "conversations_with_tyler_2018_33_resp_real",
+          "authenticity_score": 85.0,
+          "reasoning": "The response effectively addresses the question by acknowledging the dual nature of information availability\u2014both the benefits of access to information for rational decision-making and the drawbacks of misinformation. Kahneman's insights into human nature remaining constant despite technological advances provide depth to his argument. However, while the response is thoughtful and nuanced, it could be improved by offering specific examples or data to support his points, which would strengthen the argument further. Overall, it's a strong response that captures the complexity of the issue.",
+          "hidden_source": "real_kahneman",
+          "rating_time_ms": 2423
+        },
+        {
+          "response_id": "conversations_with_tyler_2018_33_resp_1",
+          "authenticity_score": 90.0,
+          "reasoning": "This response is well-articulated and demonstrates a deep understanding of the complexities surrounding bounded rationality and the effects of increased information availability. Kahneman addresses both sides of the argument\u2014how access to information can help mitigate certain biases while also acknowledging the potential for cognitive overload and the reinforcement of existing biases. The balance of points made shows a nuanced perspective, which is essential in discussions about decision-making. The response could be improved slightly by providing more specific examples or empirical evidence to back up claims, but overall, it effectively communicates the intricacies of the topic.",
+          "hidden_source": "gpt-4o-mini",
+          "rating_time_ms": 1891
+        }
+      ]
+    },
+    {
+      "question_id": "conversations_with_tyler_2018_34",
+      "response_ratings": [
+        {
+          "response_id": "conversations_with_tyler_2018_34_resp_1",
+          "authenticity_score": 85.0,
+          "reasoning": "The response is well-articulated and demonstrates a deep understanding of the complexities involved in political polarization. It effectively incorporates concepts from behavioral economics, such as heuristics, cognitive biases, and the importance of exposure to diverse viewpoints. The acknowledgment of the limitations of behavioral economics, particularly regarding the emotional and social dynamics at play, adds depth to the answer. Additionally, the mention of potential pitfalls in interventions shows a nuanced perspective. However, while the response is comprehensive, it could benefit from more concrete examples or specific interventions to illustrate the proposed ideas, which would enhance its practical applicability. Overall, it is a strong response that balances theoretical insights with practical considerations.",
+          "hidden_source": "gpt-4o-mini",
+          "rating_time_ms": 2201
+        },
+        {
+          "response_id": "conversations_with_tyler_2018_34_resp_real",
+          "authenticity_score": 65.0,
+          "reasoning": "The response acknowledges the complexity of the problem of political polarization and admits a lack of a concrete solution, which is honest and reflects a thoughtful approach. However, it could be perceived as evasive since it does not provide any concrete ideas or examples of how behavioral economics might be applied to address the issue. The mention of \"manipulation\" could also raise concerns about ethical implications. Overall, the response shows a willingness to engage with the topic but lacks the depth and specificity that would make it more valuable.",
+          "hidden_source": "real_kahneman",
+          "rating_time_ms": 2046
+        }
+      ]
+    },
+    {
+      "question_id": "conversations_with_tyler_2018_35",
+      "response_ratings": [
+        {
+          "response_id": "conversations_with_tyler_2018_35_resp_1",
+          "authenticity_score": 90.0,
+          "reasoning": "This response is thorough and covers several key concepts from Kahneman's research that are relevant to decision-making, particularly in the context of college and career choices. It explains heuristics, System 1 and System 2 thinking, and the distinction between the experiencing self and the remembering self, all of which provide valuable insights. The practical advice to gather information, reflect on values, and be open to adapting is particularly useful for high school students. The only reason it doesn't score a perfect 100 is that it could be slightly more concise; it may overwhelm some students with information. However, overall, it effectively communicates complex ideas in an accessible manner.",
+          "hidden_source": "gpt-4o-mini",
+          "rating_time_ms": 3273
+        },
+        {
+          "response_id": "conversations_with_tyler_2018_35_resp_real",
+          "authenticity_score": 40.0,
+          "reasoning": "While the response is honest and acknowledges that Kahneman's research may not directly apply to the practical decision-making of high school students regarding college and career choices, it lacks depth and actionable insights. It could have been improved by briefly mentioning relevant psychological concepts or decision-making frameworks from his research that could help students in their decision processes. Overall, it feels dismissive and does not engage with the question in a meaningful way.",
+          "hidden_source": "real_kahneman",
+          "rating_time_ms": 2041
+        }
+      ]
+    },
+    {
+      "question_id": "conversations_with_tyler_2018_36",
+      "response_ratings": [
+        {
+          "response_id": "conversations_with_tyler_2018_36_resp_real",
+          "authenticity_score": 85.0,
+          "reasoning": "The response effectively critiques the notion of consistency as the sole normative principle in rational-agent models, aligning well with Kahneman's views on the limitations of traditional economic theories. It emphasizes the importance of human nature and context in decision-making, which is a key aspect of behavioral economics. However, the response could be improved by offering concrete examples of what \"reasonableness\" might look like in practice or how it can be operationalized, which would provide clearer guidance on defining and identifying this concept.",
+          "hidden_source": "real_kahneman",
+          "rating_time_ms": 2152
+        },
+        {
+          "response_id": "conversations_with_tyler_2018_36_resp_1",
+          "authenticity_score": 95.0,
+          "reasoning": "The response is thorough and well-articulated, effectively conveying the distinction between rationality and reasonableness. It acknowledges the limitations of traditional economic models and integrates relevant concepts from behavioral economics, such as bounded rationality and the impact of psychological factors on decision-making. The explanation is clear, comprehensive, and grounded in empirical observations, making it highly relevant to the question posed. The response could be slightly improved by offering specific examples or applications of \"reasonableness\" in practice, but overall it is an excellent explanation.",
+          "hidden_source": "gpt-4o-mini",
+          "rating_time_ms": 2766
+        }
+      ]
+    }
+  ],
+  "summary_metrics": {
+    "num_real_responses": 58,
+    "num_ai_responses": 58,
+    "real_kahneman_avg_score": 78.96551724137932,
+    "ai_responses_avg_score": 88.70689655172414,
+    "score_gap": -9.741379310344826,
+    "model_avg_scores": {
+      "gpt-4o-mini": 88.70689655172414
+    }
+  }
+}

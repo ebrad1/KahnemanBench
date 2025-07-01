@@ -1,88 +1,108 @@
-import Link from 'next/link'
+'use client'
+
+import { useState, useEffect } from 'react'
+import { useSearchParams } from 'next/navigation'
+import ComparisonViewer from '@/components/ComparisonViewer'
+import { KahnemanDataset } from '@/lib/types'
+
+const EXPERT_KEY = process.env.NEXT_PUBLIC_EXPERT_KEY || 'kahneman2024'
 
 export default function ExpertPage() {
-  return (
-    <main className="min-h-screen bg-gray-50 p-6">
-      <div className="max-w-6xl mx-auto">
-        <div className="bg-white rounded-lg shadow-md p-8">
-          <h1 className="text-3xl font-bold text-gray-900 mb-6">
-            Expert Analysis Dashboard
-          </h1>
-          
-          <div className="mb-8">
-            <p className="text-gray-600 leading-relaxed">
-              This section will provide detailed analysis of KahnemanBench evaluation results, 
-              including model performance comparisons, statistical analysis, and insights into 
-              AI behavioral science capabilities.
-            </p>
-          </div>
-          
-          {/* TODO: Implement analysis features */}
-          <div className="space-y-6">
-            <div className="border border-gray-200 rounded-lg p-6">
-              <h2 className="text-xl font-semibold mb-3">Model Performance Overview</h2>
-              <p className="text-gray-600 mb-4">
-                TODO: Display aggregated scores across all models, showing both generation 
-                quality and evaluation accuracy metrics.
-              </p>
-              <div className="bg-yellow-50 border border-yellow-200 rounded p-4">
-                <p className="text-yellow-800 text-sm">
-                  📊 Chart showing model rankings and score distributions will be implemented here
-                </p>
-              </div>
-            </div>
-            
-            <div className="border border-gray-200 rounded-lg p-6">
-              <h2 className="text-xl font-semibold mb-3">Detailed Results Browser</h2>
-              <p className="text-gray-600 mb-4">
-                TODO: Interactive table for browsing rating results with filtering 
-                and sorting capabilities.
-              </p>
-              <div className="bg-yellow-50 border border-yellow-200 rounded p-4">
-                <p className="text-yellow-800 text-sm">
-                  📋 Data table with results from <code>05_rating_results/</code> will be implemented here
-                </p>
-              </div>
-            </div>
-            
-            <div className="border border-gray-200 rounded-lg p-6">
-              <h2 className="text-xl font-semibold mb-3">Statistical Analysis</h2>
-              <p className="text-gray-600 mb-4">
-                TODO: Statistical significance tests, confidence intervals, and 
-                correlation analysis between different evaluation metrics.
-              </p>
-              <div className="bg-yellow-50 border border-yellow-200 rounded p-4">
-                <p className="text-yellow-800 text-sm">
-                  📈 Statistical analysis dashboard will be implemented here
-                </p>
-              </div>
-            </div>
-            
-            <div className="border border-gray-200 rounded-lg p-6">
-              <h2 className="text-xl font-semibold mb-3">Export & Reports</h2>
-              <p className="text-gray-600 mb-4">
-                TODO: Generate downloadable reports and export functionality 
-                for research and publication purposes.
-              </p>
-              <div className="bg-yellow-50 border border-yellow-200 rounded p-4">
-                <p className="text-yellow-800 text-sm">
-                  📋 Report generation tools will be implemented here
-                </p>
-              </div>
-            </div>
-          </div>
-          
-          {/* Navigation back to home */}
-          <div className="mt-8 pt-6 border-t border-gray-200">
-            <Link 
-              href="/" 
-              className="text-blue-600 hover:text-blue-800 font-medium"
-            >
-              ← Back to Home
-            </Link>
-          </div>
+  const searchParams = useSearchParams()
+  const [authenticated, setAuthenticated] = useState(false)
+  const [dataset, setDataset] = useState<KahnemanDataset | null>(null)
+  const [loading, setLoading] = useState(false)
+
+  useEffect(() => {
+    const key = searchParams.get('key')
+    if (key === EXPERT_KEY) {
+      setAuthenticated(true)
+    }
+  }, [searchParams])
+
+  const handleFileLoad = async (event: React.ChangeEvent<HTMLInputElement>) => {
+    const file = event.target.files?.[0]
+    if (!file) return
+
+    setLoading(true)
+    try {
+      const text = await file.text()
+      const data: KahnemanDataset = JSON.parse(text)
+      setDataset(data)
+    } catch (error) {
+      alert('Error loading file: ' + error)
+    } finally {
+      setLoading(false)
+    }
+  }
+
+  const handleComplete = async (selections: Record<string, string>) => {
+    // Here you would save to Supabase or your preferred database
+    console.log('Expert selections:', selections)
+    
+    // Calculate accuracy
+    const correct = Object.entries(selections).filter(([qId, rId]) => {
+      const q = dataset?.questions.find(q => q.question_id === qId)
+      const r = q?.responses.find(r => r.response_id === rId)
+      return r?.hidden_source === 'real_kahneman'
+    }).length
+
+    alert(`Complete! Score: ${correct}/${dataset?.questions.length}`)
+  }
+
+  if (!authenticated) {
+    return (
+      <div className="min-h-screen bg-gray-50 flex items-center justify-center">
+        <div className="bg-white p-8 rounded-lg shadow-sm border border-gray-200 max-w-md w-full">
+          <h2 className="text-xl font-bold mb-4">Expert Access Required</h2>
+          <p className="text-gray-600">
+            Please use the correct access link with authentication key.
+          </p>
         </div>
       </div>
-    </main>
+    )
+  }
+
+  return (
+    <div className="min-h-screen bg-gray-50">
+      <div className="bg-white border-b border-gray-200">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-6">
+          <h1 className="text-2xl font-bold text-gray-900">Expert Evaluation Mode</h1>
+        </div>
+      </div>
+
+      <div className="py-8">
+        {!dataset ? (
+          <div className="max-w-4xl mx-auto px-4">
+            <div className="bg-white rounded-lg shadow-sm border border-gray-200 p-8 text-center">
+              <h2 className="text-lg font-semibold mb-4">Load Evaluation Dataset</h2>
+              <input
+                type="file"
+                accept=".json"
+                onChange={handleFileLoad}
+                disabled={loading}
+                className="hidden"
+                id="file-input"
+              />
+              <label
+                htmlFor="file-input"
+                className="inline-flex items-center px-6 py-3 bg-blue-600 text-white font-medium rounded-lg hover:bg-blue-700 transition-colors cursor-pointer"
+              >
+                {loading ? 'Loading...' : 'Select JSON File'}
+              </label>
+              <p className="mt-4 text-sm text-gray-600">
+                Load a rating dataset from 04_rating_datasets/
+              </p>
+            </div>
+          </div>
+        ) : (
+          <ComparisonViewer
+            questions={dataset.questions}
+            onComplete={handleComplete}
+            mode="expert"
+          />
+        )}
+      </div>
+    </div>
   )
 }

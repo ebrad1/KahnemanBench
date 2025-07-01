@@ -108,6 +108,16 @@ class PipelineRunner:
         """Step 1: Generate impersonations from multiple models."""
         self.log_step("multi_impersonation", "starting")
         
+        # Check dataset size for progress estimation
+        try:
+            with open(dataset_path, 'r') as f:
+                dataset = json.load(f)
+                question_count = len(dataset)
+                logger.info(f"📊 Processing {question_count} questions with {len(models)} model(s)")
+                logger.info(f"⏱️ Estimated time: {question_count * len(models) * 10} seconds (~{question_count * len(models) * 10 / 60:.1f} minutes)")
+        except Exception as e:
+            logger.warning(f"Could not estimate progress: {e}")
+        
         models_str = ",".join(models)
         command = [
             "python", "scripts/run_multi_impersonation.py",
@@ -146,6 +156,18 @@ class PipelineRunner:
     def step2_rating_evaluation(self, rater_model: str, rating_dataset_path: str) -> Optional[str]:
         """Step 2: Evaluate ratings using rater model."""
         self.log_step("rating_evaluation", "starting")
+        
+        # Check rating dataset size for progress estimation
+        try:
+            with open(rating_dataset_path, 'r') as f:
+                rating_data = json.load(f)
+                total_questions = rating_data.get("metadata", {}).get("total_questions", 0)
+                responses_per_question = rating_data.get("metadata", {}).get("responses_per_question", 2)
+                total_ratings = total_questions * responses_per_question
+                logger.info(f"🎯 Rating {total_ratings} responses ({total_questions} questions × {responses_per_question} responses each)")
+                logger.info(f"⏱️ Estimated time: {total_ratings * 8} seconds (~{total_ratings * 8 / 60:.1f} minutes)")
+        except Exception as e:
+            logger.warning(f"Could not estimate rating progress: {e}")
         
         command = [
             "python", "scripts/run_rating.py",

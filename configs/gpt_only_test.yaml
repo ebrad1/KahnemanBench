@@ -10,7 +10,7 @@ models:
 rater_model: "gpt-4o-mini"
 
 # Dataset path
-dataset_path: "02_curated_datasets/kahneman_dataset_v1.json"
+dataset_path: "02_curated_datasets/kahneman_dataset_v2.json"
 
 # Pipeline options
 skip_impersonation: false
