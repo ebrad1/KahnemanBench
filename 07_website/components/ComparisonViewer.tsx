@@ -1,6 +1,6 @@
 'use client'
 
-import { useState, useEffect } from 'react'
+import { useState, useEffect, useCallback } from 'react'
 import { KahnemanQuestion } from '@/lib/types'
 import ResponseCard from './ResponseCard'
 
@@ -26,6 +26,27 @@ export default function ComparisonViewer({
   // Randomize response order for each question (but keep it consistent per session)
   const [responseOrder, setResponseOrder] = useState<Record<string, string[]>>({})
   
+  const handleSelectResponse = useCallback((responseId: string) => {
+    setSelections(prev => ({
+      ...prev,
+      [currentQuestion.question_id]: responseId
+    }))
+  }, [currentQuestion.question_id])
+
+  const handleNext = useCallback(() => {
+    if (isLastQuestion) {
+      onComplete(selections)
+    } else {
+      setCurrentIndex(prev => prev + 1)
+      setShowContext(false)
+    }
+  }, [isLastQuestion, onComplete, selections])
+
+  const handlePrevious = useCallback(() => {
+    setCurrentIndex(prev => Math.max(0, prev - 1))
+    setShowContext(false)
+  }, [])
+
   useEffect(() => {
     const newOrder: Record<string, string[]> = {}
     questions.forEach(q => {
@@ -40,26 +61,61 @@ export default function ComparisonViewer({
     setResponseOrder(newOrder)
   }, [questions])
 
-  const handleSelectResponse = (responseId: string) => {
-    setSelections(prev => ({
-      ...prev,
-      [currentQuestion.question_id]: responseId
-    }))
-  }
+  // Keyboard shortcuts
+  useEffect(() => {
+    const handleKeyPress = (e: KeyboardEvent) => {
+      // Only handle if not focused on an input
+      if (e.target instanceof HTMLInputElement || e.target instanceof HTMLTextAreaElement) {
+        return
+      }
 
-  const handleNext = () => {
-    if (isLastQuestion) {
-      onComplete(selections)
-    } else {
-      setCurrentIndex(prev => prev + 1)
-      setShowContext(false)
+      const orderedResponses = responseOrder[currentQuestion.question_id]
+      if (!orderedResponses) return
+
+      switch (e.key) {
+        case 'ArrowLeft':
+          e.preventDefault()
+          handlePrevious()
+          break
+        case 'ArrowRight':
+          e.preventDefault()
+          if (hasSelection) {
+            handleNext()
+          }
+          break
+        case '1':
+        case '2': 
+        case '3':
+        case 'a':
+        case 'A':
+        case 'b':
+        case 'B':
+        case 'c':
+        case 'C':
+          e.preventDefault()
+          const index = ['1', 'a', 'A'].includes(e.key) ? 0 : 
+                       ['2', 'b', 'B'].includes(e.key) ? 1 : 2
+          if (index < orderedResponses.length) {
+            handleSelectResponse(orderedResponses[index])
+          }
+          break
+        case 'Enter':
+          e.preventDefault()
+          if (hasSelection) {
+            handleNext()
+          }
+          break
+        case 'c':
+          if (e.ctrlKey || e.metaKey) break // Allow copy
+          e.preventDefault()
+          setShowContext(!showContext)
+          break
+      }
     }
-  }
 
-  const handlePrevious = () => {
-    setCurrentIndex(prev => Math.max(0, prev - 1))
-    setShowContext(false)
-  }
+    window.addEventListener('keydown', handleKeyPress)
+    return () => window.removeEventListener('keydown', handleKeyPress)
+  }, [currentIndex, currentQuestion, hasSelection, responseOrder, showContext, handleNext, handleSelectResponse, handlePrevious])
 
   const orderedResponses = responseOrder[currentQuestion.question_id]
     ? responseOrder[currentQuestion.question_id].map(id => 
@@ -111,8 +167,11 @@ export default function ComparisonViewer({
 
       {/* Instruction */}
       <div className="text-center mb-6">
-        <p className="text-gray-600">
+        <p className="text-gray-600 mb-2">
           Which response sounds most like Daniel Kahneman?
+        </p>
+        <p className="text-xs text-gray-500">
+          Use keyboard shortcuts: A/B/C to select responses, ← → to navigate, Enter to continue, C to toggle context
         </p>
       </div>
 
@@ -154,18 +213,24 @@ export default function ComparisonViewer({
                   i === currentIndex 
                     ? 'bg-blue-600 w-6' 
                     : i < currentIndex 
-                    ? 'bg-blue-400' 
+                    ? selections[questions[i].question_id] ? 'bg-green-400' : 'bg-blue-400'
                     : 'bg-gray-300'
                 }`}
+                title={`Question ${i + 1}${i < currentIndex ? (selections[questions[i].question_id] ? ' (answered)' : ' (skipped)') : ''}`}
               />
             ))}
             {questions.length > 10 && (
               <span className="text-sm text-gray-500 ml-2">...</span>
             )}
           </div>
-          <span className="text-sm text-gray-600">
-            {currentIndex + 1} of {questions.length}
-          </span>
+          <div className="text-center">
+            <div className="text-sm text-gray-600">
+              {currentIndex + 1} of {questions.length}
+            </div>
+            <div className="text-xs text-gray-500">
+              {Object.keys(selections).length} answered
+            </div>
+          </div>
         </div>
 
         <button

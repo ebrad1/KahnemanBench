@@ -32,8 +32,9 @@ export default function RootLayout({
                 <nav className="hidden md:flex space-x-8">
                   <Link href="/" className="text-gray-700 hover:text-gray-900 transition-colors">Home</Link>
                   <Link href="/try" className="text-gray-700 hover:text-gray-900 transition-colors">Try It</Link>
+                  <Link href="/expert" className="text-gray-700 hover:text-gray-900 transition-colors">Expert Mode</Link>
+                  <Link href="/dashboard" className="text-gray-700 hover:text-gray-900 transition-colors">Dashboard</Link>
                   <span className="text-gray-500 cursor-not-allowed">Paper</span>
-                  <span className="text-gray-500 cursor-not-allowed">About</span>
                 </nav>
               </div>
             </div>
