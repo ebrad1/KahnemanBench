@@ -6,8 +6,8 @@ export default function Home() {
           KahnemanBench
         </h1>
         <p className="text-xl text-gray-600 mb-8 leading-relaxed">
-          Testing whether AI systems exhibit human-like reasoning patterns and cognitive biases 
-          identified by Daniel Kahneman and Amos Tversky.
+          Evaluating AI's ability to impersonate Daniel Kahneman and whether humans can distinguish 
+          authentic responses from AI-generated ones in behavioral science contexts.
         </p>
         <div className="flex gap-4 justify-center">
           <a 

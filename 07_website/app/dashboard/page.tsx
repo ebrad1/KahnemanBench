@@ -114,11 +114,11 @@ export default function DashboardPage() {
             <p className="text-3xl font-bold text-gray-900 mt-2">{data.totalResponses}</p>
           </div>
           <div className="bg-white rounded-lg shadow-sm border border-gray-200 p-6">
-            <h3 className="text-sm font-medium text-gray-500 uppercase tracking-wide">Correct Responses</h3>
+            <h3 className="text-sm font-medium text-gray-500 uppercase tracking-wide">Kahneman Preferred</h3>
             <p className="text-3xl font-bold text-gray-900 mt-2">{data.totalCorrect}</p>
           </div>
           <div className="bg-white rounded-lg shadow-sm border border-gray-200 p-6">
-            <h3 className="text-sm font-medium text-gray-500 uppercase tracking-wide">Overall Accuracy</h3>
+            <h3 className="text-sm font-medium text-gray-500 uppercase tracking-wide">Kahneman Preference Rate</h3>
             <p className="text-3xl font-bold text-gray-900 mt-2">
               {(data.overallAccuracy * 100).toFixed(1)}%
             </p>
@@ -141,10 +141,10 @@ export default function DashboardPage() {
                     Responses
                   </th>
                   <th className="px-6 py-3 text-left text-xs font-medium text-gray-500 uppercase tracking-wider">
-                    Correct
+                    Kahneman Preferred
                   </th>
                   <th className="px-6 py-3 text-left text-xs font-medium text-gray-500 uppercase tracking-wider">
-                    Accuracy
+                    Preference Rate
                   </th>
                   <th className="px-6 py-3 text-left text-xs font-medium text-gray-500 uppercase tracking-wider">
                     Last Submission

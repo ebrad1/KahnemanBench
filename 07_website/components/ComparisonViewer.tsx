@@ -7,16 +7,20 @@ import ResponseCard from './ResponseCard'
 interface ComparisonViewerProps {
   questions: KahnemanQuestion[]
   onComplete: (selections: Record<string, string>) => void
+  onSelectionChange?: (questionId: string, responseId: string) => void
+  initialSelections?: Record<string, string>
   mode: 'public' | 'expert'
 }
 
 export default function ComparisonViewer({ 
   questions, 
   onComplete,
+  onSelectionChange,
+  initialSelections = {},
   mode 
 }: ComparisonViewerProps) {
   const [currentIndex, setCurrentIndex] = useState(0)
-  const [selections, setSelections] = useState<Record<string, string>>({})
+  const [selections, setSelections] = useState<Record<string, string>>(initialSelections)
   const [showContext, setShowContext] = useState(false)
 
   const currentQuestion = questions[currentIndex]
@@ -31,7 +35,12 @@ export default function ComparisonViewer({
       ...prev,
       [currentQuestion.question_id]: responseId
     }))
-  }, [currentQuestion.question_id])
+    
+    // Call the callback for progress saving
+    if (onSelectionChange) {
+      onSelectionChange(currentQuestion.question_id, responseId)
+    }
+  }, [currentQuestion.question_id, onSelectionChange])
 
   const handleNext = useCallback(() => {
     if (isLastQuestion) {
@@ -60,6 +69,16 @@ export default function ComparisonViewer({
     })
     setResponseOrder(newOrder)
   }, [questions])
+
+  // Start from first unanswered question if there's existing progress
+  useEffect(() => {
+    if (Object.keys(initialSelections).length > 0) {
+      const firstUnanswered = questions.findIndex(q => !initialSelections[q.question_id])
+      if (firstUnanswered !== -1) {
+        setCurrentIndex(firstUnanswered)
+      }
+    }
+  }, [questions, initialSelections])
 
   // Keyboard shortcuts
   useEffect(() => {
@@ -168,7 +187,10 @@ export default function ComparisonViewer({
       {/* Instruction */}
       <div className="text-center mb-6">
         <p className="text-gray-600 mb-2">
-          Which response sounds most like Daniel Kahneman?
+          {mode === 'expert' 
+            ? 'Which response do you find most authentic and compelling?' 
+            : 'Which response do you prefer?'
+          }
         </p>
         <p className="text-xs text-gray-500">
           Use keyboard shortcuts: A/B/C to select responses, ← → to navigate, Enter to continue, C to toggle context

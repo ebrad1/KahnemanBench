@@ -4,7 +4,7 @@ This file provides guidance to Claude Code (claude.ai/code) when working with co
 
 ## Project Overview
 
-KahnemanBench is an AI benchmark that evaluates models' ability to impersonate Daniel Kahneman's interview responses and assess "behavioral science taste." It uses Weave (W&B's evaluation framework) for experiment tracking and supports multiple AI model providers via LiteLLM.
+KahnemanBench is an AI benchmark that evaluates models' ability to impersonate Daniel Kahneman's interview responses and assess human preference patterns for authentic versus AI-generated content. The research focus is on whether humans can distinguish authentic Kahneman responses from AI-generated ones, and how expert preference patterns reveal insights about AI authenticity. It uses Weave (W&B's evaluation framework) for experiment tracking and supports multiple AI model providers via LiteLLM. The project includes both automated AI evaluation and a web interface for human expert evaluation.
 
 ## Core Architecture
 
@@ -13,6 +13,7 @@ KahnemanBench is an AI benchmark that evaluates models' ability to impersonate D
 - `run_multi_impersonation.py`: Multi-model comparison that generates rating datasets
 - `run_rating.py`: Evaluates authenticity of responses using AI raters
 - `run_benchmark.py`: Original SimpleBench multiple-choice evaluation
+- `run_full_pipeline.py`: Orchestrates complete evaluation workflow
 
 ### Key Components
 - `weave_utils/models.py`: Model wrappers including `LiteLLMModel` and `MajorityVoteModel`
@@ -20,11 +21,18 @@ KahnemanBench is an AI benchmark that evaluates models' ability to impersonate D
 - `02_curated_datasets/kahneman_dataset_v2.json`: Expanded dataset with 103 Q&A pairs from multiple interviews
 - `prompt_library/`: Contains impersonation and rating prompts
 
+### Website & Expert Interface
+- `07_website/`: Next.js web application for human expert evaluation
+- `07_website/app/`: Next.js App Router pages (home, public demo, expert mode)
+- `07_website/components/`: React components for question display and rating interface
+- `07_website/lib/`: TypeScript definitions and data handling utilities
+
 ### Data Flow
 1. Questions from `kahneman_dataset_v2.json` → AI model responses
 2. Multi-model runs create mixed datasets (real + AI responses)
-3. Rater models evaluate authenticity (0-100 scores)
-4. Results saved to `rating_results_*` files
+3. **AI Raters**: Rater models evaluate authenticity (0-100 scores)
+4. **Human Experts**: Web interface allows expert preference evaluation of same datasets
+5. Results saved to `rating_results_*` files with preference tracking (not scored as right/wrong)
 
 ## Development Commands
 
@@ -44,6 +52,24 @@ export ANTHROPIC_API_KEY="your-key-here"
 
 # Login to Weights & Biases for Weave experiment tracking
 wandb login [your-api-key]
+```
+
+### Website Development
+```bash
+# Navigate to website directory
+cd 07_website
+
+# Install Node.js dependencies
+npm install
+
+# Run development server
+npm run dev
+
+# Build for production
+npm run build
+
+# Start production server
+npm start
 ```
 
 ### Running Evaluations
@@ -116,6 +142,32 @@ Each question contains:
 - `question_text`: The interview question
 - `true_kahneman_response`: Kahneman's actual response with preserved paragraph breaks
 
+### Rating Dataset Format (for Expert Interface)
+```json
+{
+  "metadata": {
+    "created_at": "2025-07-02T...",
+    "models_used": ["gpt-4o", "claude-3-5-sonnet"],
+    "total_questions": 103,
+    "responses_per_question": 3
+  },
+  "questions": [{
+    "question_id": "strategy_business_2003_1",
+    "question_text": "How did you become interested in psychology?",
+    "summarised_context": "Opening question in Strategy+Business interview...",
+    "responses": [{
+      "response_id": "resp_1",
+      "response_text": "Well, it was somewhat accidental...",
+      "hidden_source": "real_kahneman"
+    }, {
+      "response_id": "resp_2", 
+      "response_text": "My journey into psychology began...",
+      "hidden_source": "gpt-4o"
+    }]
+  }]
+}
+```
+
 ### Model Configuration
 Models are configured in `weave_utils/models.py` with comprehensive mapping for current models (GPT-4o, Claude-4, O3, etc.). All API calls use async/await for efficiency.
 
@@ -124,6 +176,7 @@ Models are configured in `weave_utils/models.py` with comprehensive mapping for 
 - `04_rating_datasets/`: Mixed datasets for rating evaluation  
 - `05_rating_results/`: Final evaluation metrics and scores
 - `06_analysis_outputs/`: Dashboards and analysis tools
+- `07_website/`: Web interface for expert evaluation
 
 ## Complete Pipeline Flow
 
@@ -146,111 +199,156 @@ The KahnemanBench evaluation follows this end-to-end pipeline:
 - **Output**: Anonymous datasets in `rating_datasets/` for blind evaluation
 
 ### Stage 4: Authenticity Rating
-- **Script**: `run_rating.py` with AI rater models
+- **AI Raters**: `run_rating.py` with AI rater models
+- **Human Experts**: Web interface at `/expert` for human evaluation
 - **Process**: Score each response 0-100 for authenticity without knowing source
 - **Output**: Detailed results in `rating_results/` with model comparisons
 
 ### Stage 5: Analysis & Interpretation
 - **Tools**: `analyze_ratings.py` and `rating_dashboard.html`
 - **Metrics**: Score gaps between real/AI responses, model rankings
-- **Future**: Academic paper and website publication with potential human ratings
+- **Human vs AI**: Compare human expert performance with AI rater accuracy
 
-## Suggested Organizational Improvements
+## Expert Evaluation Workflow
 
-### File Naming Standardization
-- **Impersonation runs**: `impersonation_{model}_{timestamp}.json`
-- **Rating datasets**: `rating_dataset_{timestamp}.json` 
-- **Rating results**: `rating_results_{rater_model}_{timestamp}.json`
+### Expert Participant Process
+1. **Access**: Navigate to `website.com/expert`
+2. **Authentication**: Enter unique expert code (e.g., `EXPERT_ALICE_2025`)
+3. **Auto-Loading**: Pre-configured dataset automatically loads (no file upload needed)
+4. **Evaluation**: Express preferences between responses without knowing sources
+5. **Progress Saving**: Automatic save after each question, can resume anytime
+6. **Completion**: Submit preferences for analysis (framed as research contribution, not scoring)
 
-### Folder Structure Enhancements
+### Expert Management
+- **Code Generation**: Create unique codes per expert for tracking
+- **Progress Monitoring**: Track completion status across experts
+- **Data Export**: Export expert ratings with individual attribution
+- **Analysis**: Compare expert agreement and performance metrics
+
+## Folder Structure
 ```
 KahnemanBench/
 ├── 01_source_data/           # Raw transcripts and metadata
 ├── 02_curated_datasets/      # Structured Q&A datasets
 ├── 03_impersonation_runs/    # AI-generated responses
 ├── 04_rating_datasets/       # Mixed datasets for evaluation
-├── 05_rating_results/        # Final evaluation scores
+├── 05_rating_results/        # Final evaluation metrics and scores
 ├── 06_analysis_outputs/      # Dashboards, reports, visualizations
+├── 07_website/              # Next.js web interface for expert evaluation
+│   ├── app/                 # Next.js App Router pages
+│   ├── components/          # React components
+│   ├── lib/                 # TypeScript utilities and types
+│   └── public/             # Static assets
 ├── archive/                  # Completed experiment runs
-└── scripts/                  # All run_*.py and analysis scripts
+├── scripts/                  # All run_*.py and analysis scripts
+└── tests/                   # Test suites
 ```
 
-### Integration Opportunities
-1. **Automated pipeline**: Script to process transcripts → structured dataset
-2. **Integrated dashboard**: Auto-generate `rating_dashboard.html` after rating runs
-3. **Experiment tracking**: Metadata files linking related runs across stages
-4. **Archive management**: Organize completed experiments by date/purpose
+## Recent Improvements (2025-07-02)
 
-## Recent Improvements (2025-06-27)
-
-### ✅ Pipeline Automation Complete
-- **Full pipeline orchestration**: `run_full_pipeline.py` handles complete evaluation flow
+### ✅ Core Pipeline Complete (Previous Work)
+- **Pipeline automation**: `run_full_pipeline.py` handles complete evaluation flow
 - **Configuration system**: 5 pre-built configs for common scenarios
-- **Automated dashboard generation**: Updates after each rating run
-- **Run management tools**: `manage_runs.py` for organizing experiment outputs
+- **Prompt enhancement**: Eliminated stage directions for cleaner responses
+- **Dataset expansion**: Expanded from 11 to 103 Q&A pairs (10x growth)
+- **Testing & validation**: Comprehensive test suite operational
 
-### ✅ Prompt Enhancement Complete
-- **Eliminated stage directions**: Updated impersonation prompt removes `*pauses*`, `*chuckles*`, etc.
-- **Cleaner responses**: AI responses now appear as natural interview transcript text
-- **Improved authenticity**: Results show GPT-4o-mini scoring 90.0 vs real Kahneman's 78.5
+### ✅ Website Development (Completed)
+- **Next.js foundation**: Basic website structure with TypeScript and Tailwind
+- **Public demo**: Interactive sample at `/try` for general users
+- **Expert interface**: Evaluation platform at `/expert` for research participants
+- **Component library**: Reusable React components for question display and rating
+- **Dataset management**: Server-side pre-loaded datasets with easy swapping
+- **Progress saving**: Automatic save after each question with resume capability
+- **Expert tracking**: Individual codes with session persistence and navigation
+- **Preference-based evaluation**: Framed as preference/authenticity assessment, not right/wrong scoring
+- **File-based persistence**: Local JSON storage with Vercel-ready architecture
 
-### ✅ Dataset Expansion Complete
-- **Major scale increase**: Expanded from 11 to 103 Q&A pairs (10x growth)
-- **Statistical robustness**: Achieved 100+ target for strong evaluation reliability
-- **Diverse interview sources**: 9 different interviews with varied conversational styles
-- **Interview coverage**: Strategy+Business, Bloomberg, Freakonomics, Knowledge Project, Issues in Science & Technology
-- **Enhanced structure**: Added sequence tracking and interviewer style descriptions
-- **Paragraph preservation**: Maintained natural speech rhythm in responses
+### ⚡ Current Priorities
+- **End-to-end testing**: Validate complete expert evaluation workflow
+- **Production deployment**: Vercel setup for public access
+- **Expert data collection**: Begin testing with 5-10 experts
+- **UI polish**: Based on expert feedback and usability testing
 
-### ✅ Testing & Validation
-- **Pipeline tested**: Full automation working with cheap models (gpt-4o-mini)
-- **Comprehensive test suite**: Structure, functionality, integration, and prompt tests
-- **Weave integration**: Experiment tracking operational
+## Current Development Focus
+
+### Expert Evaluation Workflow (Phase 5 - Complete)
+
+The expert evaluation system includes:
+
+1. **Pre-loaded Datasets**: Researchers configure datasets server-side via `lib/datasetConfig.ts`
+2. **Expert Authentication**: Unique codes (e.g., `EXPERT_ALICE_2025`) for tracking
+3. **Progress Saving**: Automatic save after each question selection
+4. **Resume Capability**: Experts can quit and return to continue from last position
+5. **Navigation**: Forward/backward navigation with previous selections preserved
+6. **Data Export**: Individual and bulk CSV/JSON export from dashboard
+
+### Dataset Management System
+- **Easy Dataset Swapping**: Change `DATASET_CONFIG.activeDataset` in `lib/datasetConfig.ts`
+- **Dataset Tracking**: All responses linked to specific dataset names
+- **Validation**: Automatic verification of dataset configuration
+- **Progress Isolation**: Expert progress tied to specific datasets
+
+### Data Storage Strategy
+**Local Development:**
+- File-based storage in `/data/expert-responses.json`
+- Persistent across server restarts
+- Automatic directory creation
+
+**Production (Vercel):**
+- Vercel filesystem is read-only, requires external storage
+- Recommended options:
+  - **Vercel KV**: Redis-like key-value store (easiest integration)
+  - **Supabase**: PostgreSQL database with real-time features
+  - **MongoDB Atlas**: NoSQL database with free tier
+  - **Simple approach**: Commit responses to GitHub repo as JSON files
+
+### Expert Management System  
+- **Individual Tracking**: Unique codes per expert (e.g., `EXPERT_ALICE_2025`)
+- **Data Export**: CSV/JSON export with expert attribution
+- **Progress Dashboard**: Real-time completion tracking at `/dashboard`
+- **Session Persistence**: Experts can quit and resume evaluation seamlessly
 
 ## Suggested Next Steps
 
-### Immediate (Next Session)
-1. **Set up Anthropic API key** to test Claude models in pipeline
-2. **Run comprehensive evaluation**: `python scripts/run_full_pipeline.py --config=configs/comprehensive.yaml`
-3. **Compare model families**: Use `configs/gpt_vs_claude.yaml` for direct comparison
-4. **Analyze results**: Review interactive dashboard and identify best-performing models
+### Immediate (This Week)
+1. **Complete website basics**: Run Claude Code to fix TypeScript and missing components
+2. **Test expert workflow**: Verify file upload and rating interface work end-to-end
+3. **Create expert codes**: Generate system for unique expert tracking
+4. **Deploy to Vercel**: Set up production hosting for expert access
 
-### Short-term (Next Few Sessions)
-1. **Human baseline collection**: Add human raters to validate AI rating accuracy
-2. **Transcript automation**: Build pipeline for raw transcripts → structured Q&A
-3. **Cross-validation**: Split datasets for training/testing rater models
-4. **Statistical analysis**: Add significance testing and confidence intervals
+### Short-term (Next Few Weeks)
+1. **Expert data collection**: Test with 5-10 experts using real rating datasets
+2. **UI improvements**: Based on expert feedback and usability testing
+3. **Data analysis tools**: Compare human expert vs AI rater performance
+4. **Documentation**: Instructions for expert participants
 
 ### Medium-term (Research Direction)
-1. **Model ensembles**: Test majority voting and other combination methods
-2. **Prompt engineering**: A/B test different impersonation strategies
-3. **Academic publication**: Prepare paper on AI impersonation evaluation
-4. **Public benchmark**: Make system available for other researchers
+1. **Human baseline establishment**: Large-scale expert evaluation for AI validation
+2. **Cross-validation studies**: Compare expert agreement and calibration
+3. **Academic publication**: Paper on AI impersonation evaluation methodology
+4. **Public benchmark**: Open system for community model evaluation
 
 ## Evaluation Methodology
 
 ### Dual-Score System for Model Assessment
 
-KahnemanBench should evaluate models across two dimensions:
+KahnemanBench evaluates models across two dimensions:
 
-1. **Generation Quality Score**: Average authenticity rating of responses generated by a given LLM
+1. **Generation Quality Score**: Average preference rate for responses generated by a given LLM
    - Measures how well the model impersonates Kahneman when generating responses
-   - Scored by other models rating the generated responses (0-100 scale)
+   - Scored by other models and human experts expressing preferences (not right/wrong scoring)
 
-2. **Evaluation Accuracy Score**: Average Kahneman-vs-real delta for ratings the model produces as a rater
+2. **Evaluation Discrimination Score**: Average Kahneman preference delta for ratings the model produces as a rater
    - Measures how well the model distinguishes authentic Kahneman from AI-generated responses
-   - Calculated as difference between scores given to real Kahneman vs AI responses
+   - Calculated as difference between preference rates given to real Kahneman vs AI responses
    - Higher delta indicates better discrimination ability
 
-### Model Selection Strategy
-
-To prevent combinatorial explosion when testing all models as both generators and raters:
-- **Core Model Set**: Select 4-6 representative models across families (GPT-4o, Claude-3.5-Sonnet, Gemini-Pro, etc.)
-- **Full Evaluation Matrix**: Test core models as both generators and raters against each other
-- **Extended Testing**: Evaluate additional models as generators only, using core models as raters
-- **Human Baseline**: Include human raters for validation of scoring reliability
-
-This dual-score approach provides comprehensive model assessment for both creative generation and analytical evaluation capabilities.
+### Human vs AI Rater Comparison
+- **Expert Baseline**: Human experts provide ground truth for authenticity ratings
+- **AI Validation**: Compare AI rater performance against human expert consensus
+- **Calibration Studies**: Analyze where humans and AI raters agree/disagree
+- **Methodology Validation**: Ensure AI evaluation correlates with human judgment
 
 ## References & Inspiration
 
@@ -258,9 +356,15 @@ This dual-score approach provides comprehensive model assessment for both creati
 - **VendingBench by Andon Labs**: https://andonlabs.com/evals/vending-bench
   - Excellent example of clean evaluation presentation and response comparison interface
   - Demonstrates effective side-by-side model comparison with clear navigation
-  - Inspiration for KahnemanBench website design in `07_website/`
+  - Direct inspiration for KahnemanBench website design in `07_website/`
 
-### File Management Strategy
-- Use `python scripts/manage_runs.py` to track and archive old experiments
-- Archive runs older than 30 days: `python scripts/manage_runs.py archive_old_runs --days=30 --dry_run=False`
-- Generate experiment summaries: `python scripts/manage_runs.py create_experiment_summary`
+### Expert Evaluation Platforms
+- **Academic survey platforms**: Inspiration for expert participant experience
+- **Blind review systems**: Methodology for unbiased evaluation
+- **Research data collection**: Best practices for expert study management
+
+---
+
+*Last Updated: July 2, 2025*  
+*Current Phase: Website development and expert data collection (Phase 5)*  
+*Previous Completion: Core AI evaluation pipeline (Phases 1-4)*
